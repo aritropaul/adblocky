@@ -26,7 +26,6 @@ jobs:
         run: |
           cd .output/chrome-mv3
           zip -r ../../adblocky-chrome-${{ github.ref_name }}.zip .
-          cd ../..
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
