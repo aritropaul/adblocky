@@ -1,0 +1,40 @@
+{
+  "name": "adblocky",
+  "version": "0.1.0",
+  "description": "Cross-platform adblocker extension for Chrome and Safari",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:chrome": "wxt -b chrome",
+    "dev:safari": "wxt -b safari",
+    "build": "npm run build:domains && npm run build:filters && wxt build",
+    "build:chrome": "npm run build:domains && npm run build:filters && wxt build -b chrome",
+    "build:domains": "tsx scripts/build-domain-rules.ts",
+    "build:safari": "npm run build:filters && wxt build -b safari",
+    "build:filters": "tsx scripts/build-filters.ts",
+    "zip": "wxt zip",
+    "zip:chrome": "wxt zip -b chrome",
+    "postinstall": "wxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@wxt-dev/module-react": "^1.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "wxt": "^0.20.20"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.2"
+  }
+}
