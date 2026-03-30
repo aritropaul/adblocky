@@ -24806,5 +24806,39 @@
       ],
       "domainType": "thirdParty"
     }
+  },
+  {
+    "id": 1615,
+    "priority": 2,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "urlFilter": "||api.adinplay.com/libs/aiptag/pub/YRG/yorg3.io/tag.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yorg3.io"
+      ],
+      "resourceTypes": [
+        "script"
+      ]
+    }
+  },
+  {
+    "id": 1616,
+    "priority": 2,
+    "action": {
+      "type": "allow"
+    },
+    "condition": {
+      "urlFilter": "||api.adinplay.com/v*/live/aip/ad-manager.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yorg3.io"
+      ],
+      "resourceTypes": [
+        "script"
+      ]
+    }
   }
 ]

@@ -1,12 +1,16 @@
 /**
- * Popup/popunder ad blocker — runs on all pages at document_start in MAIN world.
+ * Popup/popunder ad blocker — MAIN world content script.
  *
- * Blocks:
- * 1. window.open() calls to ad domains
- * 2. window.open() calls not triggered by genuine user clicks
- * 3. Popunders (open ad in background, redirect current tab)
+ * Layer 2 defense (content script level). Layer 1 is in background.ts using
+ * webNavigation API which catches popups regardless of technique.
+ *
+ * This script handles what it can at the page level:
+ * 1. window.open() override using navigator.userActivation (proper browser API)
+ * 2. Clickjacking overlay removal
+ * 3. Anchor click() interception
  */
 
+/** Known ad/popup network domains */
 const AD_POPUP_DOMAINS = new Set([
   "doubleclick.net",
   "googlesyndication.com",
@@ -37,7 +41,86 @@ const AD_POPUP_DOMAINS = new Set([
   "pushground.com",
   "evadav.com",
   "clickaine.com",
+  "adf.ly",
+  "shorte.st",
+  "linkbucks.com",
+  "sh.st",
+  "bc.vc",
+  "adcash.com",
+  "ad-maven.com",
+  "admaven.com",
+  "onclickmax.com",
+  "onclickmega.com",
+  "onclickads.net",
+  "onclicksuper.com",
+  "trafserv.com",
+  "redirectvoluum.com",
+  "adbooth.com",
+  "terraclicks.com",
+  "dolohen.com",
+  "notifpush.com",
+  "push-notification.com",
+  "roodo.pro",
+  "revrtb.com",
+  "clickorati.com",
+  "continue-download.com",
+  "wonderlandads.com",
+  "syndication.dynsrvtbg.com",
+  "cdn.onclickgenius.com",
+  "go.oclasrv.com",
+  "go.transferzenad.com",
 ]);
+
+function isAdDomain(urlStr: string): boolean {
+  try {
+    const hostname = new URL(urlStr, window.location.href).hostname;
+    const parts = hostname.split(".");
+    for (let i = 0; i < parts.length - 1; i++) {
+      if (AD_POPUP_DOMAINS.has(parts.slice(i).join("."))) return true;
+    }
+  } catch {}
+  return false;
+}
+
+function log(msg: string, ...args: unknown[]) {
+  console.log(
+    "%c[adblocky]%c popup-blocker %c" + msg,
+    "color:#10b981;font-weight:bold",
+    "color:#ff6b35;font-weight:bold",
+    "color:inherit",
+    ...args,
+  );
+}
+
+/**
+ * Detect clickjacking overlay: transparent, full-page, high z-index div
+ * that exists solely to capture clicks for popup ads.
+ */
+function isClickjackOverlay(el: Element | null): boolean {
+  if (!el || !(el instanceof HTMLElement)) return false;
+
+  const suspiciousIds = ["dontfoid", "popmagic", "apu", "overlaybg"];
+  if (
+    el.id &&
+    suspiciousIds.some((id) => el.id.toLowerCase().includes(id))
+  ) {
+    return true;
+  }
+
+  const style = getComputedStyle(el);
+  const isFixed = style.position === "fixed" || style.position === "absolute";
+  const isTransparent =
+    style.backgroundColor === "transparent" ||
+    style.backgroundColor === "rgba(0, 0, 0, 0)" ||
+    parseFloat(style.opacity) < 0.05;
+  const isHighZ = parseInt(style.zIndex) > 999999;
+  const coversPage =
+    el.offsetWidth > window.innerWidth * 0.5 &&
+    el.offsetHeight > window.innerHeight * 0.5;
+  const isEmpty = el.children.length === 0 && !el.textContent?.trim();
+
+  return isFixed && isTransparent && isHighZ && coversPage && isEmpty;
+}
 
 export default defineContentScript({
   matches: ["<all_urls>"],
@@ -45,12 +128,9 @@ export default defineContentScript({
   world: "MAIN",
 
   main() {
-    let lastUserClick = 0;
-
-    // Track genuine user clicks
-    document.addEventListener("click", () => { lastUserClick = Date.now(); }, true);
-    document.addEventListener("mousedown", () => { lastUserClick = Date.now(); }, true);
-
+    // ── window.open override ─────────────────────────────────────────
+    // Uses navigator.userActivation.isActive (proper browser API) instead
+    // of manual click timestamp tracking.
     const originalOpen = window.open;
 
     window.open = function (
@@ -60,69 +140,110 @@ export default defineContentScript({
     ): Window | null {
       const urlStr = url?.toString() || "";
 
-      // Block if URL matches known ad domains
-      if (urlStr) {
+      // Always block known ad domains
+      if (urlStr && isAdDomain(urlStr)) {
+        log("Blocked ad popup:", urlStr);
+        return null;
+      }
+
+      // Block if no user activation (replaces manual click tracking)
+      // navigator.userActivation.isActive is true only during a genuine
+      // user gesture's transient activation window (~5s in Chrome)
+      if (!navigator.userActivation?.isActive) {
+        log("Blocked non-user-activated popup:", urlStr || "(empty)");
+        return null;
+      }
+
+      return originalOpen.call(this, url, target, features);
+    };
+
+    // ── HTMLAnchorElement.prototype.click override ────────────────────
+    // Catches programmatic anchor.click() popunder tricks regardless of
+    // how the anchor was created (createElement, cloneNode, innerHTML).
+    const origAnchorClick = HTMLAnchorElement.prototype.click;
+    HTMLAnchorElement.prototype.click = function () {
+      const href = this.href || "";
+
+      // Block ad domain clicks
+      if (href && isAdDomain(href)) {
+        log("Blocked ad anchor click:", href);
+        return;
+      }
+
+      // Block cross-origin clicks on detached anchors (classic popunder trick)
+      if (href && !this.isConnected) {
         try {
-          const hostname = new URL(urlStr, window.location.href).hostname;
-          const parts = hostname.split(".");
-          for (let i = 0; i < parts.length - 1; i++) {
-            if (AD_POPUP_DOMAINS.has(parts.slice(i).join("."))) {
-              console.log("%c[adblocky]%c popup-blocker %cBlocked ad popup:", "color:#10b981;font-weight:bold", "color:#ff6b35;font-weight:bold", "color:inherit", urlStr);
-              return null;
-            }
+          const anchorHost = new URL(href, window.location.href).hostname;
+          const pageHost = window.location.hostname;
+          if (anchorHost !== pageHost) {
+            log("Blocked detached anchor popup:", href);
+            return;
           }
         } catch {}
       }
 
-      // Block if not triggered by a recent user click (within 1s)
-      const timeSinceClick = Date.now() - lastUserClick;
-      if (timeSinceClick > 1000) {
-        console.log("%c[adblocky]%c popup-blocker %cBlocked non-user popup:", "color:#10b981;font-weight:bold", "color:#ff6b35;font-weight:bold", "color:inherit", urlStr || "(empty)");
-        return null;
+      // Block if no user activation
+      if (!navigator.userActivation?.isActive) {
+        if (this.target === "_blank") {
+          log("Blocked non-user-activated anchor popup:", href);
+          return;
+        }
       }
 
-      // Allow — genuine user-initiated navigation
-      return originalOpen.call(this, url, target, features);
+      return origAnchorClick.call(this);
     };
 
-    // Block assignment to window.location from ad scripts (popunder technique)
-    // Only block if it happens without a user click
-    const origLocationDescriptor = Object.getOwnPropertyDescriptor(window, "location");
-    // Can't override window.location on most browsers — skip this
+    // ── Overlay removal ──────────────────────────────────────────────
+    function removeOverlay(el: HTMLElement) {
+      const id = el.id || el.className || "(anonymous div)";
+      el.remove();
+      log("Removed clickjack overlay:", id);
+    }
 
-    // Block document.createElement("a").click() popunder trick
-    const origCreateElement = document.createElement.bind(document);
-    document.createElement = function (
-      tagName: string,
-      options?: ElementCreationOptions,
-    ): HTMLElement {
-      const el = origCreateElement(tagName, options);
+    function scanOverlays() {
+      const candidates = document.querySelectorAll(
+        'div[style*="position: fixed"], div[style*="position:fixed"]',
+      );
+      for (const el of candidates) {
+        if (el instanceof HTMLElement && isClickjackOverlay(el)) {
+          removeOverlay(el);
+        }
+      }
+    }
 
-      if (tagName.toLowerCase() === "a") {
-        const origClick = el.click.bind(el);
-        el.click = function () {
-          const timeSinceClick = Date.now() - lastUserClick;
-          const href = (el as HTMLAnchorElement).href || "";
-          const target = (el as HTMLAnchorElement).target;
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", scanOverlays);
+    } else {
+      scanOverlays();
+    }
 
-          // Block programmatic clicks on links to ad domains with target=_blank
-          if (target === "_blank" && timeSinceClick > 1000) {
-            try {
-              const hostname = new URL(href, window.location.href).hostname;
-              const parts = hostname.split(".");
-              for (let i = 0; i < parts.length - 1; i++) {
-                if (AD_POPUP_DOMAINS.has(parts.slice(i).join("."))) {
-                  return;
-                }
-              }
-            } catch {}
+    const observer = new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        for (const node of m.addedNodes) {
+          if (
+            node instanceof HTMLElement &&
+            node.tagName === "DIV" &&
+            isClickjackOverlay(node)
+          ) {
+            removeOverlay(node);
           }
-
-          return origClick();
-        };
+        }
+        if (
+          m.type === "attributes" &&
+          m.target instanceof HTMLElement &&
+          m.target.tagName === "DIV" &&
+          isClickjackOverlay(m.target)
+        ) {
+          removeOverlay(m.target);
+        }
       }
+    });
 
-      return el;
-    };
+    observer.observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ["style"],
+    });
   },
 });

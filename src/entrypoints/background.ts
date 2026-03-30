@@ -169,6 +169,108 @@ export default defineBackground(() => {
     }
   }
 
+  // ── Popup tab killer ──────────────────────────────────────────────────
+  // Browser-level popup blocking using webNavigation API.
+  // Technique from uBlock Origin: detect popup tabs and close them.
+  // Can't be bypassed by page scripts saving native window.open.
+  //
+  // Strategy: detect click-hijacking by tracking when a tab navigates
+  // (user clicked a link) and a NEW tab opens simultaneously (ad script
+  // piggybacked on the click). Close the piggybacked tab.
+
+  // Track tabs that are currently navigating (user clicked a link).
+  // Maps tabId → { timestamp, fromHost }
+  const navigatingTabs = new Map<number, { ts: number; host: string }>();
+
+  chrome.webNavigation.onBeforeNavigate.addListener((details) => {
+    if (details.frameId !== 0) return; // main frame only
+    try {
+      const host = new URL(details.url).hostname;
+      navigatingTabs.set(details.tabId, { ts: Date.now(), host });
+      // Clean up after 2s
+      setTimeout(() => navigatingTabs.delete(details.tabId), 2000);
+    } catch {}
+  });
+
+  // Primary popup detection: onCreatedNavigationTarget fires when a
+  // new tab/window is created via window.open or target=_blank.
+  //
+  // Strategy: close ALL cross-origin popup tabs. Legitimate target=_blank
+  // links are rare and users can middle-click if needed. Ad scripts use
+  // multiple bypass techniques (saved native window.open, overlays,
+  // rotating domains) so domain-based detection doesn't work.
+  chrome.webNavigation.onCreatedNavigationTarget.addListener(
+    async (details) => {
+      const { tabId, sourceTabId, url } = details;
+      try {
+        const popupHost = new URL(url).hostname;
+
+        // Get opener tab's URL to check same-origin
+        const openerTab = await chrome.tabs.get(sourceTabId);
+        const openerHost = openerTab.url
+          ? new URL(openerTab.url).hostname
+          : null;
+
+        // Same-origin popups are legitimate (e.g. site opening its own page)
+        if (popupHost === openerHost) return;
+
+        // Cross-origin popup → close it
+        chrome.tabs.remove(tabId);
+        console.log(
+          "[adblocky] popup-killer: closed cross-origin popup to",
+          popupHost,
+          "(from",
+          openerHost + ")",
+        );
+        if (sourceTabId >= 0) {
+          incrementTabCount(sourceTabId);
+          incrementBlockCount(popupHost);
+        }
+      } catch {}
+    },
+  );
+
+  // Fallback: tabs.onCreated — Chromium sometimes fails to fire
+  // onCreatedNavigationTarget (known Chromium bug). Like uBlock Origin,
+  // we synthesize the missing event using tabs.onCreated + delay.
+  chrome.tabs.onCreated.addListener(async (tab) => {
+    if (typeof tab.openerTabId !== "number") return;
+
+    // Wait briefly for the URL to populate (starts as about:blank)
+    setTimeout(async () => {
+      try {
+        const updated = await chrome.tabs.get(tab.id!);
+        if (
+          !updated.url ||
+          updated.url === "about:blank" ||
+          updated.url.startsWith("chrome://")
+        )
+          return;
+
+        const popupHost = new URL(updated.url).hostname;
+
+        // Get opener tab to check same-origin
+        const openerTab = await chrome.tabs.get(tab.openerTabId!);
+        const openerHost = openerTab.url
+          ? new URL(openerTab.url).hostname
+          : null;
+
+        // Cross-origin popup → close it
+        if (popupHost !== openerHost) {
+          chrome.tabs.remove(tab.id!);
+          console.log(
+            "[adblocky] popup-killer (fallback): closed cross-origin popup to",
+            popupHost,
+          );
+          if (tab.openerTabId! >= 0) {
+            incrementTabCount(tab.openerTabId!);
+            incrementBlockCount(popupHost);
+          }
+        }
+      } catch {}
+    }, 200);
+  });
+
   // Initialize on install/update
   chrome.runtime.onInstalled.addListener(async () => {
     const settings = await getSettings();

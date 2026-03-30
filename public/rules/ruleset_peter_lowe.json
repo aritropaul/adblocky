@@ -31312,7 +31312,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sher.index.hu^",
+      "urlFilter": "||shd247.click^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31323,7 +31323,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shesubscriptions.com^",
+      "urlFilter": "||sher.index.hu^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31334,7 +31334,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shinystat.com^",
+      "urlFilter": "||shesubscriptions.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31345,7 +31345,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shinystat.it^",
+      "urlFilter": "||shinystat.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31356,7 +31356,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shiveringspot.com^",
+      "urlFilter": "||shinystat.it^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31367,7 +31367,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shiverscissors.com^",
+      "urlFilter": "||shiveringspot.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31378,7 +31378,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shockinggrass.com^",
+      "urlFilter": "||shiverscissors.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31389,7 +31389,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shoppingads.com^",
+      "urlFilter": "||shockinggrass.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31400,7 +31400,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||showads.pubmatic.com^",
+      "urlFilter": "||shoppingads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31411,7 +31411,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shredform.com^",
+      "urlFilter": "||showads.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31422,7 +31422,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shrillspoon.com^",
+      "urlFilter": "||shredform.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31433,7 +31433,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||shxtrk.com^",
+      "urlFilter": "||shrillspoon.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31444,7 +31444,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sicksmash.com^",
+      "urlFilter": "||shxtrk.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31455,7 +31455,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sidebar.angelfire.com^",
+      "urlFilter": "||sicksmash.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31466,7 +31466,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||signalayer.com^",
+      "urlFilter": "||sidebar.angelfire.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31477,7 +31477,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||signalszone.com^",
+      "urlFilter": "||signalayer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31488,7 +31488,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sillyscrew.com^",
+      "urlFilter": "||signalszone.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31499,7 +31499,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||silvermob.com^",
+      "urlFilter": "||sillyscrew.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31510,7 +31510,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||simpleanalytics.io^",
+      "urlFilter": "||silvermob.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31521,7 +31521,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||simplesafari.com^",
+      "urlFilter": "||simpleanalytics.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31532,7 +31532,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||simpli.fi^",
+      "urlFilter": "||simplesafari.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31543,7 +31543,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||simulateswing.com^",
+      "urlFilter": "||simpli.fi^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31554,7 +31554,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sincerebuffalo.com^",
+      "urlFilter": "||simulateswing.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31565,7 +31565,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sinoa.com^",
+      "urlFilter": "||sincerebuffalo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31576,7 +31576,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sitedataprocessing.com^",
+      "urlFilter": "||sinoa.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31587,7 +31587,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||siteimproveanalytics.com^",
+      "urlFilter": "||sitedataprocessing.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31598,7 +31598,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||siteimproveanalytics.io^",
+      "urlFilter": "||siteimproveanalytics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31609,7 +31609,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||siteintercept.qualtrics.com^",
+      "urlFilter": "||siteimproveanalytics.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31620,7 +31620,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sitemeter.com^",
+      "urlFilter": "||siteintercept.qualtrics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31631,7 +31631,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sixscissors.com^",
+      "urlFilter": "||sitemeter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31642,7 +31642,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sixsigmatraffic.com^",
+      "urlFilter": "||sixscissors.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31653,7 +31653,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sizmek.com^",
+      "urlFilter": "||sixsigmatraffic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31664,7 +31664,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||skimresources.com^",
+      "urlFilter": "||sizmek.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31675,7 +31675,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||skisofa.com^",
+      "urlFilter": "||skimresources.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31686,7 +31686,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||skroutza.skroutz.gr^",
+      "urlFilter": "||skisofa.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31697,7 +31697,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||skylink.vn^",
+      "urlFilter": "||skroutza.skroutz.gr^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31708,7 +31708,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||slimesupplies.net^",
+      "urlFilter": "||skylink.vn^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31719,7 +31719,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||slopeaota.com^",
+      "urlFilter": "||slimesupplies.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31730,7 +31730,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smaato.com^",
+      "urlFilter": "||slopeaota.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31741,7 +31741,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smart-data-systems.com^",
+      "urlFilter": "||smaato.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31752,7 +31752,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smart-traffik.com^",
+      "urlFilter": "||smart-data-systems.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31763,7 +31763,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smart-traffik.io^",
+      "urlFilter": "||smart-traffik.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31774,7 +31774,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smart4ads.com^",
+      "urlFilter": "||smart-traffik.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31785,7 +31785,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartadserver.com^",
+      "urlFilter": "||smart4ads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31796,7 +31796,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartclip.net^",
+      "urlFilter": "||smartadserver.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31807,7 +31807,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartlook.com^",
+      "urlFilter": "||smartclip.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31818,7 +31818,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartstream.tv^",
+      "urlFilter": "||smartlook.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31829,7 +31829,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smartyads.com^",
+      "urlFilter": "||smartstream.tv^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31840,7 +31840,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smashquartz.com^",
+      "urlFilter": "||smartyads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31851,7 +31851,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smashsurprise.com^",
+      "urlFilter": "||smashquartz.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31862,7 +31862,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.10daily.com.au^",
+      "urlFilter": "||smashsurprise.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31873,7 +31873,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.bestbuy.com^",
+      "urlFilter": "||smetrics.10daily.com.au^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31884,7 +31884,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.ctv.ca^",
+      "urlFilter": "||smetrics.bestbuy.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31895,7 +31895,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.fedex.com^",
+      "urlFilter": "||smetrics.ctv.ca^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31906,7 +31906,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.foxnews.com^",
+      "urlFilter": "||smetrics.fedex.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31917,7 +31917,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.walgreens.com^",
+      "urlFilter": "||smetrics.foxnews.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31928,7 +31928,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smetrics.washingtonpost.com^",
+      "urlFilter": "||smetrics.walgreens.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31939,7 +31939,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smilewanted.com^",
+      "urlFilter": "||smetrics.washingtonpost.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31950,7 +31950,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smilingcattle.com^",
+      "urlFilter": "||smilewanted.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31961,7 +31961,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smoggysnakes.com^",
+      "urlFilter": "||smilingcattle.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31972,7 +31972,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||smrtb.com^",
+      "urlFilter": "||smoggysnakes.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31983,7 +31983,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||snapads.com^",
+      "urlFilter": "||smrtb.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -31994,7 +31994,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||snazzypoodle.com^",
+      "urlFilter": "||snapads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32005,7 +32005,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||snoobi.com^",
+      "urlFilter": "||snazzypoodle.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32016,7 +32016,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||socialspark.com^",
+      "urlFilter": "||snoobi.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32027,7 +32027,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||softclick.com.br^",
+      "urlFilter": "||socialspark.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32038,7 +32038,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||soggysponge.com^",
+      "urlFilter": "||softclick.com.br^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32049,7 +32049,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||soicos.com^",
+      "urlFilter": "||soggysponge.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32060,7 +32060,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sombersea.com^",
+      "urlFilter": "||soicos.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32071,7 +32071,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sombersquirrel.com^",
+      "urlFilter": "||sombersea.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32082,7 +32082,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sombersurprise.com^",
+      "urlFilter": "||sombersquirrel.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32093,7 +32093,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||somniture.stuff.co.nz^",
+      "urlFilter": "||sombersurprise.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32104,7 +32104,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||somoaudience.com^",
+      "urlFilter": "||somniture.stuff.co.nz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32115,7 +32115,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sonobi.com^",
+      "urlFilter": "||somoaudience.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32126,7 +32126,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sortable.com^",
+      "urlFilter": "||sonobi.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32137,7 +32137,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sourcepoint.vice.com^",
+      "urlFilter": "||sortable.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32148,7 +32148,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sovrn.com^",
+      "urlFilter": "||sourcepoint.vice.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32159,7 +32159,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spacash.com^",
+      "urlFilter": "||sovrn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32170,7 +32170,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spaceleadster.com^",
+      "urlFilter": "||sp-a-q-f.ib-game.jp^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32181,7 +32181,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sparklingshelf.com^",
+      "urlFilter": "||spacash.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32192,7 +32192,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sparkstudios.com^",
+      "urlFilter": "||spaceleadster.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32203,7 +32203,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||speakol.com^",
+      "urlFilter": "||sparklingshelf.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32214,7 +32214,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||specificmedia.co.uk^",
+      "urlFilter": "||sparkstudios.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32225,7 +32225,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||specificpop.com^",
+      "urlFilter": "||speakol.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32236,7 +32236,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||speedomizer.com^",
+      "urlFilter": "||specificmedia.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32247,7 +32247,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||speedshiftmedia.com^",
+      "urlFilter": "||specificpop.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32258,7 +32258,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spellingthoughts.com^",
+      "urlFilter": "||speedomizer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32269,7 +32269,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spezialreporte.de^",
+      "urlFilter": "||speedshiftmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32280,7 +32280,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spiffymachine.com^",
+      "urlFilter": "||spellingthoughts.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32291,7 +32291,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spinbox.techtracker.com^",
+      "urlFilter": "||spezialreporte.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32302,7 +32302,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spinbox.versiontracker.com^",
+      "urlFilter": "||spiffymachine.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32313,7 +32313,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spinnaker-js.com^",
+      "urlFilter": "||spinbox.techtracker.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32324,7 +32324,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spirebaboon.com^",
+      "urlFilter": "||spinbox.versiontracker.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32335,7 +32335,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sponsorads.de^",
+      "urlFilter": "||spinnaker-js.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32346,7 +32346,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sponsorpro.de^",
+      "urlFilter": "||spirebaboon.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32357,7 +32357,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spookysleet.com^",
+      "urlFilter": "||sponsorads.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32368,7 +32368,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spotlessstamp.com^",
+      "urlFilter": "||sponsorpro.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32379,7 +32379,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spotscenered.info^",
+      "urlFilter": "||spookysleet.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32390,7 +32390,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spotx.tv^",
+      "urlFilter": "||spotlessstamp.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32401,7 +32401,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spotxchange.com^",
+      "urlFilter": "||spotscenered.info^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32412,7 +32412,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||springbot.com^",
+      "urlFilter": "||spotx.tv^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32423,7 +32423,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||springserve.com^",
+      "urlFilter": "||spotxchange.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32434,7 +32434,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sprysummit.com^",
+      "urlFilter": "||springbot.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32445,7 +32445,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spulse.net^",
+      "urlFilter": "||springserve.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32456,7 +32456,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spylog.com^",
+      "urlFilter": "||sprysummit.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32467,7 +32467,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spywarelabs.com^",
+      "urlFilter": "||spulse.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32478,7 +32478,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||spywords.com^",
+      "urlFilter": "||spylog.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32489,7 +32489,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||srvmath.com^",
+      "urlFilter": "||spywarelabs.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32500,7 +32500,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||srvtrck.com^",
+      "urlFilter": "||spywords.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32511,7 +32511,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||srwww1.com^",
+      "urlFilter": "||srvmath.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32522,7 +32522,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sshowads.pubmatic.com^",
+      "urlFilter": "||srvtrck.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32533,7 +32533,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sskzlabs.com^",
+      "urlFilter": "||srwww1.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32544,7 +32544,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||st.dynamicyield.com^",
+      "urlFilter": "||sshowads.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32555,7 +32555,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||st.pubmatic.com^",
+      "urlFilter": "||sskzlabs.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32566,7 +32566,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stack-sonar.com^",
+      "urlFilter": "||st.dynamicyield.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32577,7 +32577,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stackadapt.com^",
+      "urlFilter": "||st.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32588,7 +32588,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stakingsmile.com^",
+      "urlFilter": "||stack-sonar.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32599,7 +32599,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stalesummer.com^",
+      "urlFilter": "||stackadapt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32610,7 +32610,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||starffa.com^",
+      "urlFilter": "||stakingsmile.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32621,7 +32621,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||starkscale.com^",
+      "urlFilter": "||stalesummer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32632,7 +32632,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||starrynets.com^",
+      "urlFilter": "||starffa.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32643,7 +32643,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||starsmarter.com^",
+      "urlFilter": "||starkscale.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32654,7 +32654,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||startapp.com^",
+      "urlFilter": "||starrynets.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32665,7 +32665,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat-track.com^",
+      "urlFilter": "||starsmarter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32676,7 +32676,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat.cliche.se^",
+      "urlFilter": "||startapp.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32687,7 +32687,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat.dyna.ultraweb.hu^",
+      "urlFilter": "||stat-track.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32698,7 +32698,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat.pl^",
+      "urlFilter": "||stat.cliche.se^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32709,7 +32709,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat.webmedia.pl^",
+      "urlFilter": "||stat.dyna.ultraweb.hu^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32720,7 +32720,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat.xiaomi.com^",
+      "urlFilter": "||stat.pl^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32731,7 +32731,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat.zenon.net^",
+      "urlFilter": "||stat.webmedia.pl^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32742,7 +32742,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat24.com^",
+      "urlFilter": "||stat.xiaomi.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32753,7 +32753,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stat24.meta.ua^",
+      "urlFilter": "||stat.zenon.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32764,7 +32764,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statcounter.com^",
+      "urlFilter": "||stat24.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32775,7 +32775,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statdynamic.com^",
+      "urlFilter": "||stat24.meta.ua^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32786,7 +32786,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||static-tracking.klaviyo.com^",
+      "urlFilter": "||statcounter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32797,7 +32797,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||static.fmpub.net^",
+      "urlFilter": "||statdynamic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32808,7 +32808,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||static.itrack.it^",
+      "urlFilter": "||static-tracking.klaviyo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32819,7 +32819,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||static.kameleoon.com^",
+      "urlFilter": "||static.fmpub.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32830,7 +32830,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||staticads.btopenworld.com^",
+      "urlFilter": "||static.itrack.it^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32841,7 +32841,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statistik-gallup.net^",
+      "urlFilter": "||static.kameleoon.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32852,7 +32852,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statm.the-adult-company.com^",
+      "urlFilter": "||staticads.btopenworld.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32863,7 +32863,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.blogger.com^",
+      "urlFilter": "||statistik-gallup.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32874,7 +32874,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.hyperinzerce.cz^",
+      "urlFilter": "||statm.the-adult-company.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32885,7 +32885,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.merriam-webster.com^",
+      "urlFilter": "||stats.blogger.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32896,7 +32896,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.mirrorfootball.co.uk^",
+      "urlFilter": "||stats.hyperinzerce.cz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32907,7 +32907,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.nextgen-email.com^",
+      "urlFilter": "||stats.merriam-webster.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32918,7 +32918,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.olark.com^",
+      "urlFilter": "||stats.mirrorfootball.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32929,7 +32929,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.pusher.com^",
+      "urlFilter": "||stats.nextgen-email.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32940,7 +32940,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.rdphv.net^",
+      "urlFilter": "||stats.olark.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32951,7 +32951,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.self.com^",
+      "urlFilter": "||stats.pusher.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32962,7 +32962,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.stb-ottow.de^",
+      "urlFilter": "||stats.rdphv.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32973,7 +32973,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.townnews.com^",
+      "urlFilter": "||stats.self.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32984,7 +32984,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.wordpress.com^",
+      "urlFilter": "||stats.stb-ottow.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -32995,7 +32995,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats.wp.com^",
+      "urlFilter": "||stats.townnews.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33006,7 +33006,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats2.self.com^",
+      "urlFilter": "||stats.wordpress.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33017,7 +33017,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stats4all.com^",
+      "urlFilter": "||stats.wp.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33028,7 +33028,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statserv.net^",
+      "urlFilter": "||stats2.self.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33039,7 +33039,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statsie.com^",
+      "urlFilter": "||stats4all.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33050,7 +33050,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||statxpress.com^",
+      "urlFilter": "||statserv.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33061,7 +33061,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||steadfastsound.com^",
+      "urlFilter": "||statsie.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33072,7 +33072,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||steadfastsystem.com^",
+      "urlFilter": "||statxpress.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33083,7 +33083,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||steelhouse.com^",
+      "urlFilter": "||steadfastsound.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33094,7 +33094,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||steelhousemedia.com^",
+      "urlFilter": "||steadfastsystem.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33105,7 +33105,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stickyadstv.com^",
+      "urlFilter": "||steelhouse.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33116,7 +33116,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stiffgame.com^",
+      "urlFilter": "||steelhousemedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33127,7 +33127,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stimulatingsneeze.com^",
+      "urlFilter": "||stickyadstv.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33138,7 +33138,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stomachscience.com^",
+      "urlFilter": "||stiffgame.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33149,7 +33149,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stopstomach.com^",
+      "urlFilter": "||stimulatingsneeze.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33160,7 +33160,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||storetail.io^",
+      "urlFilter": "||stomachscience.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33171,7 +33171,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||storygize.net^",
+      "urlFilter": "||stopstomach.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33182,7 +33182,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||strack.pubmatic.com^",
+      "urlFilter": "||storetail.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33193,7 +33193,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||straightnest.com^",
+      "urlFilter": "||storygize.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33204,7 +33204,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stretchsquirrel.com^",
+      "urlFilter": "||strack.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33215,7 +33215,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||studycooking.com^",
+      "urlFilter": "||straightnest.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33226,7 +33226,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stupendoussleet.com^",
+      "urlFilter": "||stretchsquirrel.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33237,7 +33237,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||stupendoussnow.com^",
+      "urlFilter": "||studycooking.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33248,7 +33248,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||subscribe.hearstmags.com^",
+      "urlFilter": "||stupendoussleet.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33259,7 +33259,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||succeedscene.com^",
+      "urlFilter": "||stupendoussnow.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33270,7 +33270,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||successbuffet.com^",
+      "urlFilter": "||subscribe.hearstmags.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33281,7 +33281,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sugoicounter.com^",
+      "urlFilter": "||succeedscene.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33292,7 +33292,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sulkycook.com^",
+      "urlFilter": "||successbuffet.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33303,7 +33303,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||summerobject.com^",
+      "urlFilter": "||sugoicounter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33314,7 +33314,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sumo.com^",
+      "urlFilter": "||sulkycook.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33325,7 +33325,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sumome.com^",
+      "urlFilter": "||summerobject.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33336,7 +33336,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sunsetcampfires.com^",
+      "urlFilter": "||sumo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33347,7 +33347,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||superawesome.tv^",
+      "urlFilter": "||sumome.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33358,7 +33358,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||superchichair.com^",
+      "urlFilter": "||sunsetcampfires.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33369,7 +33369,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||superclix.de^",
+      "urlFilter": "||superawesome.tv^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33380,7 +33380,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||superficialsquare.com^",
+      "urlFilter": "||superchichair.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33391,7 +33391,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||supersonicads.com^",
+      "urlFilter": "||superclix.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33402,7 +33402,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||superstats.com^",
+      "urlFilter": "||superficialsquare.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33413,7 +33413,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||supertop.ru^",
+      "urlFilter": "||supersonicads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33424,7 +33424,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||supertop100.com^",
+      "urlFilter": "||superstats.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33435,7 +33435,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||supply.colossusssp.com^",
+      "urlFilter": "||supertop.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33446,7 +33446,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||supportwaves.com^",
+      "urlFilter": "||supertop100.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33457,7 +33457,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||surfmusik-adserver.de^",
+      "urlFilter": "||supply.colossusssp.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33468,7 +33468,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||surveygizmobeacon.s3.amazonaws.com^",
+      "urlFilter": "||supportwaves.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33479,7 +33479,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||sw88.espn.com^",
+      "urlFilter": "||surfmusik-adserver.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33490,7 +33490,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||swan-swan-goose.com^",
+      "urlFilter": "||surveygizmobeacon.s3.amazonaws.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33501,7 +33501,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||swankysquare.com^",
+      "urlFilter": "||sw88.espn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33512,7 +33512,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||swingslip.com^",
+      "urlFilter": "||swan-swan-goose.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33523,7 +33523,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||swordgoose.com^",
+      "urlFilter": "||swankysquare.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33534,7 +33534,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||synonymoussticks.com^",
+      "urlFilter": "||swingslip.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33545,7 +33545,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||systemssummit.com^",
+      "urlFilter": "||swordgoose.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33556,7 +33556,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.appsflyer.com^",
+      "urlFilter": "||synonymoussticks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33567,7 +33567,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.bawafx.com^",
+      "urlFilter": "||systemssummit.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33578,7 +33578,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.carta.com^",
+      "urlFilter": "||t.appsflyer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33589,7 +33589,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.co^",
+      "urlFilter": "||t.bawafx.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33600,7 +33600,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.eloqua.com^",
+      "urlFilter": "||t.carta.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33611,7 +33611,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.email.superdrug.com^",
+      "urlFilter": "||t.co^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33622,7 +33622,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.en25.com^",
+      "urlFilter": "||t.eloqua.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33633,7 +33633,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.firstpromoter.com^",
+      "urlFilter": "||t.email.superdrug.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33644,7 +33644,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.insigit.com^",
+      "urlFilter": "||t.en25.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33655,7 +33655,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.irtyd.com^",
+      "urlFilter": "||t.firstpromoter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33666,7 +33666,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.leady.com^",
+      "urlFilter": "||t.insigit.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33677,7 +33677,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.mmtrkr.com^",
+      "urlFilter": "||t.irtyd.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33688,7 +33688,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.news.browns-restaurants.co.uk^",
+      "urlFilter": "||t.leady.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33699,7 +33699,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.notif-colissimo-laposte.info^",
+      "urlFilter": "||t.mmtrkr.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33710,7 +33710,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.pie.org^",
+      "urlFilter": "||t.news.browns-restaurants.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33721,7 +33721,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.podcast.co^",
+      "urlFilter": "||t.notif-colissimo-laposte.info^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33732,7 +33732,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.pubmatic.com^",
+      "urlFilter": "||t.pie.org^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33743,7 +33743,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.salesmatemail.com^",
+      "urlFilter": "||t.podcast.co^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33754,7 +33754,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.vacations.disneydestinations.com^",
+      "urlFilter": "||t.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33765,7 +33765,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.visit.disneydestinations.com^",
+      "urlFilter": "||t.salesmatemail.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33776,7 +33776,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.visitorqueue.com^",
+      "urlFilter": "||t.vacations.disneydestinations.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33787,7 +33787,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t.x.co^",
+      "urlFilter": "||t.visit.disneydestinations.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33798,7 +33798,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t1.rorystravelclub.co.uk^",
+      "urlFilter": "||t.visitorqueue.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33809,7 +33809,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||t1.rorytravelclub-news.co.uk^",
+      "urlFilter": "||t.x.co^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33820,7 +33820,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||taboola.com^",
+      "urlFilter": "||t1.rorystravelclub.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33831,7 +33831,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tag-demo.mention-me.com^",
+      "urlFilter": "||t1.rorytravelclub-news.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33842,7 +33842,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tag.mention-me.com^",
+      "urlFilter": "||taboola.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33853,7 +33853,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tagcommander.com^",
+      "urlFilter": "||tag-demo.mention-me.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33864,7 +33864,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tagger.opecloud.com^",
+      "urlFilter": "||tag.mention-me.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33875,7 +33875,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tags.tiqcdn.com^",
+      "urlFilter": "||tagcommander.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33886,7 +33886,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tagtoo.com^",
+      "urlFilter": "||tagger.opecloud.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33897,7 +33897,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tailsweep.com^",
+      "urlFilter": "||tags.tiqcdn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33908,7 +33908,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tailsweep.se^",
+      "urlFilter": "||tagtoo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33919,7 +33919,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||takethatad.com^",
+      "urlFilter": "||tailsweep.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33930,7 +33930,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tamgrt.com^",
+      "urlFilter": "||tailsweep.se^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33941,7 +33941,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tangibleteam.com^",
+      "urlFilter": "||takethatad.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33952,7 +33952,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tangyamount.com^",
+      "urlFilter": "||tamgrt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33963,7 +33963,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tapad.com^",
+      "urlFilter": "||tangibleteam.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33974,7 +33974,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tapfiliate.com^",
+      "urlFilter": "||tangyamount.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33985,7 +33985,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tapinfluence.com^",
+      "urlFilter": "||tapad.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -33996,7 +33996,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tapjoy.com^",
+      "urlFilter": "||tapfiliate.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34007,7 +34007,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tappx.com^",
+      "urlFilter": "||tapinfluence.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34018,7 +34018,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targad.de^",
+      "urlFilter": "||tapjoy.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34029,7 +34029,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||target.microsoft.com^",
+      "urlFilter": "||tappx.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34040,7 +34040,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targeting.api.drift.com^",
+      "urlFilter": "||targad.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34051,7 +34051,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targeting.nzme.arcpublishing.com^",
+      "urlFilter": "||target.microsoft.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34062,7 +34062,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targeting.voxus.tv^",
+      "urlFilter": "||targeting.api.drift.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34073,7 +34073,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targetingnow.com^",
+      "urlFilter": "||targeting.nzme.arcpublishing.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34084,7 +34084,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targetnet.com^",
+      "urlFilter": "||targeting.voxus.tv^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34095,7 +34095,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||targetpoint.com^",
+      "urlFilter": "||targetingnow.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34106,7 +34106,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tatsumi-sys.jp^",
+      "urlFilter": "||targetnet.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34117,7 +34117,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tawdryson.com^",
+      "urlFilter": "||targetpoint.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34128,7 +34128,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tcads.net^",
+      "urlFilter": "||tatsumi-sys.jp^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34139,7 +34139,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||teads.tv^",
+      "urlFilter": "||tawdryson.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34150,7 +34150,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tealeaf.com^",
+      "urlFilter": "||tcads.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34161,7 +34161,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tealium.cbsnews.com^",
+      "urlFilter": "||teads.tv^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34172,7 +34172,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tealium.com^",
+      "urlFilter": "||tealeaf.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34183,7 +34183,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tealiumiq.com^",
+      "urlFilter": "||tealium.cbsnews.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34194,7 +34194,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tedioustooth.com^",
+      "urlFilter": "||tealium.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34205,7 +34205,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||teenrevenue.com^",
+      "urlFilter": "||tealiumiq.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34216,7 +34216,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||telaria.com^",
+      "urlFilter": "||tedioustooth.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34227,7 +34227,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||telemetry.dropbox.com^",
+      "urlFilter": "||teenrevenue.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34238,7 +34238,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||telemetry.goodlifefitness.com^",
+      "urlFilter": "||telaria.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34249,7 +34249,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||telemetry.malwarebytes.com^",
+      "urlFilter": "||telemetry.dropbox.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34260,7 +34260,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||telemetry.v.dropbox.com^",
+      "urlFilter": "||telemetry.goodlifefitness.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34271,7 +34271,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||temelio.com^",
+      "urlFilter": "||telemetry.malwarebytes.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34282,7 +34282,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tend.io^",
+      "urlFilter": "||telemetry.v.dropbox.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34293,7 +34293,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tendertest.com^",
+      "urlFilter": "||temelio.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34304,7 +34304,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ter-jrnl-oc.vidaahub.com^",
+      "urlFilter": "||tend.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34315,7 +34315,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||terriblethumb.com^",
+      "urlFilter": "||tendertest.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34326,7 +34326,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||text-link-ads.com^",
+      "urlFilter": "||ter-jrnl-oc.vidaahub.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34337,7 +34337,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||textad.sexsearch.com^",
+      "urlFilter": "||terriblethumb.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34348,7 +34348,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||textads.biz^",
+      "urlFilter": "||text-link-ads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34359,7 +34359,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||textlinks.com^",
+      "urlFilter": "||textad.sexsearch.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34370,7 +34370,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tfag.de^",
+      "urlFilter": "||textads.biz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34381,7 +34381,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||the-ozone-project.com^",
+      "urlFilter": "||textlinks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34392,7 +34392,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||theadex.com^",
+      "urlFilter": "||tfag.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34403,7 +34403,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||theadhost.com^",
+      "urlFilter": "||the-ozone-project.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34414,7 +34414,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||theadsparks.com^",
+      "urlFilter": "||theadex.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34425,7 +34425,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thebugs.ws^",
+      "urlFilter": "||theadhost.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34436,7 +34436,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thecrazychili.com^",
+      "urlFilter": "||theadsparks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34447,7 +34447,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||themangotea.com^",
+      "urlFilter": "||thebugs.ws^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34458,7 +34458,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||themoneytizer.com^",
+      "urlFilter": "||thecrazychili.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34469,7 +34469,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||therapistla.com^",
+      "urlFilter": "||themangotea.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34480,7 +34480,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thewavebeats.com^",
+      "urlFilter": "||themoneytizer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34491,7 +34491,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thinkitten.com^",
+      "urlFilter": "||therapistla.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34502,7 +34502,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thirdparty.bnc.lt^",
+      "urlFilter": "||thewavebeats.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34513,7 +34513,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thirdrespect.com^",
+      "urlFilter": "||thinkitten.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34524,7 +34524,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thomastorch.com^",
+      "urlFilter": "||thirdparty.bnc.lt^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34535,7 +34535,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||throtle.io^",
+      "urlFilter": "||thirdrespect.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34546,7 +34546,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thruport.com^",
+      "urlFilter": "||thomastorch.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34557,7 +34557,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||thunderhead.com^",
+      "urlFilter": "||throtle.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34568,7 +34568,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tia.timeinc.net^",
+      "urlFilter": "||thruport.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34579,7 +34579,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ticketaunt.com^",
+      "urlFilter": "||thunderhead.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34590,7 +34590,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ticklesign.com^",
+      "urlFilter": "||tia.timeinc.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34601,7 +34601,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ticksel.com^",
+      "urlFilter": "||ticketaunt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34612,7 +34612,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tics.techdirt.com^",
+      "urlFilter": "||ticklesign.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34623,7 +34623,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tidaltv.com^",
+      "urlFilter": "||ticksel.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34634,7 +34634,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tidysprite.com^",
+      "urlFilter": "||tics.techdirt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34645,7 +34645,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tinybar.com^",
+      "urlFilter": "||tidaltv.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34656,7 +34656,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tinybluewhale.com^",
+      "urlFilter": "||tidysprite.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34667,7 +34667,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tinytendency.com^",
+      "urlFilter": "||tinybar.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34678,7 +34678,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tiresomethunder.com^",
+      "urlFilter": "||tinybluewhale.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34689,7 +34689,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tkbo.com^",
+      "urlFilter": "||tinytendency.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34700,7 +34700,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tls.telemetry.swe.quicinc.com^",
+      "urlFilter": "||tiresomethunder.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34711,7 +34711,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tlvmedia.com^",
+      "urlFilter": "||tkbo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34722,7 +34722,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tm.br.de^",
+      "urlFilter": "||tls.telemetry.swe.quicinc.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34733,7 +34733,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tnkexchange.com^",
+      "urlFilter": "||tlvmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34744,7 +34744,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tns-counter.ru^",
+      "urlFilter": "||tm.br.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34755,7 +34755,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||toolforthought.com^",
+      "urlFilter": "||tnkexchange.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34766,7 +34766,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top-casting-termine.de^",
+      "urlFilter": "||tns-counter.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34777,7 +34777,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top-site-list.com^",
+      "urlFilter": "||toolforthought.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34788,7 +34788,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top.list.ru^",
+      "urlFilter": "||top-casting-termine.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34799,7 +34799,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top.mail.ru^",
+      "urlFilter": "||top-site-list.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34810,7 +34810,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top100-images.rambler.ru^",
+      "urlFilter": "||top.list.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34821,7 +34821,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top100.mafia.ru^",
+      "urlFilter": "||top.mail.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34832,7 +34832,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top123.ro^",
+      "urlFilter": "||top100-images.rambler.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34843,7 +34843,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||top20free.com^",
+      "urlFilter": "||top100.mafia.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34854,7 +34854,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||toplist.cz^",
+      "urlFilter": "||top123.ro^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34865,7 +34865,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||toplist.pornhost.com^",
+      "urlFilter": "||top20free.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34876,7 +34876,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||toplista.mw.hu^",
+      "urlFilter": "||toplist.cz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34887,7 +34887,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||toplistcity.com^",
+      "urlFilter": "||toplist.pornhost.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34898,7 +34898,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||topsir.com^",
+      "urlFilter": "||toplista.mw.hu^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34909,7 +34909,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||topsite.lv^",
+      "urlFilter": "||toplistcity.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34920,7 +34920,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||topsites.com.br^",
+      "urlFilter": "||topsir.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34931,7 +34931,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||topstats.com^",
+      "urlFilter": "||topsite.lv^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34942,7 +34942,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||totemcash.com^",
+      "urlFilter": "||topsites.com.br^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34953,7 +34953,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||touchclarity.com^",
+      "urlFilter": "||topstats.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34964,7 +34964,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tour.brazzers.com^",
+      "urlFilter": "||totemcash.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34975,7 +34975,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tr.api.fanbyte.com^",
+      "urlFilter": "||touchclarity.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34986,7 +34986,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track-eu.customer.io^",
+      "urlFilter": "||tour.brazzers.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -34997,7 +34997,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.adform.net^",
+      "urlFilter": "||tr.api.fanbyte.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35008,7 +35008,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.anchorfree.com^",
+      "urlFilter": "||track-eu.customer.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35019,7 +35019,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.canva.com^",
+      "urlFilter": "||track.adform.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35030,7 +35030,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.contently.com^",
+      "urlFilter": "||track.anchorfree.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35041,7 +35041,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.customer.io^",
+      "urlFilter": "||track.canva.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35052,7 +35052,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.effiliation.com^",
+      "urlFilter": "||track.contently.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35063,7 +35063,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.flexlinks.com^",
+      "urlFilter": "||track.customer.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35074,7 +35074,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.flexlinkspro.com^",
+      "urlFilter": "||track.effiliation.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35085,7 +35085,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.lettingaproperty.com^",
+      "urlFilter": "||track.flexlinks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35096,7 +35096,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.mailalert.io^",
+      "urlFilter": "||track.flexlinkspro.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35107,7 +35107,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.mailerlite.com^",
+      "urlFilter": "||track.lettingaproperty.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35118,7 +35118,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.miro.com^",
+      "urlFilter": "||track.mailalert.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35129,7 +35129,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.nationalgunrights.org^",
+      "urlFilter": "||track.mailerlite.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35140,7 +35140,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.privacyatclearbit.com^",
+      "urlFilter": "||track.miro.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35151,7 +35151,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.pubmatic.com^",
+      "urlFilter": "||track.nationalgunrights.org^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35162,7 +35162,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.segmetrics.io^",
+      "urlFilter": "||track.privacyatclearbit.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35173,7 +35173,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.smtpmessage.com^",
+      "urlFilter": "||track.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35184,7 +35184,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.software-codes.com^",
+      "urlFilter": "||track.segmetrics.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35195,7 +35195,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.spe.schoolmessenger.com^",
+      "urlFilter": "||track.smtpmessage.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35206,7 +35206,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.ultravpn.com^",
+      "urlFilter": "||track.software-codes.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35217,7 +35217,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.unear.net^",
+      "urlFilter": "||track.spe.schoolmessenger.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35228,7 +35228,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.vcdc.com^",
+      "urlFilter": "||track.ultravpn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35239,7 +35239,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track.viewdeos.com^",
+      "urlFilter": "||track.unear.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35250,7 +35250,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||track1.viewdeos.com^",
+      "urlFilter": "||track.vcdc.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35261,7 +35261,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trackalyzer.com^",
+      "urlFilter": "||track.viewdeos.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35272,7 +35272,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trackedlink.net^",
+      "urlFilter": "||track1.viewdeos.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35283,7 +35283,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trackedweb.net^",
+      "urlFilter": "||trackalyzer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35294,7 +35294,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracker.bannerflow.com^",
+      "urlFilter": "||trackedlink.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35305,7 +35305,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracker.cdnbye.com^",
+      "urlFilter": "||trackedweb.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35316,7 +35316,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracker.icerocket.com^",
+      "urlFilter": "||tracker.bannerflow.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35327,7 +35327,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracker.metricswave.com^",
+      "urlFilter": "||tracker.cdnbye.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35338,7 +35338,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracker.mmdlv.it^",
+      "urlFilter": "||tracker.icerocket.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35349,7 +35349,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracker.samplicio.us^",
+      "urlFilter": "||tracker.metricswave.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35360,7 +35360,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.epicgames.com^",
+      "urlFilter": "||tracker.mmdlv.it^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35371,7 +35371,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.hyros.com^",
+      "urlFilter": "||tracker.samplicio.us^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35382,7 +35382,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.ibxlink.com^",
+      "urlFilter": "||tracking.epicgames.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35393,7 +35393,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.intentsify.io^",
+      "urlFilter": "||tracking.hyros.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35404,7 +35404,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.intl.miui.com^",
+      "urlFilter": "||tracking.ibxlink.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35415,7 +35415,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.jiffyworld.com^",
+      "urlFilter": "||tracking.intentsify.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35426,7 +35426,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.markethero.io^",
+      "urlFilter": "||tracking.intl.miui.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35437,7 +35437,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.miui.com^",
+      "urlFilter": "||tracking.jiffyworld.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35448,7 +35448,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.netalerts.io^",
+      "urlFilter": "||tracking.markethero.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35459,7 +35459,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.olx-st.com^",
+      "urlFilter": "||tracking.miui.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35470,7 +35470,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.orixa-media.com^",
+      "urlFilter": "||tracking.netalerts.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35481,7 +35481,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.shopstyle.com^",
+      "urlFilter": "||tracking.olx-st.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35492,7 +35492,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.thinkabt.com^",
+      "urlFilter": "||tracking.orixa-media.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35503,7 +35503,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking.wetter.at^",
+      "urlFilter": "||tracking.shopstyle.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35514,7 +35514,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking01.walmart.com^",
+      "urlFilter": "||tracking.thinkabt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35525,7 +35525,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking101.com^",
+      "urlFilter": "||tracking.wetter.at^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35536,7 +35536,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tracking22.com^",
+      "urlFilter": "||tracking01.walmart.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35547,7 +35547,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trackingsoft.com^",
+      "urlFilter": "||tracking101.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35558,7 +35558,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trackmysales.com^",
+      "urlFilter": "||tracking22.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35569,7 +35569,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tradeadexchange.com^",
+      "urlFilter": "||trackingsoft.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35580,7 +35580,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tradedoubler.com^",
+      "urlFilter": "||trackmysales.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35591,7 +35591,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||traffic-exchange.com^",
+      "urlFilter": "||tradeadexchange.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35602,7 +35602,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||traffic.hyteck.de^",
+      "urlFilter": "||tradedoubler.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35613,7 +35613,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficfactory.biz^",
+      "urlFilter": "||traffic-exchange.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35624,7 +35624,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficforce.com^",
+      "urlFilter": "||traffic.hyteck.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35635,7 +35635,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficholder.com^",
+      "urlFilter": "||trafficfactory.biz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35646,7 +35646,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||traffichunt.com^",
+      "urlFilter": "||trafficforce.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35657,7 +35657,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficjunky.net^",
+      "urlFilter": "||trafficholder.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35668,7 +35668,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficleader.com^",
+      "urlFilter": "||traffichunt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35679,7 +35679,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficrouter.io^",
+      "urlFilter": "||trafficjunky.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35690,7 +35690,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficshop.com^",
+      "urlFilter": "||trafficleader.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35701,7 +35701,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficspaces.net^",
+      "urlFilter": "||trafficrouter.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35712,7 +35712,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficstrategies.com^",
+      "urlFilter": "||trafficshop.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35723,7 +35723,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficswarm.com^",
+      "urlFilter": "||trafficspaces.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35734,7 +35734,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafficz.com^",
+      "urlFilter": "||trafficstrategies.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35745,7 +35745,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||traffiq.com^",
+      "urlFilter": "||trafficswarm.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35756,7 +35756,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trafic.ro^",
+      "urlFilter": "||trafficz.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35767,7 +35767,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||traktrafficflow.com^",
+      "urlFilter": "||traffiq.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35778,7 +35778,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tranquilplume.com^",
+      "urlFilter": "||trafic.ro^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35789,7 +35789,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||travis.bosscasinos.com^",
+      "urlFilter": "||traktrafficflow.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35800,7 +35800,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trck.a8.net^",
+      "urlFilter": "||tranquilplume.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35811,7 +35811,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trck.mtrgt.id^",
+      "urlFilter": "||travis.bosscasinos.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35822,7 +35822,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trcklion.com^",
+      "urlFilter": "||trck.a8.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35833,7 +35833,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||treasuredata.com^",
+      "urlFilter": "||trck.mtrgt.id^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35844,7 +35844,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trekdata.com^",
+      "urlFilter": "||trcklion.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35855,7 +35855,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tremendoustime.com^",
+      "urlFilter": "||treasuredata.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35866,7 +35866,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tremorhub.com^",
+      "urlFilter": "||trekdata.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35877,7 +35877,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trendcounter.com^",
+      "urlFilter": "||tremendoustime.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35888,7 +35888,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trendmd.com^",
+      "urlFilter": "||tremorhub.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35899,7 +35899,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trialfire.com^",
+      "urlFilter": "||trendcounter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35910,7 +35910,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tribalfusion.com^",
+      "urlFilter": "||trendmd.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35921,7 +35921,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||triplelift.com^",
+      "urlFilter": "||trialfire.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35932,7 +35932,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||triptease.io^",
+      "urlFilter": "||tribalfusion.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35943,7 +35943,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk.4ff.pro^",
+      "urlFilter": "||triplelift.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35954,7 +35954,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk.bc.shutterfly.com^",
+      "urlFilter": "||triptease.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35965,7 +35965,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk.pinterest.com^",
+      "urlFilter": "||trk.4ff.pro^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35976,7 +35976,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk.sayerfinancial.com^",
+      "urlFilter": "||trk.bc.shutterfly.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35987,7 +35987,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk.techtarget.com^",
+      "urlFilter": "||trk.pinterest.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -35998,7 +35998,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk1.avdlink.net^",
+      "urlFilter": "||trk.sayerfinancial.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36009,7 +36009,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trk42.net^",
+      "urlFilter": "||trk.techtarget.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36020,7 +36020,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trkn.us^",
+      "urlFilter": "||trk1.avdlink.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36031,7 +36031,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trkoptimizer.com^",
+      "urlFilter": "||trk42.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36042,7 +36042,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trkpnt.ongage.net^",
+      "urlFilter": "||trkn.us^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36053,7 +36053,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trmit.com^",
+      "urlFilter": "||trkoptimizer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36064,7 +36064,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||truckstomatoes.com^",
+      "urlFilter": "||trkpnt.ongage.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36075,7 +36075,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||truculentrate.com^",
+      "urlFilter": "||trmit.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36086,7 +36086,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||truehits.net^",
+      "urlFilter": "||truckstomatoes.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36097,7 +36097,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||truehits1.gits.net.th^",
+      "urlFilter": "||truculentrate.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36108,7 +36108,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||truehits2.gits.net.th^",
+      "urlFilter": "||truehits.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36119,7 +36119,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trust.titanhq.com^",
+      "urlFilter": "||truehits1.gits.net.th^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36130,7 +36130,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||trustx.org^",
+      "urlFilter": "||truehits2.gits.net.th^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36141,7 +36141,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tsyndicate.com^",
+      "urlFilter": "||trust.titanhq.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36152,7 +36152,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tsyndicate.net^",
+      "urlFilter": "||trustx.org^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36163,7 +36163,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tubemogul.com^",
+      "urlFilter": "||tsyndicate.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36174,7 +36174,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tumbleicicle.com^",
+      "urlFilter": "||tsyndicate.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36185,7 +36185,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||turboadv.com^",
+      "urlFilter": "||tubemogul.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36196,7 +36196,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||turn.com^",
+      "urlFilter": "||tumbleicicle.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36207,7 +36207,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||twelvedawn.com^",
+      "urlFilter": "||turboadv.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36218,7 +36218,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||twittad.com^",
+      "urlFilter": "||turn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36229,7 +36229,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||twyn.com^",
+      "urlFilter": "||twelvedawn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36240,7 +36240,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tynt.com^",
+      "urlFilter": "||twittad.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36251,7 +36251,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||typicalteeth.com^",
+      "urlFilter": "||twyn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36262,7 +36262,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||tyroo.com^",
+      "urlFilter": "||tynt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36273,7 +36273,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||uarating.com^",
+      "urlFilter": "||typicalteeth.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36284,7 +36284,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ucfunnel.com^",
+      "urlFilter": "||tyroo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36295,7 +36295,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||udkcrj.com^",
+      "urlFilter": "||uarating.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36306,7 +36306,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||udncoeln.com^",
+      "urlFilter": "||ucfunnel.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36317,7 +36317,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||uib.ff.avast.com^",
+      "urlFilter": "||udkcrj.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36328,7 +36328,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ukoffzeh.com^",
+      "urlFilter": "||udncoeln.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36339,7 +36339,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ultimateclixx.com^",
+      "urlFilter": "||uib.ff.avast.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36350,7 +36350,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ultramercial.com^",
+      "urlFilter": "||ukoffzeh.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36361,7 +36361,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ultraoranges.com^",
+      "urlFilter": "||ultimateclixx.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36372,7 +36372,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unaccountablepie.com^",
+      "urlFilter": "||ultramercial.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36383,7 +36383,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unarmedindustry.com^",
+      "urlFilter": "||ultraoranges.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36394,7 +36394,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unbecominglamp.com^",
+      "urlFilter": "||unaccountablepie.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36405,7 +36405,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||understoodocean.com^",
+      "urlFilter": "||unarmedindustry.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36416,7 +36416,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||undertone.com^",
+      "urlFilter": "||unbecominglamp.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36427,7 +36427,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unidentifiedanalytics.web.app^",
+      "urlFilter": "||understoodocean.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36438,7 +36438,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unloadyourself.com^",
+      "urlFilter": "||undertone.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36449,7 +36449,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unruly.co^",
+      "urlFilter": "||unidentifiedanalytics.web.app^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36460,7 +36460,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unrulymedia.com^",
+      "urlFilter": "||unloadyourself.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36471,7 +36471,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||untd.com^",
+      "urlFilter": "||unruly.co^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36482,7 +36482,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unusualtitle.com^",
+      "urlFilter": "||unrulymedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36493,7 +36493,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unwieldyhealth.com^",
+      "urlFilter": "||untd.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36504,7 +36504,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||unwieldyimpulse.com^",
+      "urlFilter": "||unusualtitle.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36515,7 +36515,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||upgradeyoga.com^",
+      "urlFilter": "||unwieldyhealth.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36526,7 +36526,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||upu.samsungelectronics.com^",
+      "urlFilter": "||unwieldyimpulse.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36537,7 +36537,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||urbanlaurel.com^",
+      "urlFilter": "||upgradeyoga.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36548,7 +36548,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||url9467.comms-2.zoopla.co.uk^",
+      "urlFilter": "||upu.samsungelectronics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36559,7 +36559,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||urlcash.net^",
+      "urlFilter": "||urbanlaurel.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36570,7 +36570,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||us.a1.yimg.com^",
+      "urlFilter": "||url9467.comms-2.zoopla.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36581,7 +36581,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||userreplay.com^",
+      "urlFilter": "||urlcash.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36592,7 +36592,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||userreplay.net^",
+      "urlFilter": "||us.a1.yimg.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36603,7 +36603,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||users.maxcluster.net^",
+      "urlFilter": "||userreplay.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36614,7 +36614,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||utils.mediageneral.net^",
+      "urlFilter": "||userreplay.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36625,7 +36625,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||utl-1.com^",
+      "urlFilter": "||users.maxcluster.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36636,7 +36636,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||uu.domainforlite.com^",
+      "urlFilter": "||utils.mediageneral.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36647,7 +36647,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||v1.cnzz.com^",
+      "urlFilter": "||utl-1.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36658,7 +36658,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||v1adserver.com^",
+      "urlFilter": "||uu.domainforlite.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36669,7 +36669,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||valerie.forbes.com^",
+      "urlFilter": "||v1.cnzz.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36680,7 +36680,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||validclick.com^",
+      "urlFilter": "||v1adserver.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36691,7 +36691,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||valuead.com^",
+      "urlFilter": "||valerie.forbes.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36702,7 +36702,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||valueclick.com^",
+      "urlFilter": "||validclick.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36713,7 +36713,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||valueclickmedia.com^",
+      "urlFilter": "||valuead.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36724,7 +36724,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||valuecommerce.com^",
+      "urlFilter": "||valueclick.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36735,7 +36735,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vanfireworks.com^",
+      "urlFilter": "||valueclickmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36746,7 +36746,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vcommission.com^",
+      "urlFilter": "||valuecommerce.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36757,7 +36757,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||veille-referencement.com^",
+      "urlFilter": "||vanfireworks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36768,7 +36768,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||velismedia.com^",
+      "urlFilter": "||vcommission.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36779,7 +36779,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||venetrigni.com^",
+      "urlFilter": "||veille-referencement.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36790,7 +36790,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vengefulgrass.com^",
+      "urlFilter": "||velismedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36801,7 +36801,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ventivmedia.com^",
+      "urlFilter": "||venetrigni.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36812,7 +36812,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||venturead.com^",
+      "urlFilter": "||vengefulgrass.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36823,7 +36823,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vericlick.com^",
+      "urlFilter": "||ventivmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36834,7 +36834,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vertamedia.com^",
+      "urlFilter": "||venturead.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36845,7 +36845,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||verticalmass.com^",
+      "urlFilter": "||vericlick.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36856,7 +36856,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vervewireless.com^",
+      "urlFilter": "||vertamedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36867,7 +36867,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vgnp3trk.com^",
+      "urlFilter": "||verticalmass.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36878,7 +36878,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vibrantsundown.com^",
+      "urlFilter": "||vervewireless.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36889,7 +36889,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vid.pubmatic.com^",
+      "urlFilter": "||vgnp3trk.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36900,7 +36900,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vidcpm.com^",
+      "urlFilter": "||vibrantsundown.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36911,7 +36911,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||video-stats.video.google.com^",
+      "urlFilter": "||vid.pubmatic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36922,7 +36922,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||videoadex.com^",
+      "urlFilter": "||vidcpm.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36933,7 +36933,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||videoadstech.org^",
+      "urlFilter": "||video-stats.video.google.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36944,7 +36944,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||videoegg.com^",
+      "urlFilter": "||videoadex.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36955,7 +36955,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||videostats.kakao.com^",
+      "urlFilter": "||videoadstech.org^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36966,7 +36966,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vidora.com^",
+      "urlFilter": "||videoegg.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36977,7 +36977,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||view4cash.de^",
+      "urlFilter": "||videostats.kakao.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36988,7 +36988,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||viglink.com^",
+      "urlFilter": "||vidora.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -36999,7 +36999,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vilenexus.com^",
+      "urlFilter": "||view4cash.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37010,7 +37010,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||virtualvincent.com^",
+      "urlFilter": "||viglink.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37021,7 +37021,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||visiblemeasures.com^",
+      "urlFilter": "||vilenexus.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37032,7 +37032,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||visistat.com^",
+      "urlFilter": "||virtualvincent.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37043,7 +37043,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||visitbox.de^",
+      "urlFilter": "||visiblemeasures.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37054,7 +37054,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||visual-pagerank.fr^",
+      "urlFilter": "||visistat.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37065,7 +37065,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||visualrevenue.com^",
+      "urlFilter": "||visitbox.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37076,7 +37076,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vivads.net^",
+      "urlFilter": "||visual-pagerank.fr^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37087,7 +37087,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vivtracking.com^",
+      "urlFilter": "||visualrevenue.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37098,7 +37098,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vmmpxl.com^",
+      "urlFilter": "||vivads.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37109,7 +37109,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||voicefive.com^",
+      "urlFilter": "||vivtracking.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37120,7 +37120,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||volatilevessel.com^",
+      "urlFilter": "||vmmpxl.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37131,7 +37131,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||voluum.com^",
+      "urlFilter": "||voicefive.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37142,7 +37142,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||voluumtrk2.com^",
+      "urlFilter": "||volatilevessel.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37153,7 +37153,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vpon.com^",
+      "urlFilter": "||voluum.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37164,7 +37164,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vrs.cz^",
+      "urlFilter": "||voluumtrk2.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37175,7 +37175,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vtracy.de^",
+      "urlFilter": "||vpon.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37186,7 +37186,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||vungle.com^",
+      "urlFilter": "||vrs.cz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37197,7 +37197,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||w55c.net^",
+      "urlFilter": "||vtracy.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37208,7 +37208,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wa.and.co.uk^",
+      "urlFilter": "||vungle.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37219,7 +37219,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||waardex.com^",
+      "urlFilter": "||w55c.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37230,7 +37230,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||warmafterthought.com^",
+      "urlFilter": "||wa.and.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37241,7 +37241,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||washbanana.com^",
+      "urlFilter": "||waardex.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37252,7 +37252,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wdads.sx.atl.publicus.com^",
+      "urlFilter": "||warmafterthought.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37263,7 +37263,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wdfl.co^",
+      "urlFilter": "||washbanana.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37274,7 +37274,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||web-stat.com^",
+      "urlFilter": "||wdads.sx.atl.publicus.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37285,7 +37285,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||web.informer.com^",
+      "urlFilter": "||wdfl.co^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37296,7 +37296,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||web2.deja.com^",
+      "urlFilter": "||web-stat.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37307,7 +37307,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webads.co.nz^",
+      "urlFilter": "||web.informer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37318,7 +37318,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webads.nl^",
+      "urlFilter": "||web2.deja.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37329,7 +37329,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webanalytics.zohodcm.com^",
+      "urlFilter": "||webads.co.nz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37340,7 +37340,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webcash.nl^",
+      "urlFilter": "||webads.nl^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37351,7 +37351,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webcontentassessor.com^",
+      "urlFilter": "||webanalytics.zohodcm.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37362,7 +37362,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webcounter.cz^",
+      "urlFilter": "||webcash.nl^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37373,7 +37373,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webcounter.goweb.de^",
+      "urlFilter": "||webcontentassessor.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37384,7 +37384,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webgains.com^",
+      "urlFilter": "||webcounter.cz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37395,7 +37395,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||weborama.com^",
+      "urlFilter": "||webcounter.goweb.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37406,7 +37406,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||weborama.fr^",
+      "urlFilter": "||webgains.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37417,7 +37417,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webpower.com^",
+      "urlFilter": "||weborama.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37428,7 +37428,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webreseau.com^",
+      "urlFilter": "||weborama.fr^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37439,7 +37439,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webseoanalytics.com^",
+      "urlFilter": "||webpower.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37450,7 +37450,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webstat.channel4.com^",
+      "urlFilter": "||webreseau.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37461,7 +37461,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webstat.com^",
+      "urlFilter": "||webseoanalytics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37472,7 +37472,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webstat.net^",
+      "urlFilter": "||webstat.channel4.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37483,7 +37483,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webtrackerplus.com^",
+      "urlFilter": "||webstat.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37494,7 +37494,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webtraffic.se^",
+      "urlFilter": "||webstat.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37505,7 +37505,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webtraxx.de^",
+      "urlFilter": "||webtrackerplus.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37516,7 +37516,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||webxcdn.com^",
+      "urlFilter": "||webtraffic.se^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37527,7 +37527,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||welved.com^",
+      "urlFilter": "||webtraxx.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37538,7 +37538,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||werbung.meteoxpress.com^",
+      "urlFilter": "||webxcdn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37549,7 +37549,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wetrack.it^",
+      "urlFilter": "||welved.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37560,7 +37560,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whaleads.com^",
+      "urlFilter": "||werbung.meteoxpress.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37571,7 +37571,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wheredoyoucomefrom.ovh^",
+      "urlFilter": "||wetrack.it^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37582,7 +37582,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whirlwealth.com^",
+      "urlFilter": "||whaleads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37593,7 +37593,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whiskyqueue.com^",
+      "urlFilter": "||wheredoyoucomefrom.ovh^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37604,7 +37604,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whisperingcascade.com^",
+      "urlFilter": "||whirlwealth.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37615,7 +37615,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whisperingcrib.com^",
+      "urlFilter": "||whiskyqueue.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37626,7 +37626,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whisperingsummit.com^",
+      "urlFilter": "||whisperingcascade.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37637,7 +37637,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||whoisonline.net^",
+      "urlFilter": "||whisperingcrib.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37648,7 +37648,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wholepagecache.com^",
+      "urlFilter": "||whisperingsummit.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37659,7 +37659,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wickedreports.com^",
+      "urlFilter": "||whoisonline.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37670,7 +37670,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||widget.educationdynamics.com^",
+      "urlFilter": "||wholepagecache.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37681,7 +37681,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||widget.privy.com^",
+      "urlFilter": "||wickedreports.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37692,7 +37692,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wikia-ads.wikia.com^",
+      "urlFilter": "||widget.educationdynamics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37703,7 +37703,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||win.iqm.com^",
+      "urlFilter": "||widget.privy.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37714,7 +37714,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||window.nixnet.cz^",
+      "urlFilter": "||wikia-ads.wikia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37725,7 +37725,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wintricksbanner.googlepages.com^",
+      "urlFilter": "||win.iqm.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37736,7 +37736,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wirecomic.com^",
+      "urlFilter": "||window.nixnet.cz^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37747,7 +37747,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wirypaste.com^",
+      "urlFilter": "||wintricksbanner.googlepages.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37758,7 +37758,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wisepops.com^",
+      "urlFilter": "||wirecomic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37769,7 +37769,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||witch-counter.de^",
+      "urlFilter": "||wirypaste.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37780,7 +37780,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wittypopcorn.com^",
+      "urlFilter": "||wisepops.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37791,7 +37791,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wizaly.com^",
+      "urlFilter": "||witch-counter.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37802,7 +37802,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wl.spotify.com^",
+      "urlFilter": "||wittypopcorn.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37813,7 +37813,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wlmarketing.com^",
+      "urlFilter": "||wizaly.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37824,7 +37824,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wondoads.de^",
+      "urlFilter": "||wl.spotify.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37835,7 +37835,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||woopra.com^",
+      "urlFilter": "||wlmarketing.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37846,7 +37846,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||worldrealize.com^",
+      "urlFilter": "||wondoads.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37857,7 +37857,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||worldwide-cash.net^",
+      "urlFilter": "||woopra.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37868,7 +37868,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||worriednumber.com^",
+      "urlFilter": "||worldrealize.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37879,7 +37879,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wowfunnow.com^",
+      "urlFilter": "||worldwide-cash.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37890,7 +37890,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||writerhubs.com^",
+      "urlFilter": "||worriednumber.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37901,7 +37901,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wt-eu02.net^",
+      "urlFilter": "||wowfunnow.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37912,7 +37912,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wt.bankmillennium.pl^",
+      "urlFilter": "||writerhubs.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37923,7 +37923,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www-banner.chat.ru^",
+      "urlFilter": "||wt-eu02.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37934,7 +37934,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www-google-analytics.l.google.com^",
+      "urlFilter": "||wt.bankmillennium.pl^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37945,7 +37945,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.dnps.com^",
+      "urlFilter": "||www-banner.chat.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37956,7 +37956,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.kaplanindex.com^",
+      "urlFilter": "||www-google-analytics.l.google.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37967,7 +37967,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www.photo-ads.co.uk^",
+      "urlFilter": "||www.dnps.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37978,7 +37978,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||www8.glam.com^",
+      "urlFilter": "||www.kaplanindex.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -37989,7 +37989,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||wwwpromoter.com^",
+      "urlFilter": "||www.photo-ads.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38000,7 +38000,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||x-traceur.com^",
+      "urlFilter": "||www8.glam.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38011,7 +38011,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||x6.yakiuchi.com^",
+      "urlFilter": "||wwwpromoter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38022,7 +38022,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xad.com^",
+      "urlFilter": "||x-traceur.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38033,7 +38033,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xapads.com^",
+      "urlFilter": "||x6.yakiuchi.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38044,7 +38044,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xchange.ro^",
+      "urlFilter": "||xad.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38055,7 +38055,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xertive.com^",
+      "urlFilter": "||xapads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38066,7 +38066,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xfreeservice.com^",
+      "urlFilter": "||xchange.ro^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38077,7 +38077,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xg4ken.com^",
+      "urlFilter": "||xertive.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38088,7 +38088,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xiti.com^",
+      "urlFilter": "||xfreeservice.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38099,7 +38099,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xplusone.com^",
+      "urlFilter": "||xg4ken.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38110,7 +38110,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xponsor.com^",
+      "urlFilter": "||xiti.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38121,7 +38121,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xpu.samsungelectronics.com^",
+      "urlFilter": "||xplusone.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38132,7 +38132,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xq1.net^",
+      "urlFilter": "||xponsor.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38143,7 +38143,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xtendmedia.com^",
+      "urlFilter": "||xpu.samsungelectronics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38154,7 +38154,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xtracker.logimeter.com^",
+      "urlFilter": "||xq1.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38165,7 +38165,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xxxcounter.com^",
+      "urlFilter": "||xtendmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38176,7 +38176,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||xxxmyself.com^",
+      "urlFilter": "||xtracker.logimeter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38187,7 +38187,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||y.ibsys.com^",
+      "urlFilter": "||xxxcounter.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38198,7 +38198,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yab-adimages.s3.amazonaws.com^",
+      "urlFilter": "||xxxmyself.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38209,7 +38209,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yadro.ru^",
+      "urlFilter": "||y.ibsys.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38220,7 +38220,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yandexmetrica.com^",
+      "urlFilter": "||yab-adimages.s3.amazonaws.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38231,7 +38231,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yepads.com^",
+      "urlFilter": "||yadro.ru^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38242,7 +38242,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yesads.com^",
+      "urlFilter": "||yandexmetrica.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38253,7 +38253,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yesadvertising.com^",
+      "urlFilter": "||yepads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38264,7 +38264,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldads.com^",
+      "urlFilter": "||yesads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38275,7 +38275,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldlab.net^",
+      "urlFilter": "||yesadvertising.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38286,7 +38286,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldmanager.net^",
+      "urlFilter": "||yieldads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38297,7 +38297,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldmo.com^",
+      "urlFilter": "||yieldlab.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38308,7 +38308,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldoptimizer.com^",
+      "urlFilter": "||yieldmanager.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38319,7 +38319,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldtraffic.com^",
+      "urlFilter": "||yieldmo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38330,7 +38330,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yldbt.com^",
+      "urlFilter": "||yieldoptimizer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38341,7 +38341,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ymetrica1.com^",
+      "urlFilter": "||yieldtraffic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38352,7 +38352,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yoads.net^",
+      "urlFilter": "||yldbt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38363,7 +38363,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yoggrt.com^",
+      "urlFilter": "||ymetrica1.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38374,7 +38374,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||youcandrawanything.com^",
+      "urlFilter": "||yoads.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38385,7 +38385,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||youradexchange.com^",
+      "urlFilter": "||yoggrt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38396,7 +38396,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ypu.samsungelectronics.com^",
+      "urlFilter": "||youcandrawanything.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38407,7 +38407,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zangocash.com^",
+      "urlFilter": "||youradexchange.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38418,7 +38418,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zanox-affiliate.de^",
+      "urlFilter": "||ypu.samsungelectronics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38429,7 +38429,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zanox.com^",
+      "urlFilter": "||zangocash.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38440,7 +38440,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zantracker.com^",
+      "urlFilter": "||zanox-affiliate.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38451,7 +38451,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zarget.com^",
+      "urlFilter": "||zanox.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38462,7 +38462,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zdbb.net^",
+      "urlFilter": "||zantracker.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38473,7 +38473,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zedo.com^",
+      "urlFilter": "||zarget.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38484,7 +38484,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zemanta.com^",
+      "urlFilter": "||zdbb.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38495,7 +38495,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zencudo.co.uk^",
+      "urlFilter": "||zedo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38506,7 +38506,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zenkreka.com^",
+      "urlFilter": "||zemanta.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38517,7 +38517,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zenzuu.com^",
+      "urlFilter": "||zencudo.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38528,7 +38528,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zephyrlabyrinth.com^",
+      "urlFilter": "||zenkreka.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38539,7 +38539,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zeus.developershed.com^",
+      "urlFilter": "||zenzuu.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38550,7 +38550,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zeusclicks.com^",
+      "urlFilter": "||zephyrlabyrinth.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38561,7 +38561,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zeydoo.com^",
+      "urlFilter": "||zeus.developershed.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38572,7 +38572,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zion-telemetry.api.cnn.io^",
+      "urlFilter": "||zeusclicks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38583,7 +38583,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zippingcare.com^",
+      "urlFilter": "||zeydoo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38594,7 +38594,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zlp6s.pw^",
+      "urlFilter": "||zion-telemetry.api.cnn.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38605,7 +38605,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zm232.com^",
+      "urlFilter": "||zippingcare.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38616,7 +38616,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zmedia.com^",
+      "urlFilter": "||zlp6s.pw^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38627,7 +38627,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zonewedgeshaft.com^",
+      "urlFilter": "||zm232.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38638,7 +38638,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zpu.samsungelectronics.com^",
+      "urlFilter": "||zmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38649,12 +38649,34 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zqtk.net^",
+      "urlFilter": "||zonewedgeshaft.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
   {
     "id": 3515,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||zpu.samsungelectronics.com^",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3516,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||zqtk.net^",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3517,
     "priority": 1,
     "action": {
       "type": "block"

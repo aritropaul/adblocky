@@ -16,17 +16,56 @@ export default defineConfig({
       "tabs",
       "activeTab",
       "scripting",
+      "webNavigation",
     ],
     host_permissions: ["<all_urls>"],
     ...(browser === "chrome" && {
       declarative_net_request: {
         rule_resources: [
           {
-            // DOMAIN-ONLY rules — safe, won't break sites
-            // Path-based blocking is handled by the MAIN world interceptor
             id: "ruleset_domains",
             enabled: true,
             path: "rules/ruleset_domains.json",
+          },
+          {
+            id: "ruleset_easylist",
+            enabled: true,
+            path: "rules/ruleset_easylist.json",
+          },
+          {
+            id: "ruleset_easyprivacy",
+            enabled: true,
+            path: "rules/ruleset_easyprivacy.json",
+          },
+          {
+            id: "ruleset_ublock",
+            enabled: true,
+            path: "rules/ruleset_ublock.json",
+          },
+          {
+            id: "ruleset_ublock_privacy",
+            enabled: true,
+            path: "rules/ruleset_ublock_privacy.json",
+          },
+          {
+            id: "ruleset_ublock_unbreak",
+            enabled: true,
+            path: "rules/ruleset_ublock_unbreak.json",
+          },
+          {
+            id: "ruleset_peter_lowe",
+            enabled: true,
+            path: "rules/ruleset_peter_lowe.json",
+          },
+          {
+            id: "ruleset_annoyances",
+            enabled: false,
+            path: "rules/ruleset_annoyances.json",
+          },
+          {
+            id: "ruleset_streaming",
+            enabled: true,
+            path: "rules/ruleset_streaming.json",
           },
         ],
       },
