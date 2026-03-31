@@ -188,7 +188,7 @@ function createBaitElements() {
       "opacity: 0.01 !important; " +
       "pointer-events: none !important;";
     // Inner content — some detection scripts check innerHTML
-    bait.innerHTML = "&nbsp;";
+    bait.textContent = "\u00a0";
 
     (document.body || document.documentElement).appendChild(bait);
   };

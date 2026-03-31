@@ -54,6 +54,14 @@ export const DEFAULT_SETTINGS: Settings = {
   enabled: true,
   rulesets: {
     ruleset_domains: true,
+    ruleset_easylist: true,
+    ruleset_easyprivacy: true,
+    ruleset_ublock: true,
+    ruleset_ublock_privacy: true,
+    ruleset_ublock_unbreak: true,
+    ruleset_peter_lowe: true,
+    ruleset_streaming: true,
+    ruleset_annoyances: false,
   },
   allowlist: [],
   streaming: {

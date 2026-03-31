@@ -55,11 +55,11 @@ const BANNER_SELECTORS = [
   ".cc-window",
   "#didomi-popup",
   "#qc-cmp2-container",
-  '[class*="cookie-banner"]',
-  '[class*="cookie-consent"]',
-  '[class*="CookieBanner"]',
-  '[id*="cookie-banner"]',
-  '[id*="cookie-consent"]',
+  '[class*="cookie-banner"]:not(html):not(body)',
+  '[class*="cookie-consent"]:not(html):not(body)',
+  '[class*="CookieBanner"]:not(html):not(body)',
+  '[id*="cookie-banner"]:not(html):not(body)',
+  '[id*="cookie-consent"]:not(html):not(body)',
 ];
 
 /** Maximum number of retry attempts (every 2 seconds for 10 seconds = 5 retries). */

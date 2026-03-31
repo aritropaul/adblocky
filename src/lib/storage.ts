@@ -22,7 +22,15 @@ const DEFAULT_STATS: BlockStats = {
 export async function getSettings(): Promise<Settings> {
   const result = await browser.storage.local.get(SETTINGS_KEY);
   if (result[SETTINGS_KEY]) {
-    return { ...DEFAULT_SETTINGS, ...result[SETTINGS_KEY] };
+    const stored = result[SETTINGS_KEY];
+    return {
+      ...DEFAULT_SETTINGS,
+      ...stored,
+      // Deep-merge nested objects so new rulesets/streaming defaults
+      // aren't lost when stored settings only have older keys
+      rulesets: { ...DEFAULT_SETTINGS.rulesets, ...stored.rulesets },
+      streaming: { ...DEFAULT_SETTINGS.streaming, ...stored.streaming },
+    };
   }
   return DEFAULT_SETTINGS;
 }

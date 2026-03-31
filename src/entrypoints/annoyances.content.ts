@@ -116,7 +116,6 @@ export default defineContentScript({
   runAt: "document_idle",
 
   main() {
-    injectMainWorldOverrides();
     injectAnnoyanceStyles();
     autoDismissNotificationPrompts();
     observeForNewAnnoyances();
@@ -183,10 +182,16 @@ function injectMainWorldOverrides() {
 // ---------------------------------------------------------------------------
 
 function injectAnnoyanceStyles() {
+  // Broad attribute selectors like [class*="..."] can match <html> or <body>
+  // and hide the entire page. Scope them to exclude root elements.
+  const safened = ALL_ANNOYANCE_SELECTORS.map((s) =>
+    /\[(?:class|id)[*^$~|]?=/.test(s) ? `${s}:not(html):not(body)` : s,
+  );
+
   const style = document.createElement("style");
   style.id = "adb-annoyances";
   style.textContent =
-    ALL_ANNOYANCE_SELECTORS.join(",\n") +
+    safened.join(",\n") +
     " { display: none !important; visibility: hidden !important; }";
   (document.head || document.documentElement).appendChild(style);
 }

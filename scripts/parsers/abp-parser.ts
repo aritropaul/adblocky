@@ -27,6 +27,7 @@ export interface NetworkFilter {
   redirectName: string;
   isCsp: boolean;
   cspDirective: string;
+  isRemoveParam: boolean;
 }
 
 export interface CosmeticFilter {
@@ -324,6 +325,7 @@ interface ParsedOptions {
   redirectName: string;
   isCsp: boolean;
   cspDirective: string;
+  isRemoveParam: boolean;
 }
 
 function parseOptions(optionsStr: string): ParsedOptions {
@@ -339,6 +341,7 @@ function parseOptions(optionsStr: string): ParsedOptions {
     redirectName: "",
     isCsp: false,
     cspDirective: "",
+    isRemoveParam: false,
   };
 
   if (!optionsStr) return result;
@@ -372,6 +375,8 @@ function parseOptions(optionsStr: string): ParsedOptions {
     } else if (option.startsWith("csp=")) {
       result.isCsp = true;
       result.cspDirective = opt.slice("csp=".length).trim();
+    } else if (option.startsWith("removeparam") || option.startsWith("urlskip") || option === "badfilter") {
+      result.isRemoveParam = true;
     } else if (option.startsWith("~")) {
       const type = RESOURCE_TYPE_MAP[option.slice(1)];
       if (type) result.excludedResourceTypes.push(type);

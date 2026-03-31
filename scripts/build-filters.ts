@@ -59,12 +59,36 @@ async function main() {
       console.log(`  WebKit: ${webkitRules.length} rules → ${safariPath}`);
       totalWebKitRules += webkitRules.length;
 
-      // Collect cosmetic filters
+      // Collect cosmetic filters — only selectors safe for CSS display:none.
+      //
+      // We strip:
+      // 1. Scriptlets (+js, +set-cookie) — not CSS at all
+      // 2. Extended CSS (:style, :upward, :has-text, :remove, etc.) —
+      //    invalid CSS that would break the entire selector rule
+      // 3. Bare custom element selectors (e.g. "shreddit-experience-tree",
+      //    ".v2 > shreddit-async-loader") — these are structural page
+      //    components, not ads. uBlock uses them with :remove() or
+      //    scriptlets; display:none breaks page layout.
+      //    We keep custom elements that look ad-specific (contain "ad"
+      //    in the tag name, e.g. "shreddit-ad-post").
+      const EXTENDED_CSS_RE = /:(?:style|upward|has-text|matches-path|matches-css|matches-css-before|matches-css-after|min-text-length|watch-attr|xpath|nth-ancestor|remove)\(/;
+      // Matches selectors whose final target is a bare custom element
+      // (tag-with-hyphen not followed by class/id/attr qualifier).
+      // Allows custom elements containing "ad" in the name.
+      const BARE_CUSTOM_EL_RE = /(?:^|[>\s+~])(?![\w-]*ad[\w-]*-)(\w+-[\w-]+)\s*$/;
       for (const filter of parsed.cosmeticFilters) {
+        const sel = filter.selector;
+        if (sel.startsWith("+") || EXTENDED_CSS_RE.test(sel)) continue;
+        // Skip bare custom elements (structural, not ad-specific)
+        if (BARE_CUSTOM_EL_RE.test(sel)) {
+          const match = sel.match(BARE_CUSTOM_EL_RE);
+          // Allow if the tag name contains "ad" (like shreddit-ad-post)
+          if (match && !match[1].includes("-ad")) continue;
+        }
         const domains = filter.domains.length > 0 ? filter.domains : ["*"];
         for (const domain of domains) {
           if (!allCosmeticFilters[domain]) allCosmeticFilters[domain] = [];
-          allCosmeticFilters[domain].push(filter.selector);
+          allCosmeticFilters[domain].push(sel);
         }
       }
     } catch (e) {

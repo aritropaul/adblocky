@@ -54,7 +54,7 @@ export function compileToDNR(
     }
 
     // Skip filters we can't express in DNR
-    if (filter.isCsp || filter.isRedirect) continue;
+    if (filter.isCsp || filter.isRedirect || filter.isRemoveParam) continue;
 
     const rule = compileFilter(filter, ruleId);
     if (!rule) continue;
@@ -69,6 +69,17 @@ export function compileToDNR(
         continue;
       }
       regexCount++;
+    }
+
+    // Drop wildcard rules without domain scope — they block everything
+    const uf = rule.condition.urlFilter;
+    if (
+      (uf === "*" || uf === "||*" || !uf) &&
+      !rule.condition.initiatorDomains?.length &&
+      !rule.condition.requestDomains?.length &&
+      rule.action.type === "block"
+    ) {
+      continue;
     }
 
     rules.push(rule);

@@ -8,35 +8,7 @@ export default defineContentScript({
   runAt: "document_start",
 
   main() {
-    const domain = window.location.hostname;
-
-    // Inject cosmetic filter styles
-    injectCosmeticFilters(domain);
-
-    // Observe DOM for dynamically inserted ad elements
-    const observer = new MutationObserver((mutations) => {
-      for (const mutation of mutations) {
-        for (const node of mutation.addedNodes) {
-          if (node instanceof HTMLElement) {
-            hideKnownAdElements(node);
-          }
-        }
-      }
-    });
-
-    if (document.documentElement) {
-      observer.observe(document.documentElement, {
-        childList: true,
-        subtree: true,
-      });
-    } else {
-      document.addEventListener("DOMContentLoaded", () => {
-        observer.observe(document.documentElement, {
-          childList: true,
-          subtree: true,
-        });
-      });
-    }
+    injectCosmeticFilters(window.location.hostname);
   },
 });
 
@@ -68,9 +40,21 @@ async function injectCosmeticFilters(domain: string) {
 
     console.log(`%c[adblocky]%c cosmetic %c${selectors.length} rules for ${domain}`, "color:#10b981;font-weight:bold", "color:#686de0;font-weight:bold", "color:inherit");
 
+    // Filter out uBlock extended CSS syntax that isn't valid CSS — one invalid
+    // selector in a comma list invalidates the entire rule per CSS spec.
+    const EXTENDED_RE = /:(?:style|upward|has-text|matches-path|matches-css|min-text-length|watch-attr|xpath|nth-ancestor|remove)\(/;
+
+    const safened = selectors.filter(
+      (s) => !s.startsWith("+") && !EXTENDED_RE.test(s),
+    ).map((s) =>
+      // Broad attribute selectors like [class*="cookie-banner"] can match
+      // <html> or <body> and hide the entire page. Scope them out.
+      /\[(?:class|id)[*^$~|]?=/.test(s) ? `${s}:not(html):not(body)` : s,
+    );
+
     const style = document.createElement("style");
     style.id = "adb-cosmetic";
-    style.textContent = selectors.join(",\n") + " { display: none !important; }";
+    style.textContent = safened.join(",\n") + " { display: none !important; }";
 
     // Insert as early as possible
     const target = document.head || document.documentElement;
@@ -80,29 +64,3 @@ async function injectCosmeticFilters(domain: string) {
   }
 }
 
-/**
- * Check dynamically added elements against known ad patterns.
- */
-function hideKnownAdElements(root: HTMLElement) {
-  // Common ad container patterns
-  const adSelectors = [
-    '[id^="google_ads"]',
-    '[id^="div-gpt-ad"]',
-    'ins.adsbygoogle',
-    '[data-ad-slot]',
-    '[data-ad-client]',
-    ".ad-container",
-    ".ad-wrapper",
-    ".ad-banner",
-  ];
-
-  for (const selector of adSelectors) {
-    if (root.matches(selector)) {
-      root.style.display = "none";
-      return;
-    }
-    for (const el of root.querySelectorAll(selector)) {
-      (el as HTMLElement).style.display = "none";
-    }
-  }
-}
