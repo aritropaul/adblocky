@@ -74,7 +74,8 @@ export function compileToDNR(
     // Drop wildcard rules without domain scope — they block everything
     const uf = rule.condition.urlFilter;
     if (
-      (uf === "*" || uf === "||*" || !uf) &&
+      (uf === "*" || uf === "||*") &&
+      !rule.condition.regexFilter &&
       !rule.condition.initiatorDomains?.length &&
       !rule.condition.requestDomains?.length &&
       rule.action.type === "block"
