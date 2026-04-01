@@ -111409,6 +111409,10 @@
   "radios.pt": [
     ".pea_cook_wrapper"
   ],
+  "huaweicloud.com": [
+    ".pep-global-cookies",
+    ".privacy-popup"
+  ],
   "spainhouses.net": [
     ".persistentMessage"
   ],
@@ -111736,9 +111740,6 @@
   "bigolive.tv": [
     ".privacy-popup"
   ],
-  "huaweicloud.com": [
-    ".privacy-popup"
-  ],
   "apollointeractive.com": [
     ".privacy-rights"
   ],
@@ -111759,6 +111760,9 @@
   ],
   "visitstore.bio": [
     ".privacyPolicyPopupContainer__3MOs3"
+  ],
+  "sobot.io": [
+    ".privacyPolicyWrap"
   ],
   "modernatx.com": [
     ".privacy__content",
@@ -114895,6 +114899,9 @@
   "bagina.co.il": [
     "#cookie-consent-popup"
   ],
+  "coffeeman.co.il": [
+    "#cookie-consent-popup"
+  ],
   "finam.ru": [
     "#cookie-consent-popup"
   ],
@@ -114908,6 +114915,9 @@
     "#cookie-consent-popup"
   ],
   "shop-now14.co.il": [
+    "#cookie-consent-popup"
+  ],
+  "vero-cafe.co.il": [
     "#cookie-consent-popup"
   ],
   "zulacasino.com": [
@@ -120187,6 +120197,9 @@
     "#cookie-notice"
   ],
   "foodbloggermania.it": [
+    "#cookie-notice"
+  ],
+  "g-city.com": [
     "#cookie-notice"
   ],
   "gamenode.app": [
@@ -147288,6 +147301,9 @@
   "tn.up2live.online": [
     ".mw-cookie-wrapper"
   ],
+  "ksu.edu.sa": [
+    "div.fixed:has(.lucide-cookie)"
+  ],
   "kst.by": [
     "#a--bar"
   ],
@@ -149463,6 +149479,9 @@
   "xnes.co.il": [
     "#ZA_CAMP_SLIDEIN_CONTAINER"
   ],
+  "glatiul.co.il": [
+    "#acb-consent"
+  ],
   "myofer.co.il": [
     "#bottom-toasts-layer"
   ],
@@ -149674,6 +149693,9 @@
   "urbanica-wh.com": [
     ".idus_popup_widget_cookie_popup"
   ],
+  "taamal.co.il": [
+    ".ilpc-banner"
+  ],
   "ksp.co.il": [
     ".ltr-1075xo6",
     ".mui-b13abt.MuiBox-root",
@@ -149746,13 +149768,25 @@
   "dominos.co.il": [
     "[class^=\"CloseableDisclaimer_\"]"
   ],
+  "dror-tools.co.il": [
+    "[class^=\"cookiesPopup\"]"
+  ],
   "dynamica.co.il": [
+    "[class^=\"cookiesPopup\"]"
+  ],
+  "espressobar.com": [
     "[class^=\"cookiesPopup\"]"
   ],
   "kfar.co.il": [
     "[class^=\"cookiesPopup\"]"
   ],
+  "mnmltd.co.il": [
+    "[class^=\"cookiesPopup\"]"
+  ],
   "wineandmore.co.il": [
+    "[class^=\"cookiesPopup\"]"
+  ],
+  "workimhi.co.il": [
     "[class^=\"cookiesPopup\"]"
   ],
   "alljobs.co.il": [
@@ -155944,6 +155978,9 @@
   "myorbit.id": [
     "[style=\"align-items: center; background-color: rgb(237, 245, 252); padding-top: 12px; padding-bottom: 12px; -webkit-box-align: center;\"]"
   ],
+  "batdongsan.com.vn": [
+    "#dataProtectionPopupWrapper"
+  ],
   "vdes.vn": [
     ".cookieBanner_show__1E8Dj"
   ],
@@ -159547,6 +159584,9 @@
   "simpleanalytics.com": [
     ".bottom-20",
     ".left-0"
+  ],
+  "nzoilwatch.com": [
+    ".bottom-4.fixed"
   ],
   "cruxnow.com": [
     ".bottom-banner"
