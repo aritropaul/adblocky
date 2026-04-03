@@ -42943,12 +42943,16 @@
   ],
   "out.com": [
     "div[id^=\"dfp-ad-\"]",
-    ".ad_leaderboard_wrap",
     ".footer",
     ".placeholder-a-block",
     ".topbarplaceholder",
     "div[id^=\"sPost_Layout_Default_\"]:has(> .ad_leaderboard_wrap)",
-    ".newsletter-container"
+    ".jwplayer",
+    ".social-links",
+    ".newsletter-aside",
+    ".newsletter-container",
+    ".newsletter",
+    ".subscribe"
   ],
   "xdpedia.com": [
     "div[id^=\"ezoic-pub-ad-\"]"
@@ -49190,8 +49194,6 @@
   ],
   "advocate.com": [
     "#sad_wrapper_0_0_1_0_0_0_1_0_1",
-    ".ad_leaderboard_wrap",
-    ".ad_tag",
     ".adgrid",
     ".bigbox_top_ad-wrap",
     ".partners__container",
@@ -49200,14 +49202,13 @@
     "div[id^=\"sPost_Layout_Default_\"]:has(> .ad_leaderboard_wrap)",
     ".jwplayer",
     ".reader-revenue",
-    ".share-panel",
-    ".tw",
-    ".fb",
+    ".support-banner",
+    ".social-links",
     ".sticky-share",
     ".gdpr-cookie-wrapper",
-    ".magazine__banner",
     ".newsletter-aside",
     ".newsletter-overlay",
+    ".subscribe",
     ".newsletter-container",
     ".newsletter"
   ],
@@ -69339,6 +69340,7 @@
     "div[data-test^=\"ad-slot-\"]",
     "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(a[href=\"/sponsor\"])",
     "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src=\"/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5\"])",
+    "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src^=\"/i/\"])",
     "div[data-test] > section:has(a[href^=\"/r/ad/\"])",
     ".bottom-2"
   ],
@@ -78146,6 +78148,7 @@
     ".fluid_next_video_left",
     ".fluid_next_video_right",
     ".headP",
+    ".item-bnr",
     ".table"
   ],
   "some.porn": [
@@ -116078,6 +116081,9 @@
   "ilgiardinodeilibri.it": [
     "#cookie-bar",
     "#footer-nl-form"
+  ],
+  "industrycalendar.com": [
+    "#cookie-bar"
   ],
   "islambook.com": [
     "#cookie-bar",
