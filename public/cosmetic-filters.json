@@ -48369,17 +48369,6 @@
     "#mvp-main-nav-top > .mvp-main-box",
     ".menu"
   ],
-  "dailyboulder.com": [
-    "#mvp-post-bot-ad",
-    ".quads-location",
-    ".widget_text",
-    ".e-shared-sec",
-    ".footer-social-list",
-    ".highlight-shares",
-    ".social-follower",
-    ".t-shared-sec",
-    ".l-shared-sec"
-  ],
   "fileproinfo.com": [
     "#myNav"
   ],
@@ -54369,6 +54358,12 @@
     ".topWrapper",
     ".newsletter-signup"
   ],
+  "dailyboulder.com": [
+    ".ad-image-wrap",
+    ".ad-wrap",
+    ".e-shared-sec",
+    ".t-shared-sec"
+  ],
   "statnews.com": [
     ".ad-in-article",
     ".sponsored",
@@ -54735,16 +54730,16 @@
     ".container-3757608091"
   ],
   "economist.com": [
-    ".adComponent_advert__kPVUI",
-    ".advert",
-    ".css-11yt5xn",
-    ".ds-actioned-link--share"
+    ".adComponent_advert__kPVUI"
   ],
   "economictimes.indiatimes.com": [
     ".adContainer",
+    ".primeDW",
     ".stickyAd",
+    ".taboola",
     "#vplayer_vdoai",
     ".vdo_ai_can_ani",
+    ".sharePbanner",
     ".styles_homeLeftSectionBanner__8_ohA",
     "#float_app_ET"
   ],
@@ -55623,12 +55618,6 @@
     ".ads",
     ".dialog-widget-content",
     ".support-popup-section"
-  ],
-  "marinetraffic.com": [
-    ".ads",
-    ".mt-desktop-mode",
-    "#skyscraper_container_front",
-    "#topBanner"
   ],
   "mb.com.ph": [
     ".ads",
@@ -56547,6 +56536,10 @@
   ],
   "dailyfriend.co.za": [
     ".advert-leaderboard-element"
+  ],
+  "stylist.co.uk": [
+    ".advert-slot",
+    ".email-signup__container"
   ],
   "empireonline.com": [
     ".advertWrapper_billboard__npTvz",
@@ -58343,11 +58336,12 @@
   ],
   "chatelaine.com": [
     ".assmbly-ad-text",
+    ".assmbly-ad-wrapper",
+    ".css-1nfrk0o-ShareButtons",
     ".css-1uko8nb-ShareButtons",
     "#modalAnchor",
-    ".css-zk005z-NewsletterSignup",
-    ".hero-sidebar",
-    ".under-article-widget-nl"
+    ".css-167r3rs-NewsletterSignup-FeedSection",
+    ".css-1ya99ji-NewsletterSignup"
   ],
   "fashionmagazine.com": [
     ".assmbly-ad-wrapper",
@@ -59306,6 +59300,7 @@
     ".banner",
     ".footer-banner",
     ".spw__banner",
+    ".subscriptionPleaContainer-D09dM",
     ".footer__followus-text",
     ".share-box",
     ".columnSignup-z-cUZ",
@@ -64843,8 +64838,7 @@
   ],
   "inews.co.uk": [
     ".inews__advert",
-    ".inews__mpu",
-    ".widget_custom_html",
+    ".inews__leaderboard",
     ".inews__back-to-top",
     "#inews__back-to-top",
     ".inews__footer__menus__icons",
@@ -85016,10 +85010,6 @@
   "ddnews.gov.in": [
     ".pre_next"
   ],
-  "stylist.co.uk": [
-    ".promo",
-    ".css-17zlb8c"
-  ],
   "shopstyle.com": [
     ".ribbon"
   ],
@@ -85269,14 +85259,6 @@
   "learn.microsoft.com": [
     "#banner-holder"
   ],
-  "jacobin.com": [
-    "#banner-popup",
-    ".bn-at",
-    ".po-sr-sb__container",
-    "#post-footer-share",
-    "#post-header-share",
-    "#site-header-share"
-  ],
   "netzpolitik.org": [
     "#banner-small",
     ".netzpolitik-cta"
@@ -85338,10 +85320,6 @@
     "#centralNotice",
     ".banner",
     ".ext-quick-survey-panel"
-  ],
-  "calmatters.org": [
-    "#cm-event-ad-2024-d",
-    ".sharedaddy"
   ],
   "coconuts.co": [
     "#coco-plus-membership-section",
@@ -85529,21 +85507,6 @@
   ],
   "orbispatches.com": [
     "#sitetop"
-  ],
-  "spiked-online.com": [
-    "#sliding-nudge-sell",
-    "#support-banner",
-    ".sell-wrap",
-    "#sticky-sharing",
-    ".post-sharing",
-    ".social-icons"
-  ],
-  "undark.org": [
-    "#special-message",
-    ".post-article-share",
-    ".sidebar-action-share",
-    ".gform_wrapper",
-    ".newsletter-signup"
   ],
   "yalereview.org": [
     "#support-pop-up",
@@ -85928,6 +85891,13 @@
   "mljar.com": [
     ".blogsidebarimg",
     "[href=\"https://github.com/mljar/mercury\"]"
+  ],
+  "jacobin.com": [
+    ".bn-at",
+    ".po-sr-sb__container",
+    "#post-footer-share",
+    "#post-header-share",
+    "#site-header-share"
   ],
   "gofugyourself.com": [
     ".books"
@@ -86578,6 +86548,13 @@
     ".section-shortcode",
     ".share56"
   ],
+  "spiked-online.com": [
+    ".sell-wrap",
+    ".fxd-box.type-simple.nudge-sell",
+    "#sticky-sharing",
+    ".post-sharing",
+    ".social-icons"
+  ],
   "the-fence.com": [
     ".sf-header-cta-gift"
   ],
@@ -86905,11 +86882,6 @@
   "citizentribune.com": [
     ".asset-paging-container"
   ],
-  "coloradopolitics.com": [
-    ".asset-paging-container",
-    ".tnt-share-link",
-    "#tncms-block-1390809"
-  ],
   "couriernews.com": [
     ".asset-paging-container"
   ],
@@ -87101,6 +87073,10 @@
     ".latest-news",
     ".header-social-menu",
     ".social-sharing"
+  ],
+  "coloradopolitics.com": [
+    ".midtc-article-navigation",
+    ".article-social-share-icons"
   ],
   "acs.org": [
     ".motw-controls",
@@ -92651,6 +92627,10 @@
     ".share-buttons-toggler",
     ".gb-element-27df9619"
   ],
+  "cultofmac.com": [
+    ".google-preferred-source",
+    "#center-modal-popup"
+  ],
   "spaceexplored.com": [
     ".google-preferred-source-badge",
     ".google-news-link"
@@ -93088,6 +93068,12 @@
     ".popup",
     ".subscribe"
   ],
+  "undark.org": [
+    ".post-article-share",
+    ".sidebar-action-share",
+    ".gform_wrapper",
+    ".newsletter-signup"
+  ],
   "tsunagujapan.com": [
     ".post-article_sns",
     ".js-modal_wrap"
@@ -93319,6 +93305,9 @@
     ".share_item",
     ".social_icon"
   ],
+  "calmatters.org": [
+    ".sharedaddy"
+  ],
   "cardinalnews.org": [
     ".sharedaddy",
     ".newspack-popup-container"
@@ -93414,10 +93403,6 @@
   ],
   "yourdailypornmovies.ws": [
     ".soci"
-  ],
-  "getpocket.com": [
-    ".social-actions",
-    ".css-17mlbja"
   ],
   "penntoday.upenn.edu": [
     ".social-anchor-group"
@@ -153472,6 +153457,9 @@
   "oreluniver.ru": [
     ".accept"
   ],
+  "uteka.ru": [
+    ".accept-cookie-popover"
+  ],
   "gastronom.ru": [
     ".accept-cookies-popup"
   ],
@@ -158768,6 +158756,9 @@
   "bodyandsoul.com.au": [
     "#newsletter-light-registration"
   ],
+  "backyardchickens.com": [
+    "#newsletter-popup"
+  ],
   "talotekniikka-lehti.fi": [
     "#newsletter-popup"
   ],
@@ -159872,10 +159863,7 @@
     ".cs-subscribe"
   ],
   "zecar.com": [
-    ".css-1l59vvo"
-  ],
-  "scientificcoder.com": [
-    ".css-e2xo3p"
+    ".css-er318f"
   ],
   "gwr.com": [
     ".css-pfotuc",
@@ -165028,6 +165016,9 @@
   ],
   "taurususa.com": [
     ".eb-init"
+  ],
+  "tulipes.ca": [
+    ".elementor-popup-modal"
   ],
   "belk.com": [
     ".email-alert-signup"
