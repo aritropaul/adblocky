@@ -45264,6 +45264,7 @@
     "#banner-sterling",
     "#monb-sticky",
     "#retool-coding-bar",
+    "#vibe-coding-bar",
     ".nel-vertical.body",
     ".projects > .trunc-eligible",
     ".sterling",
@@ -54969,6 +54970,7 @@
     ".widget-300-250",
     ".correction",
     ".scroll_to",
+    ".google-news-preffer-button",
     ".list-inline",
     ".section-soc-icons",
     ".social_link",
@@ -60057,6 +60059,9 @@
     ".bg-ad-bg-color",
     ".bg-ad-text",
     ".wrapper-Desktop_Header"
+  ],
+  "english.mathrubhumi.com": [
+    ".bg-adBackground"
   ],
   "bgr.com": [
     ".bg-black",
@@ -71856,6 +71861,10 @@
   "bridgebase.com": [
     "[id*=\"_ad\"]"
   ],
+  "eloshapes.com": [
+    "[id^=\"ads-\"]",
+    "div[id^=\"prmos-\"]"
+  ],
   "pluggedingolf.com": [
     "[id^=\"black-studio-tinymce-\"]",
     "a[href^=\"https://edisonwedges.com/\"]",
@@ -72189,6 +72198,7 @@
     "article[data-ft*=\"\\\"ei\\\":\\\"\"]",
     "._6y8t:has(a[href=\"/ads/about/?entry_product=ad_preferences\"])",
     "div[style=\"max-width: 390px; min-width: 190px;\"]:has(a[href^=\"/ads/\"])",
+    "div[role=\"feed\"] > div:has(div[role=\"article\"] a[attributionsrc^=\"/privacy_sandbox/comet/register/source/\"])",
     "#stream_pagelet div[id^=\"hyperfeed_story_id_\"]:has(a.uiStreamSponsoredLink)",
     ".ego_section:has(a.adsCategoryTitleLink)",
     "#stream_pagelet [id^=\"hyperfeed_story_id_\"]:has(span._4dcu)",
@@ -72214,6 +72224,7 @@
     "article[data-ft*=\"\\\"ei\\\":\\\"\"]",
     "._6y8t:has(a[href=\"/ads/about/?entry_product=ad_preferences\"])",
     "div[style=\"max-width: 390px; min-width: 190px;\"]:has(a[href^=\"/ads/\"])",
+    "div[role=\"feed\"] > div:has(div[role=\"article\"] a[attributionsrc^=\"/privacy_sandbox/comet/register/source/\"])",
     "#stream_pagelet div[id^=\"hyperfeed_story_id_\"]:has(a.uiStreamSponsoredLink)",
     ".ego_section:has(a.adsCategoryTitleLink)",
     "#stream_pagelet [id^=\"hyperfeed_story_id_\"]:has(span._4dcu)",
@@ -73087,9 +73098,6 @@
   ],
   "pretoriafm.co.za": [
     "div[id^=\"preto-\"]"
-  ],
-  "eloshapes.com": [
-    "div[id^=\"prmos-\"]"
   ],
   "howtogeek.com": [
     "div[id^=\"purch_\"]",
@@ -92631,6 +92639,10 @@
     ".google-preferred-source",
     "#center-modal-popup"
   ],
+  "mathrubhumi.com": [
+    ".google-preferred-source-badge",
+    ".piano-newsletter-article"
+  ],
   "spaceexplored.com": [
     ".google-preferred-source-badge",
     ".google-news-link"
@@ -95926,6 +95938,13 @@
     ".social",
     ".share",
     ".newsletter"
+  ],
+  "ppc.land": [
+    ".social",
+    ".kg-cta-card",
+    ".kg-signup-card",
+    ".sidebar-newsletter-container",
+    ".subscribe-button"
   ],
   "primainfanzia.it": [
     ".social",
@@ -128467,6 +128486,9 @@
   "prvahisa.si": [
     "#_iCD"
   ],
+  "si-trust.gov.si": [
+    "#_iCD"
+  ],
   "terme-krka.com": [
     "#_iCD"
   ],
@@ -130374,7 +130396,8 @@
   ],
   "remarkable.com": [
     ".bottom-0.fixed",
-    "[data-cy=\"cookie-banner\"]"
+    "[data-cy=\"cookie-banner\"]",
+    "#section-4"
   ],
   "runmercury.com": [
     ".bottom-0.fixed"
@@ -130642,6 +130665,9 @@
     ".e85akae0"
   ],
   "remnote.com": [
+    ".bottom-4"
+  ],
+  "sllm.cloud": [
     ".bottom-4"
   ],
   "snead.app": [
@@ -154328,6 +154354,9 @@
   "sportmk.ru": [
     "[style^=\"position: fixed; left: 50%; bottom:\"]"
   ],
+  "reshuent.ru": [
+    "[style^=\"text-align: left; position: fixed;\"]"
+  ],
   "sdamgia.ru": [
     "[style^=\"text-align: left; position: fixed;\"]"
   ],
@@ -160631,10 +160660,6 @@
   "christinacooks.com": [
     ".kadence-conversion-wrap"
   ],
-  "ppc.land": [
-    ".kg-cta-card",
-    ".kg-signup-card"
-  ],
   "the-londoner.co.uk": [
     ".kg-cta-content",
     ".kg-signup-card-content"
@@ -161090,9 +161115,6 @@
   ],
   "paydaythegame.com": [
     ".pdtgfooternewsletter"
-  ],
-  "mathrubhumi.com": [
-    ".piano-newsletter-article"
   ],
   "massispost.com": [
     ".pk-subscribe-container"
