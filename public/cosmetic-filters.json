@@ -72198,7 +72198,6 @@
     "article[data-ft*=\"\\\"ei\\\":\\\"\"]",
     "._6y8t:has(a[href=\"/ads/about/?entry_product=ad_preferences\"])",
     "div[style=\"max-width: 390px; min-width: 190px;\"]:has(a[href^=\"/ads/\"])",
-    "div[role=\"feed\"] > div:has(div[role=\"article\"] a[attributionsrc^=\"/privacy_sandbox/comet/register/source/\"])",
     "#stream_pagelet div[id^=\"hyperfeed_story_id_\"]:has(a.uiStreamSponsoredLink)",
     ".ego_section:has(a.adsCategoryTitleLink)",
     "#stream_pagelet [id^=\"hyperfeed_story_id_\"]:has(span._4dcu)",
@@ -72224,7 +72223,6 @@
     "article[data-ft*=\"\\\"ei\\\":\\\"\"]",
     "._6y8t:has(a[href=\"/ads/about/?entry_product=ad_preferences\"])",
     "div[style=\"max-width: 390px; min-width: 190px;\"]:has(a[href^=\"/ads/\"])",
-    "div[role=\"feed\"] > div:has(div[role=\"article\"] a[attributionsrc^=\"/privacy_sandbox/comet/register/source/\"])",
     "#stream_pagelet div[id^=\"hyperfeed_story_id_\"]:has(a.uiStreamSponsoredLink)",
     ".ego_section:has(a.adsCategoryTitleLink)",
     "#stream_pagelet [id^=\"hyperfeed_story_id_\"]:has(span._4dcu)",
@@ -106572,6 +106570,9 @@
   ],
   "rehva.eu": [
     "#wb-cookie-policy"
+  ],
+  "wealthfront.com": [
+    "#wcm-container"
   ],
   "waterdropfilter.com": [
     "#wd-cookie-consent-popup"

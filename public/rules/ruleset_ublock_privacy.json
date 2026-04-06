@@ -13256,5 +13256,27 @@
       "isUrlFilterCaseSensitive": false,
       "domainType": "thirdParty"
     }
+  },
+  {
+    "id": 1042,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||static.qiota.com/assets/getQiota.js",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 1043,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||static-rmr.reworldmediafactory.com^",
+      "isUrlFilterCaseSensitive": false
+    }
   }
 ]
