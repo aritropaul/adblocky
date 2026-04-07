@@ -6396,7 +6396,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".washingtonpost.com/q/",
+      "urlFilter": "/traveloka.com/o?id=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6410,7 +6410,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".washingtonpost.com%2Fq%2F*",
+      "urlFilter": ".washingtonpost.com/q/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6424,7 +6424,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/hello.heroku.com/r/*/open/*",
+      "urlFilter": ".washingtonpost.com%2Fq%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6438,7 +6438,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fhello.heroku.com%2Fr%2F*%2Fopen%2F*",
+      "urlFilter": "/hello.heroku.com/r/*/open/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6452,7 +6452,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/github.com/notifications/beacon/*",
+      "urlFilter": "*%2Fhello.heroku.com%2Fr%2F*%2Fopen%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6466,7 +6466,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fgithub.com%2Fnotifications%2Fbeacon%2F*",
+      "urlFilter": "/github.com/notifications/beacon/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6480,7 +6480,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flinks.mail.vistaprint.com%2Fs%2F*",
+      "urlFilter": "*%2Fgithub.com%2Fnotifications%2Fbeacon%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6494,7 +6494,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/api.controld.com/pixel/*",
+      "urlFilter": "*%2Flinks.mail.vistaprint.com%2Fs%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6508,7 +6508,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fapi.controld.com%2Fpixel%2F*",
+      "urlFilter": "/api.controld.com/pixel/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6522,7 +6522,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".ondemandmsg.sbs.com.au/r/",
+      "urlFilter": "*%2Fapi.controld.com%2Fpixel%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6536,7 +6536,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".ondemandmsg.sbs.com.au%2Fr%2F*",
+      "urlFilter": ".ondemandmsg.sbs.com.au/r/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6550,7 +6550,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/delivery.lootup.me/*?id=",
+      "urlFilter": ".ondemandmsg.sbs.com.au%2Fr%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6564,7 +6564,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fdelivery.lootup.me%2F*%3Fid%3D*",
+      "urlFilter": "/delivery.lootup.me/*?id=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6578,7 +6578,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.ac.pandora.com/*",
+      "urlFilter": "*%2Fdelivery.lootup.me%2F*%3Fid%3D*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6592,7 +6592,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ft.ac.pandora.com%2F*",
+      "urlFilter": "/t.ac.pandora.com/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6606,7 +6606,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/netmail01gm.gmarket.co.kr/*",
+      "urlFilter": "*%2Ft.ac.pandora.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6620,7 +6620,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fnetmail01gm.gmarket.co.kr%2F*",
+      "urlFilter": "/netmail01gm.gmarket.co.kr/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6634,7 +6634,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.chegg.com/q/*",
+      "urlFilter": "*%2Fnetmail01gm.gmarket.co.kr%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6648,7 +6648,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flinks.chegg.com%2Fq%2F*",
+      "urlFilter": "/links.chegg.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6662,7 +6662,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.em.chegg.com/r/?",
+      "urlFilter": "*%2Flinks.chegg.com%2Fq%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6676,7 +6676,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/em.rumble.com/t/*",
+      "urlFilter": "/t.em.chegg.com/r/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6690,7 +6690,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fem.rumble.com%2Ft%2F*",
+      "urlFilter": "/em.rumble.com/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6704,7 +6704,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/r.news.zbigz.com/tr/*",
+      "urlFilter": "*%2Fem.rumble.com%2Ft%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6718,7 +6718,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fr.news.zbigz.com%2Ftr%2F",
+      "urlFilter": "/r.news.zbigz.com/tr/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6732,7 +6732,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/static-hello.bitdefender.com/mo/*.gif",
+      "urlFilter": "*%2Fr.news.zbigz.com%2Ftr%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6746,7 +6746,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fstatic-hello.bitdefender.com%2Fmo%2F*.gif*",
+      "urlFilter": "/static-hello.bitdefender.com/mo/*.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6760,7 +6760,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mkt.kultivi.com/email/*",
+      "urlFilter": "*%2Fstatic-hello.bitdefender.com%2Fmo%2F*.gif*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6774,7 +6774,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmkt.kultivi.com%2Femail%2F",
+      "urlFilter": "/mkt.kultivi.com/email/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6788,7 +6788,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mailredir.raindrop.io/q/*",
+      "urlFilter": "*%2Fmkt.kultivi.com%2Femail%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6802,7 +6802,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmailredir.raindrop.io%2Fq%2F",
+      "urlFilter": "/mailredir.raindrop.io/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6816,7 +6816,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/epl.paypal-communication.com/O/*",
+      "urlFilter": "*%2Fmailredir.raindrop.io%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6830,7 +6830,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fepl.paypal-communication.com%2FO%2F",
+      "urlFilter": "/epl.paypal-communication.com/O/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6844,7 +6844,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail.aquasoft.de/wm/ostat.php?",
+      "urlFilter": "*%2Fepl.paypal-communication.com%2FO%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6858,7 +6858,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmail.aquasoft.de%2Fwm%2Fostat.php%3F*",
+      "urlFilter": "/mail.aquasoft.de/wm/ostat.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6872,7 +6872,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sendy.clyp.it/t/*",
+      "urlFilter": "*%2Fmail.aquasoft.de%2Fwm%2Fostat.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6886,7 +6886,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fsendy.clyp.it%2Ft%2F",
+      "urlFilter": "/sendy.clyp.it/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6900,7 +6900,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".buyandship.com.sg/opn/",
+      "urlFilter": "*%2Fsendy.clyp.it%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6914,7 +6914,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".buyandship.com.sg%2Fopn%2F",
+      "urlFilter": ".buyandship.com.sg/opn/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6928,7 +6928,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".convertkit-mail.com/o/",
+      "urlFilter": ".buyandship.com.sg%2Fopn%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6942,7 +6942,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".convertkit-mail.com%2Fo%2F",
+      "urlFilter": ".convertkit-mail.com/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6956,7 +6956,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/open.convertkit-mail2.com/*",
+      "urlFilter": ".convertkit-mail.com%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6970,7 +6970,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fopen.convertkit-mail2.com%2F*",
+      "urlFilter": "/open.convertkit-mail2.com/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6984,7 +6984,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/qs.topuniversities.com/e2t/o/*",
+      "urlFilter": "*%2Fopen.convertkit-mail2.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -6998,7 +6998,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.news.dufry-communication.com/r/*",
+      "urlFilter": ".topuniversities.com/e2t/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7012,7 +7012,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sptrack.mailer.humblebundle.com/q/*",
+      "urlFilter": ".topuniversities.com/e2t/to/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7026,7 +7026,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/hub.outsideinc.com/e3t/Cto/*",
+      "urlFilter": "/t.news.dufry-communication.com/r/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7040,7 +7040,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.send.sodapdf.com/o/*",
+      "urlFilter": "/sptrack.mailer.humblebundle.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7054,7 +7054,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flinks.send.sodapdf.com%2Fo%2F",
+      "urlFilter": "/hub.outsideinc.com/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7068,7 +7068,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/em.soda-pdf.com/db/*",
+      "urlFilter": "/links.send.sodapdf.com/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7082,7 +7082,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fem.soda-pdf.com%2Fdb%2F",
+      "urlFilter": "*%2Flinks.send.sodapdf.com%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7096,7 +7096,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.datacamp.com/e/o/*",
+      "urlFilter": "/em.soda-pdf.com/db/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7110,7 +7110,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/newsletter.franzis.de/mo/*",
+      "urlFilter": "*%2Fem.soda-pdf.com%2Fdb%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7124,7 +7124,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.adobe.com/r/",
+      "urlFilter": "/links.datacamp.com/e/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7138,7 +7138,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.adobe.com%2Fr%2F",
+      "urlFilter": "/newsletter.franzis.de/mo/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7152,7 +7152,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".dropbox.com/l/",
+      "urlFilter": ".mail.adobe.com/r/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7166,7 +7166,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".dropbox.com%2Fl%2F",
+      "urlFilter": ".mail.adobe.com%2Fr%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7180,7 +7180,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.dropbox.com/e/eo?",
+      "urlFilter": ".dropbox.com/l/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7194,7 +7194,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/APPLE_EMAIL_LINK/*",
+      "urlFilter": ".dropbox.com%2Fl%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7208,7 +7208,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2FAPPLE_EMAIL_LINK%2F",
+      "urlFilter": "/links.dropbox.com/e/eo?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7222,7 +7222,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".google.com/appserve/mkt/img/",
+      "urlFilter": "/APPLE_EMAIL_LINK/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7236,7 +7236,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".google.com%2Fappserve%2Fmkt%2Fimg%2F",
+      "urlFilter": "*%2FAPPLE_EMAIL_LINK%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7250,7 +7250,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/marketing.hsc.com.vn/t/*",
+      "urlFilter": ".google.com/appserve/mkt/img/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7264,7 +7264,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmarketing.hsc.com.vn%2Ft%2F",
+      "urlFilter": ".google.com%2Fappserve%2Fmkt%2Fimg%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7278,7 +7278,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".twoo.com/mailimage/",
+      "urlFilter": "/marketing.hsc.com.vn/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7292,7 +7292,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".twoo.com%2Fmailimage%2F",
+      "urlFilter": "*%2Fmarketing.hsc.com.vn%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7306,7 +7306,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/go.magoosh.com/e1t/o/*",
+      "urlFilter": ".twoo.com/mailimage/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7320,7 +7320,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/tracking.g5e.com/t/*",
+      "urlFilter": ".twoo.com%2Fmailimage%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7334,7 +7334,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftracking.g5e.com%2Ft%2F",
+      "urlFilter": "/go.magoosh.com/e1t/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7348,7 +7348,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/hub.backblaze.com/e3t/Cto/*",
+      "urlFilter": "/tracking.g5e.com/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7362,7 +7362,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.dailycaller.co/s/eo/*",
+      "urlFilter": "*%2Ftracking.g5e.com%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7376,7 +7376,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/e.emails.ugg.com/o/p/*",
+      "urlFilter": "/hub.backblaze.com/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7390,7 +7390,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mg.updates.ugg.com/o/*",
+      "urlFilter": "/links.dailycaller.co/s/eo/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7404,7 +7404,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmg.updates.ugg.com%2Fo%2F",
+      "urlFilter": "/e.emails.ugg.com/o/p/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7418,7 +7418,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/tilda.link/tb/*",
+      "urlFilter": "/mg.updates.ugg.com/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7432,7 +7432,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftilda.link%2Ftb%2F",
+      "urlFilter": "*%2Fmg.updates.ugg.com%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7446,7 +7446,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/trac.visme.co/mail/open/*",
+      "urlFilter": "/tilda.link/tb/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7460,7 +7460,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/tr.membres.boursorama.info/hit/*",
+      "urlFilter": "*%2Ftilda.link%2Ftb%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7474,7 +7474,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftr.membres.boursorama.info%2Fhit%2F",
+      "urlFilter": "/trac.visme.co/mail/open/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7488,7 +7488,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/cio-link.gumlet.com/e/o/*",
+      "urlFilter": "/tr.membres.boursorama.info/hit/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7502,7 +7502,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/facebook.com/aymt/aa/?",
+      "urlFilter": "*%2Ftr.membres.boursorama.info%2Fhit%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7516,7 +7516,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/comms.yahoo.net/O/*",
+      "urlFilter": "/cio-link.gumlet.com/e/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7530,7 +7530,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fcomms.yahoo.net%2FO%2F",
+      "urlFilter": "/facebook.com/aymt/aa/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7544,7 +7544,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".communications.yahoo.com/t/*",
+      "urlFilter": "/comms.yahoo.net/O/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7558,7 +7558,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".communications.yahoo.com%2Ft%2F",
+      "urlFilter": "*%2Fcomms.yahoo.net%2FO%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7572,7 +7572,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".comms.yahoo.net/O/",
+      "urlFilter": ".communications.yahoo.com/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7586,7 +7586,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".comms.yahoo.net%2FO%2F",
+      "urlFilter": ".communications.yahoo.com%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7600,7 +7600,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".tes.com/et/email?",
+      "urlFilter": ".comms.yahoo.net/O/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7614,7 +7614,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mclick.udacity.com/track?",
+      "urlFilter": ".comms.yahoo.net%2FO%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7628,7 +7628,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/communications.netlify.com/e3t/Cto/*",
+      "urlFilter": ".tes.com/et/email?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7642,7 +7642,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.e.nine.com.au/r/*",
+      "urlFilter": "/mclick.udacity.com/track?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7656,7 +7656,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ft.e.nine.com.au%2Fr%2F",
+      "urlFilter": "/communications.netlify.com/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7670,7 +7670,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/preferences.blackbull.com/r/*/open/*",
+      "urlFilter": "/t.e.nine.com.au/r/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7684,7 +7684,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpreferences.blackbull.com%2Fr%2F*%2Fopen%2F",
+      "urlFilter": "*%2Ft.e.nine.com.au%2Fr%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7698,7 +7698,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.odysee.com/o/",
+      "urlFilter": "/preferences.blackbull.com/r/*/open/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7712,7 +7712,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.odysee.com%2Fo%2F",
+      "urlFilter": "*%2Fpreferences.blackbull.com%2Fr%2F*%2Fopen%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7726,7 +7726,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.marketing.go-jek.com/o/*",
+      "urlFilter": ".mail.odysee.com/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7740,7 +7740,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/wl.spotify.com/ss/o/*.gif",
+      "urlFilter": ".mail.odysee.com%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7754,7 +7754,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fwl.spotify.com%2Fss%2Fo%2F*.gif",
+      "urlFilter": "/email.marketing.go-jek.com/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7768,7 +7768,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/spade.twitch.tv/track?data=",
+      "urlFilter": "/wl.spotify.com/ss/o/*.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7782,7 +7782,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".digital-eliteboard.com/b/image.gif?",
+      "urlFilter": "*%2Fwl.spotify.com%2Fss%2Fo%2F*.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7796,7 +7796,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".digital-eliteboard.com%2Fb%2Fimage.gif%3F*",
+      "urlFilter": "/spade.twitch.tv/track?data=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7810,7 +7810,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail.turing.com/api/analytics/open/*",
+      "urlFilter": ".digital-eliteboard.com/b/image.gif?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7824,7 +7824,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/r.news.zbigz.com/mk/op/*",
+      "urlFilter": ".digital-eliteboard.com%2Fb%2Fimage.gif%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7838,7 +7838,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links1.pawns.app/q/*",
+      "urlFilter": "/mail.turing.com/api/analytics/open/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7852,7 +7852,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/post.franzis.de/open.html?",
+      "urlFilter": "/r.news.zbigz.com/mk/op/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7866,7 +7866,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".franzis.de/counter/gif.php?",
+      "urlFilter": "/links1.pawns.app/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7880,7 +7880,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mt.artstation.com/links/*",
+      "urlFilter": "/post.franzis.de/open.html?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7894,7 +7894,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmt.artstation.com%2Flinks%2F",
+      "urlFilter": ".franzis.de/counter/gif.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7908,7 +7908,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sp.hotjar.com/q/*",
+      "urlFilter": "/mt.artstation.com/links/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7922,7 +7922,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fsp.hotjar.com%2Fq%2F",
+      "urlFilter": "*%2Fmt.artstation.com%2Flinks%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7936,7 +7936,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.flickr.com/e/eo?",
+      "urlFilter": "/sp.hotjar.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7950,7 +7950,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.nl.francetv.fr/r/*",
+      "urlFilter": "*%2Fsp.hotjar.com%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7964,7 +7964,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ft.nl.francetv.fr%2Fr%2F",
+      "urlFilter": "/links.flickr.com/e/eo?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7978,7 +7978,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/listmonk.ygoprodeck.com/campaign/*/px.png",
+      "urlFilter": "/t.nl.francetv.fr/r/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -7992,7 +7992,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/hs.deepl.com/e3t/Cto/*",
+      "urlFilter": "*%2Ft.nl.francetv.fr%2Fr%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8006,7 +8006,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/click.mailchimp.com/track/open.php?",
+      "urlFilter": "/listmonk.ygoprodeck.com/campaign/*/px.png",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8020,7 +8020,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/discord.com/api/science/*.gif?",
+      "urlFilter": "/hs.deepl.com/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8034,7 +8034,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fdiscord.com%2Fapi%2Fscience%2F*.gif%3F*",
+      "urlFilter": "/click.mailchimp.com/track/open.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8048,7 +8048,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/emailanalytics.wetransfer.com/ea/*",
+      "urlFilter": "/discord.com/api/science/*.gif?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8062,7 +8062,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.wetransfer.com/e/eo?",
+      "urlFilter": "*%2Fdiscord.com%2Fapi%2Fscience%2F*.gif%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8076,7 +8076,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sparkpost.wetransfer.com/q/*",
+      "urlFilter": "/emailanalytics.wetransfer.com/ea/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8090,7 +8090,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".youtube.com/attribution_link?",
+      "urlFilter": "/links.wetransfer.com/e/eo?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8104,7 +8104,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".helpscout.net/notification/convo/read/",
+      "urlFilter": "/sparkpost.wetransfer.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8118,7 +8118,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail.rapidapi.com/e/o/*",
+      "urlFilter": ".youtube.com/attribution_link?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8132,7 +8132,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sparkpost.*/q/*",
+      "urlFilter": ".helpscout.net/notification/convo/read/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8146,7 +8146,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fsparkpost.*%2Fq%2F",
+      "urlFilter": "/mail.rapidapi.com/e/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8160,7 +8160,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".sparkpostmail2.com/q/",
+      "urlFilter": "/sparkpost.*/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8174,7 +8174,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".sparkpostmail2.com%2Fq%2F",
+      "urlFilter": "*%2Fsparkpost.*%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8188,7 +8188,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/enjoy.eset.com/pub/as?",
+      "urlFilter": ".sparkpostmail2.com/q/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8202,7 +8202,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.unsplash.com/o/*",
+      "urlFilter": ".sparkpostmail2.com%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8216,7 +8216,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.start.me/o/*",
+      "urlFilter": "/enjoy.eset.com/pub/as?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8230,7 +8230,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/emails.instapaper.com/CI0/*",
+      "urlFilter": "/email.unsplash.com/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8244,7 +8244,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".inoreader.com/newsletter/p/?",
+      "urlFilter": "/email.start.me/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8258,7 +8258,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mailer.hostinger.io/o/*",
+      "urlFilter": "/emails.instapaper.com/CI0/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8272,7 +8272,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".softorbits.com/sendy/t/",
+      "urlFilter": ".inoreader.com/newsletter/p/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8286,7 +8286,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/store.steampowered.com/emi/*.gif",
+      "urlFilter": "/mailer.hostinger.io/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8300,7 +8300,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fstore.steampowered.com%2Femi%2F*.gif*",
+      "urlFilter": ".softorbits.com/sendy/t/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8314,7 +8314,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.mkt.deviantart.com/o/*",
+      "urlFilter": "/store.steampowered.com/emi/*.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8328,7 +8328,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/newsletters.cbc.ca/t/*",
+      "urlFilter": "*%2Fstore.steampowered.com%2Femi%2F*.gif*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8342,7 +8342,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/link.surfline.com/q/*",
+      "urlFilter": "/email.mkt.deviantart.com/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8356,7 +8356,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/clicks.anghami.com/q/*",
+      "urlFilter": "/newsletters.cbc.ca/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8370,7 +8370,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "static.adsugar.ch/img?ord=",
+      "urlFilter": "/link.surfline.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8384,7 +8384,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "static.adsugar.ch%2Fimg%3Ford%3D*",
+      "urlFilter": "/clicks.anghami.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8398,7 +8398,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "ecmweb.com/images/shim.png",
+      "urlFilter": ".hippovideo.co/gtrack?clientid=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8412,7 +8412,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "ecmweb.com%2Fimages%2Fshim.png",
+      "urlFilter": "static.adsugar.ch/img?ord=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8426,7 +8426,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "newsletter.adnz.co/",
+      "urlFilter": "static.adsugar.ch%2Fimg%3Ford%3D*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8440,7 +8440,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "newsletter.adnz.co%2F*",
+      "urlFilter": "ecmweb.com/images/shim.png",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8454,7 +8454,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/campaign/*/px.png",
+      "urlFilter": "ecmweb.com%2Fimages%2Fshim.png",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8468,7 +8468,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fcampaign%2F*%2Fpx.png*",
+      "urlFilter": "newsletter.adnz.co/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8482,7 +8482,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/endeavor.omeclk.com/portal/wts/*.gif",
+      "urlFilter": "newsletter.adnz.co%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8496,7 +8496,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fendeavor.omeclk.com%2Fportal%2Fwts%2F%2A.gif",
+      "urlFilter": "/campaign/*/px.png",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8510,7 +8510,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/post.spmailtechnolo.com/q/*",
+      "urlFilter": "*%2Fcampaign%2F*%2Fpx.png*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8524,7 +8524,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpost.spmailtechnolo.com%2Fq%2F*",
+      "urlFilter": "/endeavor.omeclk.com/portal/wts/*.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8538,7 +8538,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/e3t/Cto/*",
+      "urlFilter": "*%2Fendeavor.omeclk.com%2Fportal%2Fwts%2F%2A.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8552,7 +8552,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fe3t%2FCto%2F*",
+      "urlFilter": "/post.spmailtechnolo.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8566,7 +8566,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/s/eo/*",
+      "urlFilter": "*%2Fpost.spmailtechnolo.com%2Fq%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8580,7 +8580,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fs%2Feo%2F*",
+      "urlFilter": "/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8594,7 +8594,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links1.*/q/*",
+      "urlFilter": "*%2Fe3t%2FCto%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8608,7 +8608,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flinks1*%2Fq%2F*",
+      "urlFilter": "/s/eo/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8622,7 +8622,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".sendpul.se:*/image/ui/",
+      "urlFilter": "*%2Fs%2Feo%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8636,7 +8636,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".sendpul.se%3A*%2Fimage%2Fui%2F*",
+      "urlFilter": "/links1.*/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8650,7 +8650,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/click.mlflow.com/*",
+      "urlFilter": "*%2Flinks1*%2Fq%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8664,7 +8664,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fclick.mlflow.com%2F*",
+      "urlFilter": ".sendpul.se:*/image/ui/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8678,7 +8678,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/link/o/*",
+      "urlFilter": ".sendpul.se%3A*%2Fimage%2Fui%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8692,7 +8692,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flink%2Fo%2F*",
+      "urlFilter": "/click.mlflow.com/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8706,7 +8706,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/r.*/tr/op/*",
+      "urlFilter": "*%2Fclick.mlflow.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8720,7 +8720,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fr.*%2Ftr%2Fop%2F*",
+      "urlFilter": "/link/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8734,7 +8734,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email-interact-v2/view/*",
+      "urlFilter": "*%2Flink%2Fo%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8748,7 +8748,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail-interact-v2%2Fview%2F*",
+      "urlFilter": "/r.*/tr/op/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8762,7 +8762,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fe%2Fo%2F*",
+      "urlFilter": "*%2Fr.*%2Ftr%2Fop%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8776,7 +8776,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/track/open.php?",
+      "urlFilter": "/email-interact-v2/view/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8790,7 +8790,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrack%2Fopen.php%3F*",
+      "urlFilter": "*%2Femail-interact-v2%2Fview%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8804,7 +8804,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "?eID=pixel&",
+      "urlFilter": "*%2Fe%2Fo%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8818,7 +8818,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%3FeID%3Dpixel%26*",
+      "urlFilter": "/track/open.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8832,7 +8832,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/track/opens/*",
+      "urlFilter": "*%2Ftrack%2Fopen.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8846,7 +8846,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrack%2Fopens%2F*",
+      "urlFilter": "?eID=pixel&",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8860,7 +8860,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email/tracking.gif?",
+      "urlFilter": "*%3FeID%3Dpixel%26*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8874,7 +8874,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail%2Ftracking.gif%3F*",
+      "urlFilter": "/track/opens/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8888,7 +8888,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".maillist-manage.net/click/",
+      "urlFilter": "*%2Ftrack%2Fopens%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8902,7 +8902,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".maillist-manage.net%2Fclick%2F*",
+      "urlFilter": "/email/tracking.gif?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8916,7 +8916,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/click.*/j/*",
+      "urlFilter": "*%2Femail%2Ftracking.gif%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8930,7 +8930,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fclick.email.*%2Fj%2F",
+      "urlFilter": ".maillist-manage.net/click/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8944,7 +8944,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sp.*/q/*",
+      "urlFilter": ".maillist-manage.net%2Fclick%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8958,7 +8958,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.*/r/*",
+      "urlFilter": "/click.*/j/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8972,7 +8972,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/track-opening/*",
+      "urlFilter": "*%2Fclick.email.*%2Fj%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -8986,7 +8986,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrack-opening%2F*",
+      "urlFilter": "/sp.*/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9000,7 +9000,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/open.php?",
+      "urlFilter": "/t.*/r/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9014,7 +9014,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fopen.php%3F*",
+      "urlFilter": "/track-opening/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9028,7 +9028,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/em.*/t/*",
+      "urlFilter": "*%2Ftrack-opening%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9042,7 +9042,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/one-alnk.com/*",
+      "urlFilter": "/open.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9056,7 +9056,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fone-alnk.com%2F*",
+      "urlFilter": "*%2Fopen.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9070,7 +9070,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail_tracking.php?",
+      "urlFilter": "/em.*/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9084,7 +9084,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmail_tracking.php%3F*",
+      "urlFilter": "/one-alnk.com/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9098,7 +9098,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email-analytics.*/q/*",
+      "urlFilter": "*%2Fone-alnk.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9112,7 +9112,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail-analytics.*%2Fq%2F",
+      "urlFilter": "/mail_tracking.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9126,7 +9126,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/tracking.*/beacon",
+      "urlFilter": "*%2Fmail_tracking.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9140,7 +9140,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftracking.*%2Fbeacon",
+      "urlFilter": "/email-analytics.*/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9154,7 +9154,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".k-trk.com/",
+      "urlFilter": "*%2Femail-analytics.*%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9168,7 +9168,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".k-trk.com%2F*",
+      "urlFilter": "/tracking.*/beacon",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9182,7 +9182,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/c.*/CI0/*",
+      "urlFilter": "*%2Ftracking.*%2Fbeacon",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9196,7 +9196,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/emails.*/CI0/*",
+      "urlFilter": ".k-trk.com/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9210,7 +9210,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femails.*%2FCI0%2F",
+      "urlFilter": ".k-trk.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9224,7 +9224,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".netline.com/ltr1/",
+      "urlFilter": "/c.*/CI0/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9238,7 +9238,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".netline.com%2Fltr1%2F",
+      "urlFilter": "/emails.*/CI0/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9252,7 +9252,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail.*/ostat.php?",
+      "urlFilter": "*%2Femails.*%2FCI0%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9266,7 +9266,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmail.*%2Fostat.php%3F*",
+      "urlFilter": ".netline.com/ltr1/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9280,7 +9280,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.*/opn/*",
+      "urlFilter": ".netline.com%2Fltr1%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9294,7 +9294,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/ae.edm.edm_open?",
+      "urlFilter": "/mail.*/ostat.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9308,7 +9308,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fae.edm.edm_open%3F",
+      "urlFilter": "*%2Fmail.*%2Fostat.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9322,7 +9322,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/gm.mmstat.com/*",
+      "urlFilter": "/email.*/opn/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9336,7 +9336,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fgm.mmstat.com%2F*",
+      "urlFilter": "/ae.edm.edm_open?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9350,7 +9350,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/MessageTrackLog.aspx?",
+      "urlFilter": "*%2Fae.edm.edm_open%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9364,7 +9364,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2FMessageTrackLog.aspx%3F",
+      "urlFilter": "/gm.mmstat.com/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9378,7 +9378,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/e2t/o/*",
+      "urlFilter": "*%2Fgm.mmstat.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9392,7 +9392,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fe2t%2Fo%2F",
+      "urlFilter": "/MessageTrackLog.aspx?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9406,7 +9406,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/tr/impression?",
+      "urlFilter": "*%2FMessageTrackLog.aspx%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9420,7 +9420,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftr%2Fimpression%3F",
+      "urlFilter": "/e2t/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9434,7 +9434,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".tracker.bannerflow.com/api/tr/impression?",
+      "urlFilter": "*%2Fe2t%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9448,7 +9448,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".rs6.net/on.jsp?",
+      "urlFilter": "/e2t/to/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9462,7 +9462,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".rs6.net%2Fon.jsp%3F*",
+      "urlFilter": "*%2Fe2t%2Fto%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9476,7 +9476,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sptrack.mailer.*/q/*",
+      "urlFilter": "/tr/impression?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9490,7 +9490,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fsptrack.mailer.*%2Fq%2F",
+      "urlFilter": "*%2Ftr%2Fimpression%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9504,7 +9504,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fo%2Fp%2F",
+      "urlFilter": ".tracker.bannerflow.com/api/tr/impression?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9518,7 +9518,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/e.mailer.*/o/p/*",
+      "urlFilter": ".rs6.net/on.jsp?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9532,7 +9532,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fe.mailer.*%2Fo%2Fp%2F",
+      "urlFilter": ".rs6.net%2Fon.jsp%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9546,7 +9546,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/pixel.jpg?campaign_id=",
+      "urlFilter": "/sptrack.mailer.*/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9560,7 +9560,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpixel.jpg%3Fcampaign_id%3D*",
+      "urlFilter": "*%2Fsptrack.mailer.*%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9574,7 +9574,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/link-mf.*/CI0/*",
+      "urlFilter": "*%2Fo%2Fp%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9588,7 +9588,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flink-mf.*%2FCI0%2F",
+      "urlFilter": "/e.mailer.*/o/p/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9602,7 +9602,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/list-manage.*/open?",
+      "urlFilter": "*%2Fe.mailer.*%2Fo%2Fp%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9616,7 +9616,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flist-manage.*%2Fopen%3F",
+      "urlFilter": "/pixel.jpg?campaign_id=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9630,7 +9630,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/trackopen?",
+      "urlFilter": "*%2Fpixel.jpg%3Fcampaign_id%3D*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9644,7 +9644,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrackopen%3F",
+      "urlFilter": "/link-mf.*/CI0/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9658,7 +9658,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.*/e/o/ey*==^",
+      "urlFilter": "*%2Flink-mf.*%2FCI0%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9672,7 +9672,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flinks.*%2Fe%2Fo%2Fey*%3D%3D^",
+      "urlFilter": "/list-manage.*/open?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9686,7 +9686,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/newsletter.*/mo/*",
+      "urlFilter": "*%2Flist-manage.*%2Fopen%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9700,7 +9700,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fnewsletter.*%2Fmo%2F",
+      "urlFilter": "/trackopen?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9714,7 +9714,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/e1t/o/*",
+      "urlFilter": "*%2Ftrackopen%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9728,7 +9728,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fe1t%2Fo%2F",
+      "urlFilter": "/links.*/e/o/ey*==^",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9742,7 +9742,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/stats/pixel.php?",
+      "urlFilter": "*%2Flinks.*%2Fe%2Fo%2Fey*%3D%3D^",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9756,7 +9756,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fstats%2Fpixel.php%3F*",
+      "urlFilter": "/newsletter.*/mo/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9770,7 +9770,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/e.emails.*/o/p/*",
+      "urlFilter": "*%2Fnewsletter.*%2Fmo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9784,7 +9784,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fe.emails.*%2Fo%2Fp%2F",
+      "urlFilter": "/e1t/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9798,7 +9798,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail/open/*",
+      "urlFilter": "*%2Fe1t%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9812,7 +9812,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmail%2Fopen%2F",
+      "urlFilter": "/stats/pixel.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9826,7 +9826,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.shor7.link/?xol=",
+      "urlFilter": "*%2Fstats%2Fpixel.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9840,7 +9840,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ft.shor7.link%2F%3Fxol%3D",
+      "urlFilter": "/e.emails.*/o/p/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9854,7 +9854,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mpss/o/*",
+      "urlFilter": "*%2Fe.emails.*%2Fo%2Fp%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9868,7 +9868,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmpss%2Fo%2F",
+      "urlFilter": "/mail/open/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9882,7 +9882,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mx.technolutions.net/mpss/o/*",
+      "urlFilter": "*%2Fmail%2Fopen%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9896,7 +9896,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/tr.*/hit/*",
+      "urlFilter": "/t.shor7.link/?xol=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9910,7 +9910,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".klclick1.com%2F*",
+      "urlFilter": "*%2Ft.shor7.link%2F%3Fxol%3D",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9924,7 +9924,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fclick.*%2Fopen.aspx%3F",
+      "urlFilter": "/mpss/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9938,7 +9938,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/aymt/aa/?",
+      "urlFilter": "*%2Fmpss%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9952,7 +9952,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Faymt%2Faa%2F%3F",
+      "urlFilter": "/mx.technolutions.net/mpss/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9966,7 +9966,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.*/t/*",
+      "urlFilter": "/tr.*/hit/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9980,7 +9980,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail.*%2Ft%2F",
+      "urlFilter": ".klclick1.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -9994,7 +9994,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/et/email?",
+      "urlFilter": "*%2Fclick.*%2Fopen.aspx%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10008,7 +10008,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fet%2Femail%3F",
+      "urlFilter": "/aymt/aa/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10022,7 +10022,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mclick.*/track?",
+      "urlFilter": "*%2Faymt%2Faa%2F%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10036,7 +10036,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmclick.*%2Ftrack%3F",
+      "urlFilter": "/email.*/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10050,7 +10050,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.*/e3t/Cto/*",
+      "urlFilter": "*%2Femail.*%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10064,7 +10064,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.amaze.co/e3t/Cto/*",
+      "urlFilter": "/et/email?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10078,7 +10078,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpixel.gif%3F*",
+      "urlFilter": "*%2Fet%2Femail%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10092,7 +10092,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/clickemail/*",
+      "urlFilter": "/mclick.*/track?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10106,7 +10106,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fclickemail%2F",
+      "urlFilter": "*%2Fmclick.*%2Ftrack%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10120,7 +10120,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrk%3Ft%3D",
+      "urlFilter": "/email.*/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10134,7 +10134,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.*/o/",
+      "urlFilter": "/email.amaze.co/e3t/Cto/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10148,7 +10148,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.marketing.*/o/*",
+      "urlFilter": "*%2Fpixel.gif%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10162,7 +10162,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail.marketing.*%2Fo%2F",
+      "urlFilter": "/clickemail/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10176,7 +10176,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/track?data=",
+      "urlFilter": "*%2Fclickemail%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10190,7 +10190,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrack%3Fdata%3D",
+      "urlFilter": "*%2Ftrk%3Ft%3D",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10204,7 +10204,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/c2.knock.app/t/*",
+      "urlFilter": ".mail.*/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10218,7 +10218,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fc2.knock.app%2Ft%2F",
+      "urlFilter": "/email.marketing.*/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10232,7 +10232,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/d.gpmdata.ru/*",
+      "urlFilter": "*%2Femail.marketing.*%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10246,7 +10246,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fd.gpmdata.ru%2F*",
+      "urlFilter": "/track?data=",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10260,7 +10260,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".awstrack.me%2F*",
+      "urlFilter": "*%2Ftrack%3Fdata%3D",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10274,7 +10274,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email-*/open?",
+      "urlFilter": "/c2.knock.app/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10288,7 +10288,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail-*%2Fopen%3F",
+      "urlFilter": "*%2Fc2.knock.app%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10302,7 +10302,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/fapp1.williamoneilindia.com/*",
+      "urlFilter": "/d.gpmdata.ru/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10316,7 +10316,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ffapp1.williamoneilindia.com%2F*",
+      "urlFilter": "*%2Fd.gpmdata.ru%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10330,7 +10330,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/post.spmailt.com/q/*",
+      "urlFilter": ".awstrack.me%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10344,7 +10344,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpost.spmailt.com%2Fq%2F",
+      "urlFilter": "/email-*/open?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10358,7 +10358,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/api/analytics/open/*",
+      "urlFilter": "*%2Femail-*%2Fopen%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10372,7 +10372,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fapi%2Fanalytics%2Fopen%2F",
+      "urlFilter": "/fapp1.williamoneilindia.com/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10386,7 +10386,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/trackimp/*",
+      "urlFilter": "*%2Ffapp1.williamoneilindia.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10400,7 +10400,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ftrackimp%2F",
+      "urlFilter": "/post.spmailt.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10414,7 +10414,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".doubleclick.net%2F*",
+      "urlFilter": "*%2Fpost.spmailt.com%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10428,7 +10428,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/r.*/mk/op/*",
+      "urlFilter": "/api/analytics/open/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10442,7 +10442,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fr.*%2Fmk%2Fop%2F",
+      "urlFilter": "*%2Fapi%2Fanalytics%2Fopen%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10456,7 +10456,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".t.en25.com/e/",
+      "urlFilter": "/trackimp/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10470,7 +10470,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".t.en25.com%2Fe%2F",
+      "urlFilter": "*%2Ftrackimp%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10484,7 +10484,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".email.*/ss/o/",
+      "urlFilter": ".doubleclick.net%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10498,7 +10498,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".email.*%2Fss%2Fo%2F",
+      "urlFilter": "/r.*/mk/op/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10512,7 +10512,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.*/ss/o/",
+      "urlFilter": "*%2Fr.*%2Fmk%2Fop%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10526,7 +10526,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.*%2Fss%2Fo%2F",
+      "urlFilter": ".t.en25.com/e/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10540,7 +10540,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.beehiiv.com/ss/o/",
+      "urlFilter": ".t.en25.com%2Fe%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10554,7 +10554,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/open.html?",
+      "urlFilter": ".email.*/ss/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10568,7 +10568,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fopen.html%3F",
+      "urlFilter": ".email.*%2Fss%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10582,7 +10582,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/counter/gif.php?",
+      "urlFilter": ".mail.*/ss/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10596,7 +10596,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fcounter%2Fgif.php%3F*",
+      "urlFilter": ".mail.*%2Fss%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10610,7 +10610,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".emltrk.com/",
+      "urlFilter": ".mail.beehiiv.com/ss/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10624,7 +10624,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".emltrk.com%2F*",
+      "urlFilter": "/open.html?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10638,7 +10638,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mkto-*.com/trk?",
+      "urlFilter": "*%2Fopen.html%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10652,7 +10652,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".bloomreach.co/",
+      "urlFilter": "/counter/gif.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10666,7 +10666,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".bloomreach.co%2F*",
+      "urlFilter": "*%2Fcounter%2Fgif.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10680,7 +10680,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/post.spmailtechnol.com/q/*",
+      "urlFilter": ".emltrk.com/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10694,7 +10694,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpost.spmailtechnol.com%2Fq%2F",
+      "urlFilter": ".emltrk.com%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10708,8 +10708,11 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/links.*/e/eo?",
-      "isUrlFilterCaseSensitive": false
+      "urlFilter": "/mkto-*.com/trk?",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
     }
   },
   {
@@ -10719,7 +10722,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flinks.*%2Fe%2Feo%3F",
+      "urlFilter": ".bloomreach.co/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10733,7 +10736,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".cmail19.com/t/",
+      "urlFilter": ".bloomreach.co%2F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10747,7 +10750,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".cmail19.com%2Ft%2F",
+      "urlFilter": "/post.spmailtechnol.com/q/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10761,7 +10764,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/sendy/t/*",
+      "urlFilter": "*%2Fpost.spmailtechnol.com%2Fq%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10775,11 +10778,8 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fsendy%2Ft%2F",
-      "isUrlFilterCaseSensitive": false,
-      "resourceTypes": [
-        "image"
-      ]
+      "urlFilter": "/links.*/e/eo?",
+      "isUrlFilterCaseSensitive": false
     }
   },
   {
@@ -10789,7 +10789,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email_open_log_pic.php?",
+      "urlFilter": "*%2Flinks.*%2Fe%2Feo%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10803,7 +10803,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail_open_log_pic.php%3F*",
+      "urlFilter": ".cmail19.com/t/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10817,7 +10817,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/hsctaimages.net/ctas/*/public/cs/il/?",
+      "urlFilter": ".cmail19.com%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10831,7 +10831,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fhsctaimages.net%2Fctas%2F%2A%2Fpublic%2Fcs%2Fil%2F%3F",
+      "urlFilter": "/sendy/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10845,7 +10845,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/emailanalytics.",
+      "urlFilter": "*%2Fsendy%2Ft%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10859,7 +10859,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femailanalytics.",
+      "urlFilter": "/email_open_log_pic.php?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10873,7 +10873,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/notification/convo/read/*",
+      "urlFilter": "*%2Femail_open_log_pic.php%3F*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10887,7 +10887,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fnotification%2Fconvo%2Fread%2F",
+      "urlFilter": "/hsctaimages.net/ctas/*/public/cs/il/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10901,7 +10901,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mail.*/e/o/*",
+      "urlFilter": "*%2Fhsctaimages.net%2Fctas%2F%2A%2Fpublic%2Fcs%2Fil%2F%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10915,7 +10915,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmail.*%2Fe%2Fo%2F",
+      "urlFilter": "/emailanalytics.",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10929,7 +10929,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/pub/as?",
+      "urlFilter": "*%2Femailanalytics.",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10943,7 +10943,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fpub%2Fas%3F",
+      "urlFilter": "/notification/convo/read/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10957,7 +10957,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/marketing.marketdata.app/marketdata/email/*.gif",
+      "urlFilter": "*%2Fnotification%2Fconvo%2Fread%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10971,7 +10971,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmarketing.marketdata.app%2Fmarketdata%2Femail%2F*.gif*",
+      "urlFilter": "/mail.*/e/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10985,7 +10985,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/email.*/o/*",
+      "urlFilter": "*%2Fmail.*%2Fe%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -10999,7 +10999,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Femail*%2Fo%2F",
+      "urlFilter": "/pub/as?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11013,7 +11013,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/t.em.*/r/?",
+      "urlFilter": "*%2Fpub%2Fas%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11027,7 +11027,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Ft.em.*%2Fr%2F%3F",
+      "urlFilter": "/marketing.marketdata.app/marketdata/email/*.gif",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11041,7 +11041,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/newsletter/p/?",
+      "urlFilter": "*%2Fmarketing.marketdata.app%2Fmarketdata%2Femail%2F*.gif*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11055,7 +11055,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fnewsletter%2Fp%2F%3F",
+      "urlFilter": "/email.*/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11069,7 +11069,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/mailer.*/o/*",
+      "urlFilter": "*%2Femail*%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11083,7 +11083,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fmailer.*%2Fo%2F",
+      "urlFilter": "/t.em.*/r/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11097,7 +11097,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".mail.lbry.com/o/",
+      "urlFilter": "*%2Ft.em.*%2Fr%2F%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11111,7 +11111,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Feo%3F_t%3D*",
+      "urlFilter": "/newsletter/p/?",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11125,7 +11125,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/newsletters.*/t/*",
+      "urlFilter": "*%2Fnewsletter%2Fp%2F%3F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11139,7 +11139,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Fnewsletters.*%2Ft%2F",
+      "urlFilter": "/mailer.*/o/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11153,7 +11153,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "/link.*/q/*",
+      "urlFilter": "*%2Fmailer.*%2Fo%2F",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11167,7 +11167,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "*%2Flink.*%2Fq%2F",
+      "urlFilter": ".mail.lbry.com/o/",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11181,7 +11181,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||googleusercontent.com/*/wf/open?upn=",
+      "urlFilter": "*%2Feo%3F_t%3D*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11195,7 +11195,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": ".salesforce.com%2Fservlet%2Fservlet.ImageServer%3F",
+      "urlFilter": "/newsletters.*/t/*",
       "isUrlFilterCaseSensitive": false,
       "resourceTypes": [
         "image"
@@ -11209,12 +11209,261 @@
       "type": "block"
     },
     "condition": {
+      "urlFilter": "*%2Fnewsletters.*%2Ft%2F",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 869,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/link.*/q/*",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 870,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*%2Flink.*%2Fq%2F",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 871,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/o?id=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 872,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*%2Fo%3Fid%3D",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 873,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/o?id=*emailTracking",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 874,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/r?e=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 875,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*%2Fr%3Fe%3D",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 876,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/wizrocketmail.net/r?e=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 877,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".google-analytics.com%2F*",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 878,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/is-tracking-pixel-api-prod.appspot.com/*",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 879,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*%2Fis-tracking-pixel-api-prod.appspot.com%2F*",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 880,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/gtrack?clientid=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 881,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*%2Fgtrack%3Fclientid%3D",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 882,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "/optiextension.dll?",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 883,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*%2Foptiextension.dll%3F*",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 884,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||googleusercontent.com/*/wf/open?upn=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 885,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": ".salesforce.com%2Fservlet%2Fservlet.ImageServer%3F",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    }
+  },
+  {
+    "id": 886,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
       "urlFilter": "||beacons.ai/api/rtanalytics/",
       "isUrlFilterCaseSensitive": false
     }
   },
   {
-    "id": 869,
+    "id": 887,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11225,7 +11474,7 @@
     }
   },
   {
-    "id": 870,
+    "id": 888,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11236,7 +11485,7 @@
     }
   },
   {
-    "id": 871,
+    "id": 889,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11247,7 +11496,7 @@
     }
   },
   {
-    "id": 872,
+    "id": 890,
     "priority": 3,
     "action": {
       "type": "block"
@@ -11265,7 +11514,7 @@
     }
   },
   {
-    "id": 873,
+    "id": 891,
     "priority": 3,
     "action": {
       "type": "block"
@@ -11279,7 +11528,7 @@
     }
   },
   {
-    "id": 874,
+    "id": 892,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11290,7 +11539,7 @@
     }
   },
   {
-    "id": 875,
+    "id": 893,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11301,7 +11550,7 @@
     }
   },
   {
-    "id": 876,
+    "id": 894,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11312,7 +11561,7 @@
     }
   },
   {
-    "id": 877,
+    "id": 895,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11323,7 +11572,7 @@
     }
   },
   {
-    "id": 878,
+    "id": 896,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11334,7 +11583,7 @@
     }
   },
   {
-    "id": 879,
+    "id": 897,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11345,7 +11594,7 @@
     }
   },
   {
-    "id": 880,
+    "id": 898,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11356,7 +11605,7 @@
     }
   },
   {
-    "id": 881,
+    "id": 899,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11367,7 +11616,7 @@
     }
   },
   {
-    "id": 882,
+    "id": 900,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11378,7 +11627,7 @@
     }
   },
   {
-    "id": 883,
+    "id": 901,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11389,7 +11638,7 @@
     }
   },
   {
-    "id": 884,
+    "id": 902,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11400,7 +11649,7 @@
     }
   },
   {
-    "id": 885,
+    "id": 903,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11411,7 +11660,7 @@
     }
   },
   {
-    "id": 886,
+    "id": 904,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11425,7 +11674,7 @@
     }
   },
   {
-    "id": 887,
+    "id": 905,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11439,7 +11688,7 @@
     }
   },
   {
-    "id": 888,
+    "id": 906,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11450,7 +11699,7 @@
     }
   },
   {
-    "id": 889,
+    "id": 907,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11464,7 +11713,7 @@
     }
   },
   {
-    "id": 890,
+    "id": 908,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11475,7 +11724,7 @@
     }
   },
   {
-    "id": 891,
+    "id": 909,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11486,7 +11735,7 @@
     }
   },
   {
-    "id": 892,
+    "id": 910,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11497,7 +11746,7 @@
     }
   },
   {
-    "id": 893,
+    "id": 911,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11508,7 +11757,7 @@
     }
   },
   {
-    "id": 894,
+    "id": 912,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11519,7 +11768,7 @@
     }
   },
   {
-    "id": 895,
+    "id": 913,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11534,7 +11783,7 @@
     }
   },
   {
-    "id": 896,
+    "id": 914,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11546,7 +11795,7 @@
     }
   },
   {
-    "id": 897,
+    "id": 915,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11557,7 +11806,7 @@
     }
   },
   {
-    "id": 898,
+    "id": 916,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11568,7 +11817,7 @@
     }
   },
   {
-    "id": 899,
+    "id": 917,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11579,7 +11828,7 @@
     }
   },
   {
-    "id": 900,
+    "id": 918,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11590,7 +11839,7 @@
     }
   },
   {
-    "id": 901,
+    "id": 919,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11601,7 +11850,7 @@
     }
   },
   {
-    "id": 902,
+    "id": 920,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11615,7 +11864,7 @@
     }
   },
   {
-    "id": 903,
+    "id": 921,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11626,7 +11875,7 @@
     }
   },
   {
-    "id": 904,
+    "id": 922,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11637,7 +11886,7 @@
     }
   },
   {
-    "id": 905,
+    "id": 923,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11648,7 +11897,7 @@
     }
   },
   {
-    "id": 906,
+    "id": 924,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11659,7 +11908,7 @@
     }
   },
   {
-    "id": 907,
+    "id": 925,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11670,7 +11919,7 @@
     }
   },
   {
-    "id": 908,
+    "id": 926,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11681,7 +11930,7 @@
     }
   },
   {
-    "id": 909,
+    "id": 927,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11692,7 +11941,7 @@
     }
   },
   {
-    "id": 910,
+    "id": 928,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11703,7 +11952,7 @@
     }
   },
   {
-    "id": 911,
+    "id": 929,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11718,7 +11967,7 @@
     }
   },
   {
-    "id": 912,
+    "id": 930,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11729,7 +11978,7 @@
     }
   },
   {
-    "id": 913,
+    "id": 931,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11740,7 +11989,7 @@
     }
   },
   {
-    "id": 914,
+    "id": 932,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11757,7 +12006,7 @@
     }
   },
   {
-    "id": 915,
+    "id": 933,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11772,7 +12021,7 @@
     }
   },
   {
-    "id": 916,
+    "id": 934,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11783,7 +12032,7 @@
     }
   },
   {
-    "id": 917,
+    "id": 935,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11794,7 +12043,7 @@
     }
   },
   {
-    "id": 918,
+    "id": 936,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11805,7 +12054,7 @@
     }
   },
   {
-    "id": 919,
+    "id": 937,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11816,7 +12065,7 @@
     }
   },
   {
-    "id": 920,
+    "id": 938,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11827,7 +12076,7 @@
     }
   },
   {
-    "id": 921,
+    "id": 939,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11838,7 +12087,7 @@
     }
   },
   {
-    "id": 922,
+    "id": 940,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11849,7 +12098,7 @@
     }
   },
   {
-    "id": 923,
+    "id": 941,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11860,7 +12109,7 @@
     }
   },
   {
-    "id": 924,
+    "id": 942,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11871,7 +12120,7 @@
     }
   },
   {
-    "id": 925,
+    "id": 943,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11882,7 +12131,7 @@
     }
   },
   {
-    "id": 926,
+    "id": 944,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11893,7 +12142,7 @@
     }
   },
   {
-    "id": 927,
+    "id": 945,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11904,7 +12153,7 @@
     }
   },
   {
-    "id": 928,
+    "id": 946,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11915,7 +12164,7 @@
     }
   },
   {
-    "id": 929,
+    "id": 947,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11926,7 +12175,7 @@
     }
   },
   {
-    "id": 930,
+    "id": 948,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11941,7 +12190,7 @@
     }
   },
   {
-    "id": 931,
+    "id": 949,
     "priority": 3,
     "action": {
       "type": "block"
@@ -11955,7 +12204,7 @@
     }
   },
   {
-    "id": 932,
+    "id": 950,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11970,7 +12219,7 @@
     }
   },
   {
-    "id": 933,
+    "id": 951,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11981,7 +12230,7 @@
     }
   },
   {
-    "id": 934,
+    "id": 952,
     "priority": 1,
     "action": {
       "type": "block"
@@ -11992,7 +12241,7 @@
     }
   },
   {
-    "id": 935,
+    "id": 953,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12012,7 +12261,7 @@
     }
   },
   {
-    "id": 936,
+    "id": 954,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12023,7 +12272,7 @@
     }
   },
   {
-    "id": 937,
+    "id": 955,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12034,7 +12283,7 @@
     }
   },
   {
-    "id": 938,
+    "id": 956,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12045,7 +12294,7 @@
     }
   },
   {
-    "id": 939,
+    "id": 957,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12056,7 +12305,7 @@
     }
   },
   {
-    "id": 940,
+    "id": 958,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12071,7 +12320,7 @@
     }
   },
   {
-    "id": 941,
+    "id": 959,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12082,7 +12331,7 @@
     }
   },
   {
-    "id": 942,
+    "id": 960,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12093,7 +12342,7 @@
     }
   },
   {
-    "id": 943,
+    "id": 961,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12104,7 +12353,7 @@
     }
   },
   {
-    "id": 944,
+    "id": 962,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12115,7 +12364,7 @@
     }
   },
   {
-    "id": 945,
+    "id": 963,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12126,7 +12375,7 @@
     }
   },
   {
-    "id": 946,
+    "id": 964,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12137,7 +12386,7 @@
     }
   },
   {
-    "id": 947,
+    "id": 965,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12148,7 +12397,7 @@
     }
   },
   {
-    "id": 948,
+    "id": 966,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12159,7 +12408,7 @@
     }
   },
   {
-    "id": 949,
+    "id": 967,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12170,7 +12419,7 @@
     }
   },
   {
-    "id": 950,
+    "id": 968,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12181,7 +12430,7 @@
     }
   },
   {
-    "id": 951,
+    "id": 969,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12192,7 +12441,7 @@
     }
   },
   {
-    "id": 952,
+    "id": 970,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12203,7 +12452,7 @@
     }
   },
   {
-    "id": 953,
+    "id": 971,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12214,7 +12463,7 @@
     }
   },
   {
-    "id": 954,
+    "id": 972,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12229,7 +12478,7 @@
     }
   },
   {
-    "id": 955,
+    "id": 973,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12244,7 +12493,7 @@
     }
   },
   {
-    "id": 956,
+    "id": 974,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12255,7 +12504,7 @@
     }
   },
   {
-    "id": 957,
+    "id": 975,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12266,7 +12515,7 @@
     }
   },
   {
-    "id": 958,
+    "id": 976,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12277,7 +12526,7 @@
     }
   },
   {
-    "id": 959,
+    "id": 977,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12288,7 +12537,7 @@
     }
   },
   {
-    "id": 960,
+    "id": 978,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12299,7 +12548,7 @@
     }
   },
   {
-    "id": 961,
+    "id": 979,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12310,7 +12559,7 @@
     }
   },
   {
-    "id": 962,
+    "id": 980,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12321,7 +12570,7 @@
     }
   },
   {
-    "id": 963,
+    "id": 981,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12332,7 +12581,7 @@
     }
   },
   {
-    "id": 964,
+    "id": 982,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12343,7 +12592,7 @@
     }
   },
   {
-    "id": 965,
+    "id": 983,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12354,7 +12603,7 @@
     }
   },
   {
-    "id": 966,
+    "id": 984,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12365,7 +12614,7 @@
     }
   },
   {
-    "id": 967,
+    "id": 985,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12376,7 +12625,7 @@
     }
   },
   {
-    "id": 968,
+    "id": 986,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12387,7 +12636,7 @@
     }
   },
   {
-    "id": 969,
+    "id": 987,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12398,7 +12647,7 @@
     }
   },
   {
-    "id": 970,
+    "id": 988,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12409,7 +12658,7 @@
     }
   },
   {
-    "id": 971,
+    "id": 989,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12421,7 +12670,7 @@
     }
   },
   {
-    "id": 972,
+    "id": 990,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12435,7 +12684,7 @@
     }
   },
   {
-    "id": 973,
+    "id": 991,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12446,7 +12695,7 @@
     }
   },
   {
-    "id": 974,
+    "id": 992,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12496,7 +12745,7 @@
     }
   },
   {
-    "id": 975,
+    "id": 993,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12513,7 +12762,7 @@
     }
   },
   {
-    "id": 976,
+    "id": 994,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12524,7 +12773,7 @@
     }
   },
   {
-    "id": 977,
+    "id": 995,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12535,7 +12784,7 @@
     }
   },
   {
-    "id": 978,
+    "id": 996,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12546,7 +12795,7 @@
     }
   },
   {
-    "id": 979,
+    "id": 997,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12557,7 +12806,7 @@
     }
   },
   {
-    "id": 980,
+    "id": 998,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12568,7 +12817,7 @@
     }
   },
   {
-    "id": 981,
+    "id": 999,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12579,7 +12828,7 @@
     }
   },
   {
-    "id": 982,
+    "id": 1000,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12590,7 +12839,7 @@
     }
   },
   {
-    "id": 983,
+    "id": 1001,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12601,7 +12850,7 @@
     }
   },
   {
-    "id": 984,
+    "id": 1002,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12612,7 +12861,7 @@
     }
   },
   {
-    "id": 985,
+    "id": 1003,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12623,7 +12872,7 @@
     }
   },
   {
-    "id": 986,
+    "id": 1004,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12634,7 +12883,7 @@
     }
   },
   {
-    "id": 987,
+    "id": 1005,
     "priority": 3,
     "action": {
       "type": "block"
@@ -12648,7 +12897,7 @@
     }
   },
   {
-    "id": 988,
+    "id": 1006,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12659,7 +12908,7 @@
     }
   },
   {
-    "id": 989,
+    "id": 1007,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12670,7 +12919,7 @@
     }
   },
   {
-    "id": 990,
+    "id": 1008,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12681,7 +12930,7 @@
     }
   },
   {
-    "id": 991,
+    "id": 1009,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12692,7 +12941,7 @@
     }
   },
   {
-    "id": 992,
+    "id": 1010,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12703,7 +12952,7 @@
     }
   },
   {
-    "id": 993,
+    "id": 1011,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12714,7 +12963,7 @@
     }
   },
   {
-    "id": 994,
+    "id": 1012,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12725,7 +12974,7 @@
     }
   },
   {
-    "id": 995,
+    "id": 1013,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12736,7 +12985,7 @@
     }
   },
   {
-    "id": 996,
+    "id": 1014,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12747,7 +12996,7 @@
     }
   },
   {
-    "id": 997,
+    "id": 1015,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12758,7 +13007,7 @@
     }
   },
   {
-    "id": 998,
+    "id": 1016,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12769,7 +13018,7 @@
     }
   },
   {
-    "id": 999,
+    "id": 1017,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12780,7 +13029,7 @@
     }
   },
   {
-    "id": 1000,
+    "id": 1018,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12791,7 +13040,7 @@
     }
   },
   {
-    "id": 1001,
+    "id": 1019,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12802,7 +13051,7 @@
     }
   },
   {
-    "id": 1002,
+    "id": 1020,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12813,7 +13062,7 @@
     }
   },
   {
-    "id": 1003,
+    "id": 1021,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12824,7 +13073,7 @@
     }
   },
   {
-    "id": 1004,
+    "id": 1022,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12835,7 +13084,7 @@
     }
   },
   {
-    "id": 1005,
+    "id": 1023,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12846,7 +13095,7 @@
     }
   },
   {
-    "id": 1006,
+    "id": 1024,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12857,7 +13106,7 @@
     }
   },
   {
-    "id": 1007,
+    "id": 1025,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12868,7 +13117,7 @@
     }
   },
   {
-    "id": 1008,
+    "id": 1026,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12879,7 +13128,7 @@
     }
   },
   {
-    "id": 1009,
+    "id": 1027,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12890,7 +13139,7 @@
     }
   },
   {
-    "id": 1010,
+    "id": 1028,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12901,7 +13150,7 @@
     }
   },
   {
-    "id": 1011,
+    "id": 1029,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12915,7 +13164,7 @@
     }
   },
   {
-    "id": 1012,
+    "id": 1030,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12926,7 +13175,7 @@
     }
   },
   {
-    "id": 1013,
+    "id": 1031,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12937,7 +13186,7 @@
     }
   },
   {
-    "id": 1014,
+    "id": 1032,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12948,7 +13197,7 @@
     }
   },
   {
-    "id": 1015,
+    "id": 1033,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12959,7 +13208,7 @@
     }
   },
   {
-    "id": 1016,
+    "id": 1034,
     "priority": 3,
     "action": {
       "type": "block"
@@ -12970,7 +13219,7 @@
     }
   },
   {
-    "id": 1017,
+    "id": 1035,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12984,7 +13233,7 @@
     }
   },
   {
-    "id": 1018,
+    "id": 1036,
     "priority": 1,
     "action": {
       "type": "block"
@@ -12995,7 +13244,7 @@
     }
   },
   {
-    "id": 1019,
+    "id": 1037,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13006,7 +13255,7 @@
     }
   },
   {
-    "id": 1020,
+    "id": 1038,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13017,7 +13266,7 @@
     }
   },
   {
-    "id": 1021,
+    "id": 1039,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13028,7 +13277,7 @@
     }
   },
   {
-    "id": 1022,
+    "id": 1040,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13039,7 +13288,7 @@
     }
   },
   {
-    "id": 1023,
+    "id": 1041,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13050,7 +13299,7 @@
     }
   },
   {
-    "id": 1024,
+    "id": 1042,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13061,7 +13310,7 @@
     }
   },
   {
-    "id": 1025,
+    "id": 1043,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13072,7 +13321,7 @@
     }
   },
   {
-    "id": 1026,
+    "id": 1044,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13083,7 +13332,7 @@
     }
   },
   {
-    "id": 1027,
+    "id": 1045,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13094,7 +13343,7 @@
     }
   },
   {
-    "id": 1028,
+    "id": 1046,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13105,7 +13354,7 @@
     }
   },
   {
-    "id": 1029,
+    "id": 1047,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13116,7 +13365,7 @@
     }
   },
   {
-    "id": 1030,
+    "id": 1048,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13127,7 +13376,7 @@
     }
   },
   {
-    "id": 1031,
+    "id": 1049,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13138,7 +13387,7 @@
     }
   },
   {
-    "id": 1032,
+    "id": 1050,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13149,7 +13398,7 @@
     }
   },
   {
-    "id": 1033,
+    "id": 1051,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13163,7 +13412,7 @@
     }
   },
   {
-    "id": 1034,
+    "id": 1052,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13174,7 +13423,7 @@
     }
   },
   {
-    "id": 1035,
+    "id": 1053,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13185,7 +13434,7 @@
     }
   },
   {
-    "id": 1036,
+    "id": 1054,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13196,7 +13445,7 @@
     }
   },
   {
-    "id": 1037,
+    "id": 1055,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13207,7 +13456,7 @@
     }
   },
   {
-    "id": 1038,
+    "id": 1056,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13221,7 +13470,7 @@
     }
   },
   {
-    "id": 1039,
+    "id": 1057,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13232,7 +13481,7 @@
     }
   },
   {
-    "id": 1040,
+    "id": 1058,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13246,7 +13495,7 @@
     }
   },
   {
-    "id": 1041,
+    "id": 1059,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13258,7 +13507,7 @@
     }
   },
   {
-    "id": 1042,
+    "id": 1060,
     "priority": 1,
     "action": {
       "type": "block"
@@ -13269,7 +13518,7 @@
     }
   },
   {
-    "id": 1043,
+    "id": 1061,
     "priority": 1,
     "action": {
       "type": "block"

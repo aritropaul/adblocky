@@ -4,8 +4,6 @@
     "#AD_160",
     "#AD_300",
     "#AD_468x60",
-    "#AD_G",
-    "#AD_L",
     "#AD_ROW",
     "#AD_Top",
     "#AD_text",
@@ -8764,8 +8762,6 @@
     ".banner-468x60",
     ".banner-728",
     ".banner-728x90",
-    ".banner-ad",
-    ".banner-ad-b",
     ".banner-ad-below",
     ".banner-ad-block",
     ".banner-ad-bottom-fixed",
@@ -9341,7 +9337,6 @@
     ".contains-ad",
     ".contains-advertisment",
     ".content--right-ads",
-    ".content-ad",
     ".content-ad-article",
     ".content-ad-box",
     ".content-ad-container",
@@ -9383,7 +9378,6 @@
     ".contentTopAds",
     ".content__ad",
     ".content__ad__content",
-    ".content_ad",
     ".content_ad_728",
     ".content_ad_head",
     ".content_ad_side",
@@ -12674,7 +12668,6 @@
     ".well-ad",
     ".werbungAd",
     ".wfb-ad",
-    ".wg-ad-square",
     ".wh-advert",
     ".wh_ad",
     ".wh_ad_inner",
@@ -41365,6 +41358,9 @@
   "nolotiro.org": [
     ".ad-hero"
   ],
+  "ogiharadevelopment.net": [
+    ".ad-hint"
+  ],
   "transparencyreport.google.com": [
     ".ad-icon"
   ],
@@ -59528,6 +59524,9 @@
     "[data-ad-wrapper-slot]",
     "[x-data=\"nativeAd\"]"
   ],
+  "tappedout.net": [
+    ".banner-ad"
+  ],
   "headlineintime.com": [
     ".banner-add"
   ],
@@ -64779,6 +64778,7 @@
   "thestraight.com.au": [
     ".iam-ad",
     "#cc-main",
+    "#cc-main",
     ".wp-block-indiegraf-email-capture"
   ],
   "infobetting.com": [
@@ -65002,6 +65002,7 @@
     ".searchx-offer-item[data-aplus-auto-offer*=\"ad_adgroup_toprank\"]",
     "a[campaignid][target=\"_blank\"]",
     ".gallery-card:has(.searchx-card-e-ad)",
+    ".list-card:has([data-role=\"ad-area\"])",
     ".share"
   ],
   "athlonsports.com": [
@@ -99645,6 +99646,9 @@
     ".social-container",
     "#gdpr-overlay"
   ],
+  "arylic.com": [
+    ".social-media"
+  ],
   "creditoagricola.pt": [
     ".social-media"
   ],
@@ -104469,6 +104473,9 @@
   "oryx-embedded.com": [
     "#consentBox"
   ],
+  "daryo.uz": [
+    "#consentModal"
+  ],
   "mandisremotes.com": [
     "#consentPopup",
     "#consentPopupBg"
@@ -105592,6 +105599,9 @@
   ],
   "allabout-japan.com": [
     "#meerkat-wrap"
+  ],
+  "lesschwab.com": [
+    "#meru-cc--main"
   ],
   "tirerack.com": [
     "#meru-cc--main",
@@ -117757,6 +117767,10 @@
   "aktivia.it": [
     "#cc-main"
   ],
+  "analytics-debugger.com": [
+    "#cc-main",
+    "#cc-main"
+  ],
   "andromede-cms.com": [
     "#cc-main"
   ],
@@ -117778,6 +117792,10 @@
   "bistrono.cz": [
     "#cc-main",
     "#multiapp-home"
+  ],
+  "bliink.io": [
+    "#cc-main",
+    "#cc-main"
   ],
   "boldem.cz": [
     "#cc-main"
@@ -117870,7 +117888,14 @@
   "home.s.id": [
     "#cc-main"
   ],
+  "humanitix.com": [
+    "#cc-main"
+  ],
   "investor.natera.com": [
+    "#cc-main"
+  ],
+  "istories.media": [
+    "#cc-main",
     "#cc-main"
   ],
   "jackbox.tv": [
@@ -117890,6 +117915,11 @@
     "#cc-main"
   ],
   "konverto.eu": [
+    "#cc-main"
+  ],
+  "kroo.com": [
+    "#cc-main",
+    "#cc--main",
     "#cc-main"
   ],
   "liu.se": [
@@ -117960,6 +117990,10 @@
   "sardynkibiznesu.pl": [
     "#cc-main"
   ],
+  "shipoffoolsgame.com": [
+    "#cc-main",
+    "#cc-main"
+  ],
   "softorino.com": [
     "#cc-main"
   ],
@@ -117967,6 +118001,10 @@
     "#cc-main"
   ],
   "sporthotel-zoll.com": [
+    "#cc-main"
+  ],
+  "topnatur.cz": [
+    "#cc-main",
     "#cc-main"
   ],
   "trae.ai": [
@@ -117985,6 +118023,10 @@
     "#cc-main"
   ],
   "velostreet.com": [
+    "#cc-main"
+  ],
+  "wdp.eu": [
+    "#cc-main",
     "#cc-main"
   ],
   "whitebit.au": [
@@ -118016,6 +118058,10 @@
     ".c--anim"
   ],
   "zitadel.com": [
+    "#cc-main"
+  ],
+  "zomaplast.cz": [
+    "#cc-main",
     "#cc-main"
   ],
   "acelen.com.br": [
@@ -118151,10 +118197,6 @@
   ],
   "kiwix.org": [
     "#cc--main"
-  ],
-  "kroo.com": [
-    "#cc--main",
-    "#cc-main"
   ],
   "krusovice.cz": [
     "#cc--main"
@@ -126455,6 +126497,9 @@
   "lynettezang.com": [
     ".CookieConsent"
   ],
+  "maiprosolutions.com": [
+    ".CookieConsent"
+  ],
   "marias-alm.at": [
     ".CookieConsent"
   ],
@@ -130639,6 +130684,9 @@
   "docs.earthly.dev": [
     ".bottom-4"
   ],
+  "downornot.net": [
+    ".bottom-4"
+  ],
   "foodhubforbusiness.com": [
     ".bottom-4"
   ],
@@ -130984,6 +131032,9 @@
     ".cookie-container"
   ],
   "sabesp.com.br": [
+    ".cookie-container"
+  ],
+  "shopping.chase.com": [
     ".cookie-container"
   ],
   "skatteetaten.no": [
@@ -143659,27 +143710,6 @@
   ],
   "zaugg.swiss": [
     "#cc--main"
-  ],
-  "analytics-debugger.com": [
-    "#cc-main"
-  ],
-  "bliink.io": [
-    "#cc-main"
-  ],
-  "istories.media": [
-    "#cc-main"
-  ],
-  "shipoffoolsgame.com": [
-    "#cc-main"
-  ],
-  "topnatur.cz": [
-    "#cc-main"
-  ],
-  "wdp.eu": [
-    "#cc-main"
-  ],
-  "zomaplast.cz": [
-    "#cc-main"
   ],
   "kidioui.fr": [
     ".cookieACK"
