@@ -65249,6 +65249,14 @@
     ".kg-bookmark-card",
     "a[href^=\"https://www.warp.dev\"]"
   ],
+  "duffelblog.com": [
+    ".kg-cta-content",
+    "#signup-popup-overlay",
+    ".meta-info-block",
+    ".intro-popup",
+    "div[class*=\"subscribeDialog-\"]",
+    "div[class^=\"background-\"]"
+  ],
   "toptenz.net": [
     ".kgbwvoqfwag",
     ".swp_social_panel"
@@ -72763,6 +72771,9 @@
     "#policy_wrapper",
     "#onetrust-consent-sdk",
     ".onetrust-pc-dark-filter"
+  ],
+  "tomato.gg": [
+    "div[class^=\"GenericPage__VerticalAdslotContainer\"]"
   ],
   "nyctourism.com": [
     "div[class^=\"Layout_mobileStickyAdContainer\"]",
@@ -160825,12 +160836,6 @@
   ],
   "orlandosentinel.com": [
     ".met-footer-toast"
-  ],
-  "duffelblog.com": [
-    ".meta-info-block",
-    ".intro-popup",
-    "div[class*=\"subscribeDialog-\"]",
-    "div[class^=\"background-\"]"
   ],
   "theankler.com": [
     ".meta-info-block",
