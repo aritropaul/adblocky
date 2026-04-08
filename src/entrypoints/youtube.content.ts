@@ -31,6 +31,7 @@ function init() {
   observeAdPlayback();
   removeAntiAdblockWalls();
   observeAntiAdblockWalls();
+  skipPromotedShorts();
   injectAdBlockStyles();
 }
 
@@ -79,10 +80,27 @@ function observeAdPlayback() {
  */
 let adSpeedApplied = false;
 
-function skipAd() {
+function isLiveStream(): boolean {
+  const player = document.querySelector("#movie_player");
+  if (!player) return false;
+  // YouTube adds .ytp-live class to live stream players
+  if (player.classList.contains("ytp-live")) return true;
+  // Also check for live badge
+  if (document.querySelector(".ytp-live-badge")) return true;
   const video = document.querySelector<HTMLVideoElement>(
     "#movie_player video",
   );
+  if (video && !isFinite(video.duration)) return true;
+  return false;
+}
+
+function isShortsPage(): boolean {
+  return location.pathname.startsWith("/shorts/");
+}
+
+function skipAd() {
+  // Don't interfere with Shorts at all
+  if (isShortsPage()) return;
 
   // Click skip button if available (works for CSAI skippable ads)
   const skipBtn =
@@ -101,7 +119,13 @@ function skipAd() {
     skipOverlay.click();
   }
 
+  const video = document.querySelector<HTMLVideoElement>(
+    "#movie_player video",
+  );
   if (!video) return;
+
+  // For live streams, only click skip buttons — never seek or change playback rate
+  if (isLiveStream()) return;
 
   // For short standalone ad videos (CSAI): seek to end
   if (video.duration && isFinite(video.duration) && video.duration < 120) {
@@ -224,6 +248,45 @@ function observeAntiAdblockWalls() {
 }
 
 /**
+ * Auto-skip promoted/sponsored Shorts. These are regular videos YouTube
+ * inserts into the Shorts feed with a "Sponsored" badge (ad-badge-view-model).
+ * They don't use adPlacements so MAIN world stripping can't catch them.
+ */
+function skipPromotedShorts() {
+  // CSS hides promoted Shorts instantly (`:has(ad-badge-view-model)`).
+  // This function auto-advances past the hidden reel so the user
+  // doesn't get stuck on a blank screen.
+  let lastCheckedUrl = "";
+
+  function advancePastAd() {
+    if (!location.pathname.startsWith("/shorts/")) return;
+    if (location.href === lastCheckedUrl) return;
+
+    const reels = document.querySelectorAll("ytd-reel-video-renderer");
+    for (const reel of reels) {
+      const rect = reel.getBoundingClientRect();
+      if (rect.top < 0 || rect.top > window.innerHeight / 2) continue;
+      if (reel.querySelector("ad-badge-view-model")) {
+        lastCheckedUrl = location.href;
+        const navDown = document.querySelector<HTMLElement>(
+          "#navigation-button-down button",
+        );
+        if (navDown) navDown.click();
+        return;
+      }
+    }
+  }
+
+  let currentUrl = location.href;
+  setInterval(() => {
+    if (location.href !== currentUrl) {
+      currentUrl = location.href;
+      setTimeout(advancePastAd, 100);
+    }
+  }, 150);
+}
+
+/**
  * Inject CSS to hide ad-related UI elements.
  */
 function injectAdBlockStyles() {
@@ -250,7 +313,8 @@ function injectAdBlockStyles() {
     #enforcement-message-container,
     tp-yt-paper-dialog.ytd-enforcement-message-view-model,
     ytd-enforcement-message-view-model,
-    /* Shorts ads */
+    /* Shorts ads — promoted Shorts with ad badge */
+    ytd-reel-video-renderer:has(ad-badge-view-model),
     ytd-reel-video-renderer[is-ad],
     /* Search ads */
     ytd-search-pyv-renderer {

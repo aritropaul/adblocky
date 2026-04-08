@@ -9,7 +9,7 @@
  */
 
 export default defineContentScript({
-  matches: ["*://*.youtube.com/*", "*://*.twitch.tv/*"],
+  matches: ["*://*.twitch.tv/*"],
   runAt: "document_start",
   world: "MAIN",
 

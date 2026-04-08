@@ -81,13 +81,14 @@ export const FILTER_LISTS: FilterListConfig[] = [
  * Only include domains that are SAFE to block (won't break video playback).
  */
 export const STREAMING_AD_DOMAINS = [
-  // YouTube ad tracking (video ads handled by content script, not DNR)
-  "www.youtube.com/api/stats/ads",
-  "www.youtube.com/pagead/",
-  "www.youtube.com/ptracking",
-  "www.youtube.com/get_midroll_info",
+  // NOTE: YouTube ad domains are NOT blocked via DNR. YouTube detects blocked
+  // ad infra (imasdk, doubleclick, etc.) and retaliates with 503 on /player
+  // API calls, breaking Shorts, live streams, and SPA navigation. Instead,
+  // the MAIN world script (youtube-player.js) strips ad config from player
+  // responses so ads never play — ad infra loads but has nothing to serve.
 
-  // Google ad infra (used across YouTube, Crunchyroll, etc.)
+  // Google ad infra — only block on NON-YouTube sites (Crunchyroll, etc.)
+  // YouTube-specific allow rules are added in build-filters.ts.
   "doubleclick.net",
   "googleadservices.com",
   "googleads.g.doubleclick.net",

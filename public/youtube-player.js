@@ -1,6 +1,11 @@
 /**
- * YouTube MAIN world script — intercepts player API to strip ad config.
- * Runs in the page's JS context (not extension sandbox) to access YouTube's APIs.
+ * YouTube MAIN world script — strips ad config from player responses.
+ * Runs in the page's JS context (not extension sandbox).
+ *
+ * YouTube reads API responses via response.text() (not .json() or JSON.parse),
+ * then parses internally. We patch Response.prototype.text to intercept
+ * /player responses and strip ad fields from the JSON text before YouTube
+ * sees it. The HTTP response itself is untouched.
  *
  * This file is injected as a <script> tag by youtube.content.ts.
  */
@@ -8,73 +13,75 @@
 (function () {
   "use strict";
 
-  // --- JSON.parse interception ---
-  // YouTube loads player config via JSON.parse. We intercept to strip ad data.
+  var AD_KEYS = ["adPlacements", "adSlots", "playerAds"];
 
-  const originalParse = JSON.parse;
-  JSON.parse = function () {
-    const result = originalParse.apply(this, arguments);
+  function stripPlayerAds(obj) {
+    if (!obj || typeof obj !== "object") return false;
+    if (!obj.videoDetails) return false;
+    if (obj.videoDetails.isLive === true) return false;
+    if (obj.videoDetails.isLiveContent === true) return false;
+    if (obj.videoDetails.isLiveDvrEnabled === true) return false;
 
-    if (result && typeof result === "object") {
-      stripAdConfig(result);
+    var stripped = false;
+    for (var i = 0; i < AD_KEYS.length; i++) {
+      if (AD_KEYS[i] in obj) {
+        delete obj[AD_KEYS[i]];
+        stripped = true;
+      }
+    }
+    return stripped;
+  }
+
+  // --- Response.prototype.text interception ---
+  // YouTube calls response.text() on /player and /reel_item_watch responses,
+  // then parses the text internally. We intercept .text() to strip ad fields
+  // from JSON text before YouTube's parser sees it.
+
+  var originalText = Response.prototype.text;
+  Response.prototype.text = function () {
+    var url = this.url || "";
+    var isPlayer = url.indexOf("/youtubei/v1/player") !== -1;
+
+    if (!isPlayer) {
+      return originalText.call(this);
     }
 
+    return originalText.call(this).then(function (text) {
+      try {
+        var obj = JSON.parse(text);
+        if (stripPlayerAds(obj)) {
+          return JSON.stringify(obj);
+        }
+        if (obj.playerResponse && stripPlayerAds(obj.playerResponse)) {
+          return JSON.stringify(obj);
+        }
+      } catch (e) {
+        // Not JSON or parse error — return original
+      }
+      return text;
+    });
+  };
+
+  // --- JSON.parse interception ---
+  // Fallback for any code path that uses JSON.parse directly.
+
+  var originalParse = JSON.parse;
+  JSON.parse = function () {
+    var result = originalParse.apply(this, arguments);
+    try {
+      if (result && typeof result === "object") {
+        if (result.adPlacements && result.videoDetails) {
+          stripPlayerAds(result);
+        }
+        if (result.playerResponse && result.playerResponse.adPlacements) {
+          stripPlayerAds(result.playerResponse);
+        }
+      }
+    } catch (e) {}
     return result;
   };
 
-  // --- Strip ad configuration from player responses ---
-
-  function stripAdConfig(obj) {
-    if (!obj || typeof obj !== "object") return;
-
-    // Player response ad fields
-    var adKeys = [
-      "adPlacements",
-      "adSlots",
-      "playerAds",
-      "adBreakParams",
-      "adBreakHeartbeatParams",
-      "advertisingId",
-      "ad_tag",
-      "adVideoId",
-    ];
-
-    for (var i = 0; i < adKeys.length; i++) {
-      if (adKeys[i] in obj) {
-        delete obj[adKeys[i]];
-      }
-    }
-
-    // Nested in playerResponse
-    if (obj.playerResponse && typeof obj.playerResponse === "object") {
-      stripAdConfig(obj.playerResponse);
-    }
-
-    // Nested in response
-    if (obj.response && typeof obj.response === "object") {
-      stripAdConfig(obj.response);
-    }
-
-    // Player config
-    if (obj.args && typeof obj.args === "object") {
-      delete obj.args.ad_tag;
-      delete obj.args.ad_video_id;
-      delete obj.args.ad_preroll;
-
-      // Strip ad config from embedded player response
-      if (typeof obj.args.raw_player_response === "string") {
-        try {
-          var parsed = originalParse(obj.args.raw_player_response);
-          stripAdConfig(parsed);
-          obj.args.raw_player_response = JSON.stringify(parsed);
-        } catch (e) {
-          // ignore parse errors
-        }
-      }
-    }
-  }
-
-  // --- Intercept ytInitialPlayerResponse ---
+  // --- ytInitialPlayerResponse interception ---
 
   var _ytInitialPlayerResponse = undefined;
   try {
@@ -85,54 +92,17 @@
       },
       set: function (value) {
         if (value && typeof value === "object") {
-          stripAdConfig(value);
+          try { stripPlayerAds(value); } catch (e) {}
         }
         _ytInitialPlayerResponse = value;
       },
     });
-  } catch (e) {
-    // Property may already be non-configurable
-  }
-
-  // --- Intercept fetch for player API responses ---
-
-  var originalFetch = window.fetch;
-  window.fetch = function () {
-    var args = arguments;
-    var url = typeof args[0] === "string" ? args[0] : (args[0] && args[0].url) || "";
-
-    return originalFetch.apply(this, args).then(function (response) {
-      // Intercept player API responses
-      if (
-        url.indexOf("/youtubei/v1/player") !== -1 ||
-        url.indexOf("/youtubei/v1/next") !== -1
-      ) {
-        try {
-          var clone = response.clone();
-          return clone.json().then(function (body) {
-            stripAdConfig(body);
-            return new Response(JSON.stringify(body), {
-              status: response.status,
-              statusText: response.statusText,
-              headers: response.headers,
-            });
-          }).catch(function () {
-            return response;
-          });
-        } catch (e) {
-          // If parsing fails, return original
-        }
-      }
-      return response;
-    });
-  };
+  } catch (e) {}
 
   // --- SponsorBlock integration ---
-  // Listens for messages from the content script to skip sponsor segments.
 
   window.addEventListener("message", function (event) {
     if (!event.data || event.data.type !== "ADB_SKIP_SEGMENT") return;
-
     var video = document.querySelector("#movie_player video");
     if (video && typeof event.data.time === "number") {
       video.currentTime = event.data.time;

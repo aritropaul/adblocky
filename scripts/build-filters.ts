@@ -166,6 +166,52 @@ async function main() {
     });
   }
 
+  // YouTube-specific allow rules: let ad infra through when YouTube is the
+  // initiator so YouTube's anti-adblock detection doesn't trigger 503s.
+  // The MAIN world script strips ad config so ads never actually play.
+  const YT_ALLOWED_DOMAINS = [
+    "doubleclick.net",
+    "googleadservices.com",
+    "googleads.g.doubleclick.net",
+    "pagead2.googlesyndication.com",
+    "imasdk.googleapis.com",
+    "pubads.g.doubleclick.net",
+    "googlesyndication.com",
+    "google.com",
+    "googleusercontent.com",
+  ];
+  for (const domain of YT_ALLOWED_DOMAINS) {
+    exceptionRules.push({
+      id: streamingRuleId++,
+      priority: 10,
+      action: { type: "allow" as const },
+      condition: {
+        initiatorDomains: ["youtube.com"],
+        requestDomains: [domain],
+        resourceTypes: ALL_RESOURCE_TYPES,
+      },
+    });
+  }
+  // Allow YouTube's own API endpoints — uBlock filter lists block /youtubei/v1/player
+  // and /get_watch via DNR which kills SPA navigation, Shorts, and live streams.
+  // Those filters work in uBO (scriptlet fallback) but not in DNR-only extensions.
+  const YT_ALLOWED_PATHS = [
+    "||www.youtube.com/youtubei/",
+    "||youtube.com/youtubei/",
+  ];
+  for (const path of YT_ALLOWED_PATHS) {
+    exceptionRules.push({
+      id: streamingRuleId++,
+      priority: 10,
+      action: { type: "allow" as const },
+      condition: {
+        urlFilter: path,
+        initiatorDomains: ["youtube.com"],
+        resourceTypes: ALL_RESOURCE_TYPES,
+      },
+    });
+  }
+
   const streamingRules = [...blockRules, ...exceptionRules];
   writeFileSync(
     `${RULES_DIR}/ruleset_streaming.json`,
