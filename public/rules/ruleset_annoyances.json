@@ -40634,6 +40634,7 @@
         "bt.com",
         "groceries.asda.com",
         "konami.com",
+        "nectar.com",
         "nintendolife.com",
         "panasonic.com",
         "paramountplus.com",
@@ -40674,6 +40675,7 @@
         "groceries.asda.com",
         "konami.com",
         "milliescookies.com",
+        "nectar.com",
         "nintendolife.com",
         "panasonic.com",
         "paramountplus.com",
@@ -46027,6 +46029,7 @@
       "urlFilter": "||lightboxcdn.com/vendor/",
       "isUrlFilterCaseSensitive": false,
       "initiatorDomains": [
+        "pgachampionship.com",
         "rydercup.com"
       ],
       "resourceTypes": [

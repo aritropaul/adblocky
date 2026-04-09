@@ -13100,6 +13100,7 @@
     "a[href^=\"https://snowdayonline.xyz/\"]",
     "a[href^=\"https://stardomcoit.com/\"]",
     "a[href^=\"https://static.fleshlight.com/images/banners/\"]",
+    "a[href^=\"https://stellarcashflow.net/trck/\"]",
     "a[href^=\"https://streamate.com/landing/click/\"]",
     "a[href^=\"https://svb-analytics.trackerrr.com/\"]",
     "a[href^=\"https://syndicate.contentsserved.com/\"]",
@@ -44897,6 +44898,18 @@
     ".gF8wY",
     "[class] > [class]:has(> [data-testid=\"ad\"])"
   ],
+  "hackster.io": [
+    "#article_page_simple_ad_portal",
+    "[data-hypernova-key=\"ModularAd\"]",
+    "[href*=\"attendee.gotowebinar.com\"]",
+    "[href=\"https://www.hackster.io/events\"]",
+    "#surveyJS",
+    ".project_count_banner__container__TLBbH",
+    ".sticky_actions__stickyButton__vVglk",
+    "a.social_icons__icon__BxTgB",
+    ".article_layout__signupCTA__lll83",
+    "[href=\"https://www.hackster.io/newsletter/sign_up\"]"
+  ],
   "thehindu.com": [
     "#articledivrec",
     ".add",
@@ -48591,6 +48604,9 @@
     "#op1-ad",
     ".alford > tbody > tr",
     "a[href*=\"/affiliate.php?\"]",
+    "div[style=\"background-color: #F5F5E3; color: #333333; padding: 10px 10px; border: 2px solid #666633; border-radius: 5px; font-size: 16px; text-align: center; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; white-space: nowrap;\"]",
+    "img[alt=\"tip\"]",
+    "img[alt=\"tip\"] + b",
     "div > [style]:has([style]:has([href*=\"&utm\"]))",
     "#mc_embed_signup"
   ],
@@ -60668,6 +60684,9 @@
     "[style*=\"base64\"]",
     ".signup-box"
   ],
+  "cpstest.org": [
+    ".bottomAdsection"
+  ],
   "openguessr.com": [
     ".bottomFooterAds"
   ],
@@ -60973,8 +60992,6 @@
     ".c-pageReviewContent_ad",
     ".stickySkyboxSpacing",
     "[data-meta=\"placeholder-slot\"]",
-    ".c-avLazyStickyVideo",
-    ".c-shortcodeVideo_wrap",
     ".preferred-source-button",
     "[data-meta=\"footer-section-social\"]",
     "[data-meta=\"footer-section-social\"] + ul",
@@ -60992,7 +61009,8 @@
     ".row-top-banner"
   ],
   "truck1.eu": [
-    ".c-banners"
+    ".c-banners",
+    ".gdpr-container"
   ],
   "bo3.gg": [
     ".c-benner1-custom",
@@ -64777,7 +64795,6 @@
   ],
   "thestraight.com.au": [
     ".iam-ad",
-    "#cc-main",
     "#cc-main",
     ".wp-block-indiegraf-email-capture"
   ],
@@ -69349,7 +69366,10 @@
     "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(a[href=\"/sponsor\"])",
     "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src=\"/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5\"])",
     "div[class=\"my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3\"]:has(img[src^=\"/i/\"])",
+    "div[class=\"my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200\"]:has(img[srcset^=\"https://ph-files.imgix.net/\"])",
+    "div[class=\"my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200\"]:has(video[poster^=\"https://ph-files.imgix.net/\"])",
     "div[data-test] > section:has(a[href^=\"/r/ad/\"])",
+    "div[data-test] > section:has(img[src=\"/i/299a62819c7092e196f7fc2c331cc11ef4f93a0f32c3b3069c4fd974cda0cb4c\"])",
     ".bottom-2"
   ],
   "fstoppers.com": [
@@ -71282,14 +71302,6 @@
   ],
   "cumbriacrack.com": [
     "[data-hbwrap]"
-  ],
-  "hackster.io": [
-    "[data-hypernova-key=\"ModularAd\"]",
-    "[href=\"https://www.hackster.io/events\"]",
-    "#surveyJS",
-    ".project_count_banner__container__TLBbH",
-    ".article_layout__signupCTA__lll83",
-    "[href=\"https://www.hackster.io/newsletter/sign_up\"]"
   ],
   "igraal.com": [
     "[data-ig-ga-cat=\"Ad\"]"
@@ -73754,6 +73766,9 @@
     ".spads-recommender",
     ".sponsored-brand-products-container",
     ".teaser-orchestration__wrapper--online"
+  ],
+  "streamsports99.*": [
+    ".min-h-\\[70px\\]"
   ],
   "lazada.*": [
     ".pdp-block__product-ads"
@@ -80284,30 +80299,6 @@
   "radio.*": [
     ".topAdSpacer"
   ],
-  "mylink.*": [
-    "a[href^=\"https://go.nordvpn.net/\"], [src^=\"/nordcode.php\"]",
-    "div[id][style^=\"width: 970px; height: 250px;\"]",
-    "div[id][style=\"width: 300px; height: 250px;\"]",
-    "html > iframe"
-  ],
-  "my1ink.*": [
-    "a[href^=\"https://go.nordvpn.net/\"], [src^=\"/nordcode.php\"]",
-    "div[id][style^=\"width: 970px; height: 250px;\"]",
-    "div[id][style=\"width: 300px; height: 250px;\"]",
-    "html > iframe"
-  ],
-  "myl1nk.*": [
-    "a[href^=\"https://go.nordvpn.net/\"], [src^=\"/nordcode.php\"]",
-    "div[id][style^=\"width: 970px; height: 250px;\"]",
-    "div[id][style=\"width: 300px; height: 250px;\"]",
-    "html > iframe"
-  ],
-  "myli3k.*": [
-    "a[href^=\"https://go.nordvpn.net/\"], [src^=\"/nordcode.php\"]",
-    "div[id][style^=\"width: 970px; height: 250px;\"]",
-    "div[id][style=\"width: 300px; height: 250px;\"]",
-    "html > iframe"
-  ],
   "anghami.com": [
     "anghami-ads"
   ],
@@ -84026,6 +84017,9 @@
   ],
   "nijie.info/ad_log.php": [
     "._banner_view"
+  ],
+  "alltransistors.com": [
+    "#reklama"
   ],
   "aikatu.jp": [
     "^script[onload*=\"error-report.com\"]"
@@ -106628,6 +106622,9 @@
   "johnfrederick.co.uk": [
     "#wp-notification"
   ],
+  "pestdefence.co.uk": [
+    "#wp-notification"
+  ],
   "funnyordie.com": [
     "#wpautoterms-bottom-fixed-container"
   ],
@@ -108003,6 +108000,9 @@
   "midlands.englandhockey.co.uk": [
     ".c-cookie-bar"
   ],
+  "hobbitontours.com": [
+    ".c-cookie-confirm"
+  ],
   "datagen.tech": [
     ".c-cookie-consent-background"
   ],
@@ -108651,6 +108651,9 @@
   ],
   "samsungknox.com": [
     ".cookie-consent-v3"
+  ],
+  "aronimink.org": [
+    ".cookie-consent-wrapper"
   ],
   "springbok-puzzles.com": [
     ".cookie-consent-wrapper"
@@ -114679,6 +114682,9 @@
   "suwalki24.pl": [
     ".cookie-alert"
   ],
+  "thebatteryshop.eu": [
+    ".cookie-alert"
+  ],
   "tipik.hu": [
     ".cookie-alert",
     "#exposeMaskOverlay"
@@ -114951,6 +114957,10 @@
     ".cookie-consent-popup",
     "#onetrust-consent-sdk",
     ".onetrust-pc-dark-filter"
+  ],
+  "podurama.com": [
+    ".cookie-consent-popup",
+    ".apps-card"
   ],
   "bagina.co.il": [
     "#cookie-consent-popup"
@@ -115334,6 +115344,9 @@
     "#ensNotifyBanner"
   ],
   "vueling.com": [
+    "#ensNotifyBanner"
+  ],
+  "vw.co.za": [
     "#ensNotifyBanner"
   ],
   "vw.com": [
@@ -116088,6 +116101,9 @@
   "eshop.efko.cz": [
     "#cookie-bar"
   ],
+  "fabricmill.com": [
+    "#cookie-bar"
+  ],
   "goodtravel.de": [
     "#cookie-bar"
   ],
@@ -116107,9 +116123,6 @@
   "ilgiardinodeilibri.it": [
     "#cookie-bar",
     "#footer-nl-form"
-  ],
-  "industrycalendar.com": [
-    "#cookie-bar"
   ],
   "islambook.com": [
     "#cookie-bar",
@@ -117778,10 +117791,6 @@
   "aktivia.it": [
     "#cc-main"
   ],
-  "analytics-debugger.com": [
-    "#cc-main",
-    "#cc-main"
-  ],
   "andromede-cms.com": [
     "#cc-main"
   ],
@@ -117803,10 +117812,6 @@
   "bistrono.cz": [
     "#cc-main",
     "#multiapp-home"
-  ],
-  "bliink.io": [
-    "#cc-main",
-    "#cc-main"
   ],
   "boldem.cz": [
     "#cc-main"
@@ -117842,6 +117847,9 @@
     "#cc-main"
   ],
   "datawrapper.de": [
+    "#cc-main"
+  ],
+  "deblock.com": [
     "#cc-main"
   ],
   "derslig.com": [
@@ -117899,14 +117907,7 @@
   "home.s.id": [
     "#cc-main"
   ],
-  "humanitix.com": [
-    "#cc-main"
-  ],
   "investor.natera.com": [
-    "#cc-main"
-  ],
-  "istories.media": [
-    "#cc-main",
     "#cc-main"
   ],
   "jackbox.tv": [
@@ -117926,11 +117927,6 @@
     "#cc-main"
   ],
   "konverto.eu": [
-    "#cc-main"
-  ],
-  "kroo.com": [
-    "#cc-main",
-    "#cc--main",
     "#cc-main"
   ],
   "liu.se": [
@@ -118001,10 +117997,6 @@
   "sardynkibiznesu.pl": [
     "#cc-main"
   ],
-  "shipoffoolsgame.com": [
-    "#cc-main",
-    "#cc-main"
-  ],
   "softorino.com": [
     "#cc-main"
   ],
@@ -118012,10 +118004,6 @@
     "#cc-main"
   ],
   "sporthotel-zoll.com": [
-    "#cc-main"
-  ],
-  "topnatur.cz": [
-    "#cc-main",
     "#cc-main"
   ],
   "trae.ai": [
@@ -118034,10 +118022,6 @@
     "#cc-main"
   ],
   "velostreet.com": [
-    "#cc-main"
-  ],
-  "wdp.eu": [
-    "#cc-main",
     "#cc-main"
   ],
   "whitebit.au": [
@@ -118069,10 +118053,6 @@
     ".c--anim"
   ],
   "zitadel.com": [
-    "#cc-main"
-  ],
-  "zomaplast.cz": [
-    "#cc-main",
     "#cc-main"
   ],
   "acelen.com.br": [
@@ -118208,6 +118188,10 @@
   ],
   "kiwix.org": [
     "#cc--main"
+  ],
+  "kroo.com": [
+    "#cc--main",
+    "#cc-main"
   ],
   "krusovice.cz": [
     "#cc--main"
@@ -120274,6 +120258,9 @@
   "blog.oup.com": [
     "#cookie-notice",
     ".subscribe-box"
+  ],
+  "c20society.org.uk": [
+    "#cookie-notice"
   ],
   "dart.dev": [
     "#cookie-notice"
@@ -128367,6 +128354,9 @@
   "city-garden.co.il": [
     "#cookie-consent-banner"
   ],
+  "crypton.sh": [
+    "#cookie-consent-banner"
+  ],
   "etzmaleh.co.il": [
     "#cookie-consent-banner"
   ],
@@ -135182,6 +135172,9 @@
     "#cookie"
   ],
   "toyota-td.jp": [
+    "#cookie"
+  ],
+  "translate.com": [
     "#cookie"
   ],
   "triplan.dk": [
@@ -143722,6 +143715,27 @@
   "zaugg.swiss": [
     "#cc--main"
   ],
+  "analytics-debugger.com": [
+    "#cc-main"
+  ],
+  "bliink.io": [
+    "#cc-main"
+  ],
+  "istories.media": [
+    "#cc-main"
+  ],
+  "shipoffoolsgame.com": [
+    "#cc-main"
+  ],
+  "topnatur.cz": [
+    "#cc-main"
+  ],
+  "wdp.eu": [
+    "#cc-main"
+  ],
+  "zomaplast.cz": [
+    "#cc-main"
+  ],
   "kidioui.fr": [
     ".cookieACK"
   ],
@@ -144949,6 +144963,13 @@
   ],
   "hyla-germany.de": [
     "#cookie-overlay"
+  ],
+  "companies.rbc.ru": [
+    "#cookie-popup",
+    "#cookie-popup"
+  ],
+  "xmedia-recode.de": [
+    "#cookie-popup"
   ],
   "waidhofen.at": [
     "#cookie-settings-wrapper"
@@ -148576,6 +148597,13 @@
   "wijzeringeldzaken.nl": [
     "#consentbar"
   ],
+  "finambank.ru": [
+    "#cookie-consent-popup",
+    "#cookie-consent-popup"
+  ],
+  "wijnhaven.nl": [
+    "#cookie-consent-popup"
+  ],
   "nieuwbouw-borger-odoorn.nl": [
     "#cookie-overlay"
   ],
@@ -150852,6 +150880,9 @@
   ],
   "jbpo.or.jp": [
     "#c_policy_wrap"
+  ],
+  "shop.lashinbang.com": [
+    "#cookie-notice"
   ],
   "bunka-salon.d-kintetsu.co.jp": [
     "#cookieBox"
@@ -153281,14 +153312,8 @@
   "cardiovascular.elpub.ru": [
     "#cookie-banner-wrapper"
   ],
-  "finambank.ru": [
-    "#cookie-consent-popup"
-  ],
   "ria-m.tv": [
     "#cookie-msg"
-  ],
-  "companies.rbc.ru": [
-    "#cookie-popup"
   ],
   "violity.com": [
     "#cookieConsentPopup",
