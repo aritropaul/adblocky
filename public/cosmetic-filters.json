@@ -43935,8 +43935,10 @@
   "uinterview.com": [
     "#above-content",
     "#below-content",
+    "[style=\"padding-top:20px; text-align:center;\"]",
     ".arrow-up",
     ".alert-discreet",
+    ".newsletter-box",
     ".modal",
     ".modal-backdrop",
     ".mobile-app"
@@ -46368,7 +46370,6 @@
   ],
   "winaero.com": [
     "#custom_html-10",
-    "#jkhskdfsdf-iycc-5:not(.thank-you-adguard)",
     ".site-content > div > p[style=\"margin: 22px\"]",
     ".windia:not(.thank-you-adguard)",
     ".windia:not(.thank-you-adguard)",
@@ -60123,7 +60124,9 @@
     ".top-10",
     "[data-ad-unit-id]",
     "#player-wrapper",
-    "#primis-player"
+    "#primis-player",
+    ".animate-fadeOut",
+    ".z-\\[1101\\]"
   ],
   "mapquest.com": [
     ".bg-primary-12",
@@ -63899,7 +63902,8 @@
     ".ga-skscrpr"
   ],
   "elevenforum.com": [
-    ".gads"
+    ".gads",
+    "div[style=\"width:300px;padding-bottom:10px;text-align:center;height:612px;margin-bottom:15px;\"]"
   ],
   "html-code-generator.com": [
     ".gads"
@@ -72602,6 +72606,7 @@
   "unsplash.com": [
     "a[rel^=\"sponsored\"]",
     "div[data-ad=\"true\"]",
+    "figure[itemprop=\"image\"]:has(div[class*=\"sponsorLabelContainer-\"])",
     "[open]:has(a[href=\"/cookies\"])"
   ],
   "colombotimes.lk": [
@@ -75341,6 +75346,29 @@
   ],
   "play.usatoday.com": [
     ".zdFVI1__zdFVI1"
+  ],
+  "utrips.com": [
+    "[style=\"max-width: 970px; min-height: 250px; margin: 20px auto;\"]",
+    ".arrow-up",
+    ".social-icons",
+    "#myNewsModal",
+    ".modal-backdrop"
+  ],
+  "upolitics.com": [
+    "[style=\"padding-top:20px; text-align:center;\"]",
+    ".arrow-up",
+    ".social-icons",
+    "#myNewsModal",
+    ".alert-discreet",
+    ".modal-backdrop"
+  ],
+  "usports.org": [
+    "[style=\"padding-top:20px; text-align:center;\"]",
+    ".arrow-up",
+    ".social-icons",
+    "#myNewsModal",
+    ".alert-discreet",
+    ".modal-backdrop"
   ],
   "ukrinform.de": [
     "[style^=\"min-height: 280px;\"]",
@@ -88408,6 +88436,10 @@
   ],
   "reverbpress.com": [
     ".arrow-up"
+  ],
+  "ugames.tv": [
+    ".arrow-up",
+    ".social-icons"
   ],
   "goafricaonline.com": [
     ".arrow-up-container",
@@ -104215,6 +104247,9 @@
   "blankcaps.com": [
     "#cb-cookie-banner"
   ],
+  "t-shirtwholesaler.com": [
+    "#cb-cookie-banner"
+  ],
   "whois.is": [
     "#cb-cookie-banner"
   ],
@@ -105127,6 +105162,9 @@
   ],
   "drupal.org": [
     "#drupalorg-crosssite-gdpr"
+  ],
+  "demandsphere.com": [
+    "#ds-consent-banner"
   ],
   "duke.edu": [
     "#duke-cookie-consent"
@@ -108634,6 +108672,9 @@
   "friends.figma.com": [
     ".cookie-consent-acknowledgement-conatiner"
   ],
+  "crowdwork.com": [
+    ".cookie-consent-banner"
+  ],
   "meest-shop.com": [
     ".cookie-consent-banner_root__M9V7x"
   ],
@@ -108878,6 +108919,10 @@
   ],
   "rebeltech.co.za": [
     ".cookie-wall"
+  ],
+  "theopen.com": [
+    ".cookie-warning",
+    ".overlay"
   ],
   "ittelo.ru": [
     ".cookie-window"
@@ -112821,6 +112866,9 @@
     "[aria-label=\"Cookie Consent\"]",
     ".bottom-0.fixed"
   ],
+  "shirtspace.com": [
+    "[aria-label=\"Cookie Consent\"]"
+  ],
   "docs.nats.io": [
     "[aria-label=\"Cookies\"]"
   ],
@@ -113030,6 +113078,10 @@
   ],
   "betmgm.co.uk": [
     "div:has(> div > div[bol-component=\"cookie-consent\"])"
+  ],
+  "jingdaily.com": [
+    "div[aria-label=\"Cookie consent banner\"]",
+    ".c-hgrWQv"
   ],
   "utrechtart.com": [
     "div[aria-label=\"cookie consent banner\"]"
@@ -124392,9 +124444,6 @@
   "sportium.es": [
     ".overlay"
   ],
-  "theopen.com": [
-    ".overlay"
-  ],
   "optoma.ae": [
     "#msgbg"
   ],
@@ -128076,6 +128125,9 @@
     ".cookie-banner"
   ],
   "randfonteinherald.co.za": [
+    ".cookie-banner"
+  ],
+  "rawg.io": [
     ".cookie-banner"
   ],
   "reseau-sante-haut-leman.ch": [
@@ -150997,6 +151049,9 @@
   "get-cp.jp": [
     ".cookie-agreement"
   ],
+  "kaldi.co.jp": [
+    ".cookie-consent"
+  ],
   "kanazawalabo.net": [
     ".cookie-consent"
   ],
@@ -159766,9 +159821,6 @@
   "securelist.com": [
     ".c-form--newsletter",
     ".c-widget-subscribe"
-  ],
-  "jingdaily.com": [
-    ".c-hgrWQv"
   ],
   "softlaunchlondon.com": [
     ".c-home-right",
