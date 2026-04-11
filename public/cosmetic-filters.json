@@ -42348,6 +42348,13 @@
   "thelincolnite.co.uk": [
     ".inline-ad"
   ],
+  "ranking.sanrio.co.jp": [
+    ".is-ad",
+    ".shareButtons",
+    "a[href^=\"https://twitter.com/intent/tweet?\"]",
+    "a[href^=\"https://www.facebook.com/sharer/sharer.php\"]",
+    "#datasign_cmp__host"
+  ],
   "elektro.info.pl": [
     ".is-sponsored"
   ],
@@ -43497,6 +43504,7 @@
     "#toppbnf",
     ".DesktopRightBA",
     ".ad",
+    ".fusevidad",
     ".tldrad",
     ".adcon",
     ".center-tag-rightad",
@@ -43690,14 +43698,9 @@
   ],
   "engadget.com": [
     "#LB-MULTI_ATF",
-    ".Mih\\(90px\\)",
-    ".caas-da",
-    ".da-container",
-    ".post-article-ad",
-    ".related-content-lazyload",
-    ".wafer-benji",
     "[data-test=\"top-ad\"]",
     "section.md\\:min-h-\\[310px\\]",
+    "li.min-h-\\[88px\\]:has(> [data-test=\"streamad\"])",
     "#footer-newsletter"
   ],
   "fortune.com": [
@@ -48479,6 +48482,7 @@
     ".curated-spotlight",
     ".inlinerail",
     ".new_affiliate_embed",
+    ".new_menu_item",
     ".nn_mobile_mpu2_wrapper",
     ".nn_mobile_mpu_wrapper",
     ".saw-wrap",
@@ -71185,6 +71189,7 @@
   "groupon.com": [
     "[data-bhc$=\"sponsored_carousel\"]",
     "figure[data-clickurl^=\"https://api.groupon.com/sponsored/\"]",
+    ".px-0:has([data-bhw=\"DealCarousel-SponsoredDeals\"])",
     ".actions"
   ],
   "costco.ca": [
@@ -73738,6 +73743,10 @@
     "a[href^=\"https://yabs.yandex.ru/count/\"]",
     "a[href^=\"https://yandex.ru/an/count/\"]",
     "li[class*=\"_card\"]:has(a[href^=\"https://yandex.com/search/_crpd/\"])"
+  ],
+  "miruro.*": [
+    ".a-ads",
+    "section[class^=\"_noticeSection_\"]"
   ],
   "bier-universum.*": [
     ".abc-wrapper",
@@ -94084,6 +94093,9 @@
     ".et_bloom_popup",
     ".widget_bloomwidget"
   ],
+  "whats-on-netflix.com": [
+    ".widget_won_google_preferred_widget"
+  ],
   "project-management.com": [
     ".wp-block-bssb-social-share",
     ".wp-block-newsletter-widget"
@@ -103619,9 +103631,6 @@
   ],
   "card.discover.com": [
     ".share-widget"
-  ],
-  "ranking.sanrio.co.jp": [
-    ".shareButtons"
   ],
   "taskernet.com": [
     ".shareGroup"
@@ -120711,7 +120720,9 @@
     ".consent-banner"
   ],
   "nowtv.com.tr": [
-    ".consent-banner"
+    ".consent-banner",
+    "#onetrust-banner-sdk",
+    "#onetrust-consent-sdk"
   ],
   "ring.com": [
     ".consent-banner"
@@ -128463,6 +128474,9 @@
     "#cookie-consent-banner"
   ],
   "shekel4u.co.il": [
+    "#cookie-consent-banner"
+  ],
+  "stateofsurveillance.org": [
     "#cookie-consent-banner"
   ],
   "tainio-mania.online": [
