@@ -47349,7 +47349,8 @@
     "#hostedby",
     "#skylinewebcams-ads2",
     ".cam-vert",
-    ".text-center.cam-light"
+    ".text-center.cam-light",
+    "[style=\"width:100%;text-align:center\"]"
   ],
   "hostelgeeks.com": [
     "#hostelModal"
@@ -51215,6 +51216,7 @@
   ],
   "newsweek.com": [
     ".ArticleTwoColumnLayout_stickyAdContainer__fQzyz",
+    ".ad",
     "[data-mgid-container=\"true\"]",
     ".FeaturedMedia_articleFeaturedMedia__LEpVY",
     ".GooglePreferredSourceBanner_container__4kWoo"
@@ -64140,6 +64142,9 @@
     ".google-adManager",
     ".master-product-carousel:has([data-carousel-driven=\"sponsored-products\"])"
   ],
+  "dicoall.com": [
+    ".googleAdMain"
+  ],
   "css3generator.com": [
     ".gotta-pay-the-bills"
   ],
@@ -65836,6 +65841,18 @@
   ],
   "leftlion.co.uk": [
     ".ll-ad"
+  ],
+  "comicbook.com": [
+    ".lngtd-dynamic-inarticle",
+    ".lngtd-dynamic-leaderboard",
+    ".lngtd-dynamic-leaderboard-index",
+    ".lngtd-dynamic-rightrail",
+    ".wp-block-savage-platform-primis-video",
+    ".wp-block-jetpack-sharing-buttons",
+    ".social",
+    "#onetrust-consent-sdk",
+    ".onetrust-pc-dark-filter",
+    ".comicbook-cta-newsletter-wrap"
   ],
   "dayspring.com": [
     ".loading-mask"
@@ -69378,6 +69395,7 @@
     "div[class=\"my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200\"]:has(video[poster^=\"https://ph-files.imgix.net/\"])",
     "div[data-test] > section:has(a[href^=\"/r/ad/\"])",
     "div[data-test] > section:has(img[src=\"/i/299a62819c7092e196f7fc2c331cc11ef4f93a0f32c3b3069c4fd974cda0cb4c\"])",
+    "div[data-test]:not([data-test^=\"homepage-section-\"]) > section[data-test^=\"post-item-\"]",
     ".bottom-2"
   ],
   "fstoppers.com": [
@@ -71332,6 +71350,17 @@
     "[data-stid=\"meso-ad\"]",
     ".customer-notification-container",
     "#app-layer-customer-notification-centered-sheet-dialog"
+  ],
+  "twitch.tv": [
+    "[data-test-selector=\"sda-wrapper\"]",
+    "button[aria-label=\"Learn more about this ad\"]",
+    ".video-player--stream-display-ad_lower-third {height:100% !important;}",
+    ".stream-display-ad__wrapper",
+    ".video-player__overlay .player-overlay-background:has(> div[class^=\"Layout-\"] > div[class^=\"Layout-\"] > div[class^=\"Layout-\"] > a:is([href*=\"/how-to-allow-ads-browser\"], [href=\"https://www.twitch.tv/turbo\"]))",
+    "#twilight-sticky-footer-root",
+    ".social-media-link",
+    ".disclosure-card",
+    ".consent-banner"
   ],
   "bleacherreport.com": [
     "[data-testid=\"ad\"]",
@@ -75334,14 +75363,6 @@
     ".wp-block-grvmedia-grv-video",
     ".article-follow"
   ],
-  "comicbook.com": [
-    ".wp-block-savage-platform-primis-video",
-    ".wp-block-jetpack-sharing-buttons",
-    ".social",
-    "#onetrust-consent-sdk",
-    ".onetrust-pc-dark-filter",
-    ".comicbook-cta-newsletter-wrap"
-  ],
   "bigthink.com": [
     ".wrapper-connatixElements",
     ".wrapper-connatixPlayspace",
@@ -75411,16 +75432,6 @@
   "ukrinform.ua": [
     "[style^=\"min-height: 280px;\"]",
     ".share"
-  ],
-  "twitch.tv": [
-    "button[aria-label=\"Learn more about this ad\"]",
-    ".video-player--stream-display-ad_lower-third {height:100% !important;}",
-    ".stream-display-ad__wrapper",
-    ".video-player__overlay .player-overlay-background:has(> div[class^=\"Layout-\"] > div[class^=\"Layout-\"] > div[class^=\"Layout-\"] > a:is([href*=\"/how-to-allow-ads-browser\"], [href=\"https://www.twitch.tv/turbo\"]))",
-    "#twilight-sticky-footer-root",
-    ".social-media-link",
-    ".disclosure-card",
-    ".consent-banner"
   ],
   "burnerapp.com": [
     ".exit__overlay"
@@ -76892,6 +76903,9 @@
     "li[class=\"media-item no-popup\"]",
     "li[class]:has(a[href^=\"https://boyfriend.show/\"][rel=\"sponsored\"])",
     ".ads-block-rightside"
+  ],
+  "acg-hentai.com": [
+    ".adbox"
   ],
   "ftopx.com": [
     ".add-block",
@@ -81060,10 +81074,6 @@
     "[style^=\"transform\"]:has(#videoHolder)",
     "ul[style^=\"padding-top:\"]"
   ],
-  "cloudstorageoptions.com": [
-    "ins.adsbygoogle",
-    ".adslot_left"
-  ],
   "lnk.news": [
     ".child-centered.display-300x250"
   ],
@@ -83307,10 +83317,6 @@
   ],
   "wohnungsboerse.net": [
     "[href*=\".php\"]"
-  ],
-  "filmytoday.com": [
-    ".advertisement, .adsbygoogle",
-    ".i-am-centered"
   ],
   "safetxt.*": [
     "ins.adsbygoogle"
@@ -159130,6 +159136,9 @@
   "politicsweb.co.za": [
     "#steadyAdblockContainer",
     ".subscribe"
+  ],
+  "sheets.works": [
+    "#stickyEmailBar"
   ],
   "dynomight.net": [
     "#submitForm"

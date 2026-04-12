@@ -38319,7 +38319,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldads.com^",
+      "urlFilter": "||yg5sjx5kzy.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38330,7 +38330,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldlab.net^",
+      "urlFilter": "||yieldads.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38341,7 +38341,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldmanager.net^",
+      "urlFilter": "||yieldlab.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38352,7 +38352,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldmo.com^",
+      "urlFilter": "||yieldmanager.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38363,7 +38363,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldoptimizer.com^",
+      "urlFilter": "||yieldmo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38374,7 +38374,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yieldtraffic.com^",
+      "urlFilter": "||yieldoptimizer.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38385,7 +38385,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ymetrica1.com^",
+      "urlFilter": "||yieldtraffic.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38396,7 +38396,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yoads.net^",
+      "urlFilter": "||ymetrica1.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38407,7 +38407,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||yoggrt.com^",
+      "urlFilter": "||yoads.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38418,7 +38418,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||youcandrawanything.com^",
+      "urlFilter": "||yoggrt.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38429,7 +38429,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||youradexchange.com^",
+      "urlFilter": "||youcandrawanything.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38440,7 +38440,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||ypu.samsungelectronics.com^",
+      "urlFilter": "||youradexchange.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38451,7 +38451,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zangocash.com^",
+      "urlFilter": "||ypu.samsungelectronics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38462,7 +38462,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zanox-affiliate.de^",
+      "urlFilter": "||zangocash.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38473,7 +38473,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zanox.com^",
+      "urlFilter": "||zanox-affiliate.de^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38484,7 +38484,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zantracker.com^",
+      "urlFilter": "||zanox.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38495,7 +38495,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zarget.com^",
+      "urlFilter": "||zantracker.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38506,7 +38506,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zdbb.net^",
+      "urlFilter": "||zarget.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38517,7 +38517,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zedo.com^",
+      "urlFilter": "||zdbb.net^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38528,7 +38528,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zemanta.com^",
+      "urlFilter": "||zedo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38539,7 +38539,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zencudo.co.uk^",
+      "urlFilter": "||zemanta.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38550,7 +38550,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zenkreka.com^",
+      "urlFilter": "||zencudo.co.uk^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38561,7 +38561,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zenzuu.com^",
+      "urlFilter": "||zenkreka.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38572,7 +38572,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zephyrlabyrinth.com^",
+      "urlFilter": "||zenzuu.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38583,7 +38583,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zeus.developershed.com^",
+      "urlFilter": "||zephyrlabyrinth.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38594,7 +38594,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zeusclicks.com^",
+      "urlFilter": "||zeus.developershed.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38605,7 +38605,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zeydoo.com^",
+      "urlFilter": "||zeusclicks.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38616,7 +38616,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zion-telemetry.api.cnn.io^",
+      "urlFilter": "||zeydoo.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38627,7 +38627,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zippingcare.com^",
+      "urlFilter": "||zion-telemetry.api.cnn.io^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38638,7 +38638,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zlp6s.pw^",
+      "urlFilter": "||zippingcare.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38649,7 +38649,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zm232.com^",
+      "urlFilter": "||zlp6s.pw^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38660,7 +38660,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zmedia.com^",
+      "urlFilter": "||zm232.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38671,7 +38671,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zonewedgeshaft.com^",
+      "urlFilter": "||zmedia.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38682,7 +38682,7 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zpu.samsungelectronics.com^",
+      "urlFilter": "||zonewedgeshaft.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
@@ -38693,12 +38693,23 @@
       "type": "block"
     },
     "condition": {
-      "urlFilter": "||zqtk.net^",
+      "urlFilter": "||zpu.samsungelectronics.com^",
       "isUrlFilterCaseSensitive": false
     }
   },
   {
     "id": 3519,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||zqtk.net^",
+      "isUrlFilterCaseSensitive": false
+    }
+  },
+  {
+    "id": 3520,
     "priority": 1,
     "action": {
       "type": "block"
