@@ -62185,8 +62185,8 @@
     ".share-icons"
   ],
   "kqed.org": [
-    ".components-Ad-__Ad__ad",
     ".components-AdLive-__AdLive__ad",
+    ".components-Ads-AdUnit-__AdUnit__adContent",
     ".navigation",
     "#header-cts",
     ".components-SocialShareTray-__SocialShareTray__SocialShareUL",
@@ -63063,6 +63063,12 @@
   "ablogtowatch.com": [
     ".ebay-placement"
   ],
+  "vecteezy.com": [
+    ".eezy-sponsored-results",
+    ".ez-sponsored-results",
+    ".partner-sponsored-results",
+    ".prtnr-sponsored-results"
+  ],
   "cryptorank.io": [
     ".egJLJA",
     ".piRla",
@@ -63196,10 +63202,6 @@
   "textcompare.org": [
     ".ez-sidebar-wall",
     ".mui-ot0xle"
-  ],
-  "vecteezy.com": [
-    ".ez-sponsored-results",
-    ".partner-sponsored-results"
   ],
   "futuregaming.io": [
     ".ez-video-wrap"
@@ -64106,6 +64108,9 @@
   "frzyc.github.io": [
     ".go-ad-wrapper",
     "[alt*=\"Banner\"]"
+  ],
+  "fingerlakes1.com": [
+    ".gofollow"
   ],
   "thecoastnews.com": [
     ".gofollow",
@@ -147967,6 +147972,9 @@
   "zagreb.mozemo.hr": [
     ".fs-consent_component-2"
   ],
+  "gov.hr": [
+    ".gdc-container"
+  ],
   "hakom.hr": [
     ".gdc-container"
   ],
@@ -156313,6 +156321,11 @@
   ],
   "zukunft-jetzt.deutsche-rentenversicherung.de": [
     "#cookie-banner"
+  ],
+  "caixabank.com": [
+    "#cookie-form",
+    "#cookies-banner",
+    ".cookies-region"
   ],
   "notify.events": [
     "#cookie-gdpr"
