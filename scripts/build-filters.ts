@@ -179,6 +179,25 @@ async function main() {
     "googlesyndication.com",
     "google.com",
     "googleusercontent.com",
+    // First-party YouTube infra. Filter lists block some of these
+    // (ads.youtube.com, various /pagead/ paths) which makes YT's client-side
+    // adblock detector fire → server refuses to stream → black video player.
+    // MAIN-world script strips ad config from player responses instead.
+    "youtube.com",
+    "www.youtube.com",
+    "m.youtube.com",
+    "ads.youtube.com",
+    "fcmatch.youtube.com",
+    "youtubekids.com",
+    "ytimg.com",
+    "i.ytimg.com",
+    "s.ytimg.com",
+    "googlevideo.com",
+    "youtube-nocookie.com",
+    "gstatic.com",
+    "googleapis.com",
+    "googletagservices.com",
+    "googletagmanager.com",
   ];
   for (const domain of YT_ALLOWED_DOMAINS) {
     exceptionRules.push({

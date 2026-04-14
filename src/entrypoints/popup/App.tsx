@@ -1,8 +1,23 @@
 import { useState, useEffect } from "react";
-import { sendMessage, type StatsResponse, type Settings } from "@/lib/messaging";
+import {
+  sendMessage,
+  type StatsResponse,
+  type Settings,
+  DEFAULT_SETTINGS,
+} from "@/lib/messaging";
+import { log } from "@/lib/logger";
+
+const FILTER_LABELS: Record<string, string> = {
+  ruleset_easylist: "EasyList",
+  ruleset_easyprivacy: "EasyPrivacy",
+  ruleset_ublock: "uBlock Filters",
+  ruleset_peter_lowe: "Peter Lowe",
+  ruleset_streaming: "Streaming Ads",
+  ruleset_annoyances: "Annoyances",
+};
 
 export default function App() {
-  const [enabled, setEnabled] = useState(true);
+  const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS);
   const [stats, setStats] = useState<StatsResponse>({
     totalBlocked: 0,
     currentTabBlocked: 0,
@@ -10,121 +25,238 @@ export default function App() {
   const [currentDomain, setCurrentDomain] = useState("");
   const [domainAllowed, setDomainAllowed] = useState(false);
   const [adsSkipped, setAdsSkipped] = useState(0);
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Get current tab info
-    chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
-      const tab = tabs[0];
-      if (!tab?.id || !tab.url) return;
-
+    log.info("popup", "mounted");
+    (async () => {
       try {
-        const url = new URL(tab.url);
-        setCurrentDomain(url.hostname);
+        const [s, tabs] = await Promise.all([
+          sendMessage<Settings>({ type: "GET_SETTINGS" }),
+          new Promise<chrome.tabs.Tab[]>((r) =>
+            chrome.tabs.query({ active: true, currentWindow: true }, r),
+          ),
+        ]);
+        setSettings(s);
 
-        const statsData = await sendMessage<StatsResponse>({
-          type: "GET_STATS",
-          payload: { tabId: tab.id },
-        });
-        setStats(statsData);
+        const tab = tabs[0];
+        if (tab?.url && tab.id) {
+          try {
+            const url = new URL(tab.url);
+            setCurrentDomain(url.hostname);
 
-        const isAllowed = await sendMessage<boolean>({
-          type: "IS_DOMAIN_ALLOWED",
-          payload: url.hostname,
-        });
-        setDomainAllowed(isAllowed);
+            const [statsData, isAllowed] = await Promise.all([
+              sendMessage<StatsResponse>({
+                type: "GET_STATS",
+                payload: { tabId: tab.id },
+              }),
+              sendMessage<boolean>({
+                type: "IS_DOMAIN_ALLOWED",
+                payload: url.hostname,
+              }),
+            ]);
+            setStats(statsData);
+            setDomainAllowed(isAllowed);
+          } catch {
+            // non-http tab (chrome://, about:) — skip tab-specific state
+          }
+        }
+
+        const { adb_ads_skipped } =
+          await chrome.storage.local.get("adb_ads_skipped");
+        setAdsSkipped(adb_ads_skipped || 0);
       } catch (e) {
-        console.error("[adb] popup error:", e);
+        log.error("popup", "initial load failed", e);
+        setError(String(e));
+      } finally {
+        setLoading(false);
       }
-    });
-
-    // Load global enabled state
-    sendMessage<Settings>({ type: "GET_SETTINGS" }).then((s) => {
-      setEnabled(s.enabled);
-    });
-
-    // Load streaming ad skip count
-    chrome.storage.local.get("adb_ads_skipped", (data) => {
-      setAdsSkipped(data.adb_ads_skipped || 0);
-    });
+    })();
   }, []);
 
-  const toggleGlobal = async () => {
-    const newEnabled = !enabled;
-    setEnabled(newEnabled);
-    await sendMessage({ type: "UPDATE_SETTINGS", payload: { enabled: newEnabled } });
+  const saveSettings = async (partial: Partial<Settings>) => {
+    const merged = { ...settings, ...partial };
+    setSettings(merged);
+    setError(null);
+    try {
+      await sendMessage({ type: "UPDATE_SETTINGS", payload: merged });
+    } catch (e) {
+      log.error("popup", "save failed", e);
+      setError(String(e));
+    }
+  };
+
+  const toggleGlobal = () => {
+    log.info("popup", "toggleGlobal", { next: !settings.enabled });
+    saveSettings({ enabled: !settings.enabled });
+  };
+
+  const toggleRuleset = (id: string) => {
+    log.info("popup", "toggleRuleset", { id, next: !settings.rulesets[id] });
+    saveSettings({
+      rulesets: { ...settings.rulesets, [id]: !settings.rulesets[id] },
+    });
   };
 
   const toggleDomain = async () => {
-    const result = await sendMessage<{ isAllowed: boolean }>({
-      type: "TOGGLE_DOMAIN",
-      payload: currentDomain,
+    if (!currentDomain) return;
+    log.info("popup", "toggleDomain", { domain: currentDomain });
+    try {
+      const result = await sendMessage<{ isAllowed: boolean }>({
+        type: "TOGGLE_DOMAIN",
+        payload: currentDomain,
+      });
+      setDomainAllowed(result.isAllowed);
+      setError(null);
+    } catch (e) {
+      log.error("popup", "toggleDomain failed", e);
+      setError(String(e));
+    }
+  };
+
+  const openSettings = () => {
+    log.info("popup", "openSettings click");
+    // chrome.runtime.openOptionsPage() is unreliable — on macOS it opens an
+    // embedded panel inside chrome://extensions that often appears behind the
+    // current window and looks like nothing happened. Open as a plain new tab
+    // instead — guaranteed visible feedback.
+    chrome.tabs.create({ url: chrome.runtime.getURL("options.html") });
+    window.close();
+  };
+
+  const clearStats = async () => {
+    log.info("popup", "clearStats");
+    await chrome.storage.local.set({
+      adb_stats: { totalBlocked: 0, domainCounts: {} },
+      adb_ads_skipped: 0,
     });
-    setDomainAllowed(result.isAllowed);
+    setStats({ totalBlocked: 0, currentTabBlocked: stats.currentTabBlocked });
+    setAdsSkipped(0);
   };
 
   return (
-    <div className="w-80 bg-zinc-950 text-zinc-100 p-4 font-sans">
+    <div className="bg-zinc-950 text-zinc-100 p-4 font-sans text-sm">
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-lg font-bold tracking-tight">adblocky</h1>
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <div
+            className={`w-2 h-2 rounded-full ${settings.enabled ? "bg-emerald-500" : "bg-zinc-600"}`}
+          />
+          <h1 className="text-base font-bold tracking-tight">adblocky</h1>
+        </div>
         <button
           onClick={toggleGlobal}
           className={`relative w-11 h-6 rounded-full transition-colors ${
-            enabled ? "bg-emerald-500" : "bg-zinc-700"
+            settings.enabled ? "bg-emerald-500" : "bg-zinc-700"
           }`}
+          aria-label="Toggle global blocker"
         >
           <span
             className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full transition-transform ${
-              enabled ? "translate-x-5" : ""
+              settings.enabled ? "translate-x-5" : ""
             }`}
           />
         </button>
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-3 gap-2 mb-4">
-        <div className="bg-zinc-900 rounded-lg p-3">
-          <div className="text-xl font-mono font-bold text-emerald-400">
-            {stats.currentTabBlocked.toLocaleString()}
+      <div className="grid grid-cols-3 gap-2 mb-3">
+        <StatCard label="This page" value={stats.currentTabBlocked} color="text-emerald-400" />
+        <StatCard label="Total" value={stats.totalBlocked} color="text-zinc-200" />
+        <StatCard label="Ads skipped" value={adsSkipped} color="text-purple-400" />
+      </div>
+
+      {/* Current site */}
+      {currentDomain && (
+        <div className="mb-3 rounded-lg bg-zinc-900 p-3">
+          <div className="text-xs text-zinc-500 mb-1">Current site</div>
+          <div className="flex items-center justify-between gap-2">
+            <span className="font-mono text-xs truncate text-zinc-300">
+              {currentDomain}
+            </span>
+            <button
+              onClick={toggleDomain}
+              className={`shrink-0 px-3 py-1 rounded-md text-xs font-medium transition-colors ${
+                domainAllowed
+                  ? "bg-amber-500/20 text-amber-300 hover:bg-amber-500/30"
+                  : "bg-emerald-600/20 text-emerald-300 hover:bg-emerald-600/30"
+              }`}
+            >
+              {domainAllowed ? "Allowed — click to block" : "Blocking — click to allow"}
+            </button>
           </div>
-          <div className="text-xs text-zinc-500 mt-1">This page</div>
         </div>
-        <div className="bg-zinc-900 rounded-lg p-3">
-          <div className="text-xl font-mono font-bold text-zinc-300">
-            {stats.totalBlocked.toLocaleString()}
-          </div>
-          <div className="text-xs text-zinc-500 mt-1">Total blocked</div>
+      )}
+
+      {/* Filter Lists */}
+      <div className="mb-3">
+        <div className="text-xs font-semibold text-zinc-500 uppercase tracking-wider mb-2">
+          Filter Lists
         </div>
-        <div className="bg-zinc-900 rounded-lg p-3">
-          <div className="text-xl font-mono font-bold text-purple-400">
-            {adsSkipped.toLocaleString()}
-          </div>
-          <div className="text-xs text-zinc-500 mt-1">Ads skipped</div>
+        <div className="space-y-1">
+          {Object.entries(FILTER_LABELS).map(([id, name]) => (
+            <label
+              key={id}
+              className="flex items-center justify-between bg-zinc-900 rounded-md px-3 py-1.5 cursor-pointer hover:bg-zinc-800 transition-colors"
+            >
+              <span className="text-xs">{name}</span>
+              <input
+                type="checkbox"
+                checked={settings.rulesets[id] ?? false}
+                onChange={() => toggleRuleset(id)}
+                className="w-3.5 h-3.5 accent-emerald-500"
+              />
+            </label>
+          ))}
         </div>
       </div>
 
-      {/* Domain toggle */}
-      {currentDomain && (
-        <button
-          onClick={toggleDomain}
-          className={`w-full py-2 px-3 rounded-lg text-sm font-medium transition-colors ${
-            domainAllowed
-              ? "bg-amber-500/20 text-amber-400 hover:bg-amber-500/30"
-              : "bg-zinc-800 text-zinc-300 hover:bg-zinc-700"
-          }`}
-        >
-          {domainAllowed ? `Allowed: ${currentDomain}` : `Block ads on ${currentDomain}`}
-        </button>
+      {error && (
+        <div className="mb-3 px-3 py-2 rounded-lg bg-red-950/50 border border-red-900/50 text-xs text-red-300 break-all">
+          {error}
+        </div>
+      )}
+
+      {loading && (
+        <div className="mb-3 text-xs text-zinc-600 text-center">Loading…</div>
       )}
 
       {/* Footer */}
-      <div className="mt-4 flex justify-end">
+      <div className="flex items-center justify-between pt-2 border-t border-zinc-900">
         <button
-          onClick={() => chrome.runtime.openOptionsPage()}
-          className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
+          onClick={clearStats}
+          className="text-xs text-zinc-600 hover:text-zinc-400 transition-colors"
         >
-          Settings
+          Reset stats
         </button>
+        <button
+          onClick={openSettings}
+          className="text-xs text-emerald-400 hover:text-emerald-300 transition-colors font-medium"
+        >
+          Advanced settings →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function StatCard({
+  label,
+  value,
+  color,
+}: {
+  label: string;
+  value: number;
+  color: string;
+}) {
+  return (
+    <div className="bg-zinc-900 rounded-lg p-2.5">
+      <div className={`text-lg font-mono font-bold ${color} tabular-nums`}>
+        {value.toLocaleString()}
+      </div>
+      <div className="text-[10px] text-zinc-500 mt-0.5 leading-tight">
+        {label}
       </div>
     </div>
   );

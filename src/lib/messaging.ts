@@ -10,7 +10,10 @@ export type MessageType =
   | "GET_SETTINGS"
   | "UPDATE_SETTINGS"
   | "FORCE_UPDATE_FILTERS"
-  | "GET_STREAMING_STATUS";
+  | "GET_STREAMING_STATUS"
+  | "LOG_EVENT"
+  | "GET_LOG"
+  | "CLEAR_LOG";
 
 export interface Message<T extends MessageType = MessageType> {
   type: T;
@@ -105,10 +108,44 @@ export function onMessage(
   );
 }
 
-export function sendMessage<T = unknown>(message: Message): Promise<T> {
-  return new Promise((resolve) => {
-    chrome.runtime.sendMessage(message, (response: T) => {
-      resolve(response);
-    });
+export function sendMessage<T = unknown>(
+  message: Message,
+  timeoutMs = 5000,
+): Promise<T> {
+  return new Promise((resolve, reject) => {
+    let settled = false;
+    const timer = setTimeout(() => {
+      if (settled) return;
+      settled = true;
+      const err = new Error(
+        `sendMessage timeout after ${timeoutMs}ms (type=${message.type})`,
+      );
+      console.error("[adb:msg]", err.message);
+      reject(err);
+    }, timeoutMs);
+
+    try {
+      chrome.runtime.sendMessage(message, (response: T) => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timer);
+        const lastErr = chrome.runtime.lastError;
+        if (lastErr) {
+          console.error(
+            "[adb:msg] runtime error",
+            message.type,
+            lastErr.message,
+          );
+          reject(new Error(lastErr.message));
+          return;
+        }
+        resolve(response);
+      });
+    } catch (e) {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      reject(e);
+    }
   });
 }

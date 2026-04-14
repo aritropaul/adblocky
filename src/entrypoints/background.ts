@@ -10,26 +10,96 @@ import {
   incrementBlockCount,
 } from "@/lib/storage";
 import { incrementTabCount, getTabCount, resetTabCount } from "@/lib/stats";
+import {
+  log,
+  appendEntry,
+  getLog,
+  clearLog,
+  type LogEntry,
+} from "@/lib/logger";
 
 export default defineBackground(() => {
-  // Log every blocked request with rule ID and ruleset
-  chrome.declarativeNetRequest.onRuleMatchedDebug?.addListener((info) => {
-    const { rule, request } = info;
-    console.log(
-      `[adblocky] BLOCKED rule=${rule.ruleId} ruleset=${rule.rulesetId} url=${request.url} type=${request.type} initiator=${request.initiator || "none"}`,
-    );
+  // Ruleset action cache: rulesetId → { allow: Set<ruleId>, block: Set<ruleId> }
+  // Built lazily by loading each ruleset's JSON from the bundle. Lets us log
+  // DNR matches with the correct action type — onRuleMatchedDebug doesn't
+  // include the action, so we look it up here.
+  const actionCache = new Map<string, { allow: Set<number>; block: Set<number> }>();
 
-    const tabId = request.tabId;
-    if (tabId >= 0) {
-      incrementTabCount(tabId);
-      try {
-        const url = new URL(request.url);
-        incrementBlockCount(url.hostname);
-      } catch {
-        // ignore invalid URLs
+  async function loadRulesetActions(rulesetId: string) {
+    if (actionCache.has(rulesetId)) return;
+    try {
+      const url = chrome.runtime.getURL(`rules/${rulesetId}.json`);
+      const res = await fetch(url);
+      if (!res.ok) return;
+      const rules: Array<{ id: number; action: { type: string } }> = await res.json();
+      const allow = new Set<number>();
+      const block = new Set<number>();
+      for (const r of rules) {
+        if (r.action?.type === "allow" || r.action?.type === "allowAllRequests") {
+          allow.add(r.id);
+        } else if (r.action?.type === "block") {
+          block.add(r.id);
+        }
       }
+      actionCache.set(rulesetId, { allow, block });
+    } catch {
+      // ignore — will retry on next match
     }
-  });
+  }
+
+  function classifyAction(
+    rulesetId: string,
+    ruleId: number,
+  ): "allow" | "block" | "unknown" {
+    const c = actionCache.get(rulesetId);
+    if (!c) return "unknown";
+    if (c.allow.has(ruleId)) return "allow";
+    if (c.block.has(ruleId)) return "block";
+    return "unknown";
+  }
+
+  // Log every matched DNR rule (block or allow) with rule ID and ruleset.
+  // Requires "declarativeNetRequestFeedback" permission; works for unpacked
+  // extensions and packed extensions from Chrome Web Store with that perm.
+  if (chrome.declarativeNetRequest.onRuleMatchedDebug) {
+    chrome.declarativeNetRequest.onRuleMatchedDebug.addListener(async (info) => {
+      const { rule, request } = info;
+      const rulesetId = rule.rulesetId || "dnr";
+      await loadRulesetActions(rulesetId);
+      const action = classifyAction(rulesetId, rule.ruleId);
+      const meta = {
+        ruleId: rule.ruleId,
+        rulesetId,
+        action,
+        url: request.url,
+        type: request.type,
+        initiator: request.initiator,
+        tabId: request.tabId,
+      };
+
+      if (action === "block") {
+        log.block(rulesetId, `BLOCK rule=${rule.ruleId} ${request.type}`, meta);
+        const tabId = request.tabId;
+        if (tabId >= 0) {
+          incrementTabCount(tabId);
+          try {
+            const url = new URL(request.url);
+            incrementBlockCount(url.hostname);
+          } catch {}
+        }
+      } else if (action === "allow") {
+        log.info(rulesetId, `ALLOW rule=${rule.ruleId} ${request.type}`, meta);
+      } else {
+        log.info(rulesetId, `MATCH rule=${rule.ruleId} ${request.type}`, meta);
+      }
+    });
+    log.info("background", "DNR debug listener attached");
+  } else {
+    log.warn(
+      "background",
+      "onRuleMatchedDebug unavailable — enable declarativeNetRequestFeedback",
+    );
+  }
 
   // Reset tab count on navigation
   chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
@@ -109,31 +179,108 @@ export default defineBackground(() => {
         return settings.streaming;
       }
 
+      case "LOG_EVENT": {
+        const entry = message.payload as LogEntry;
+        if (entry && typeof entry === "object") {
+          if (sender?.tab?.id != null) entry.tabId = sender.tab.id;
+          if (!entry.url && sender?.url) entry.url = sender.url;
+          await appendEntry(entry);
+        }
+        return { ok: true };
+      }
+
+      case "GET_LOG": {
+        return await getLog();
+      }
+
+      case "CLEAR_LOG": {
+        await clearLog();
+        log.info("background", "Log cleared");
+        return { ok: true };
+      }
+
       default:
         return null;
     }
   });
 
-  // Sync enabled rulesets based on settings
+  // Sync enabled rulesets based on settings.
+  // Only pass deltas (what Chrome actually needs to change) to
+  // updateEnabledRulesets — passing already-enabled/disabled rulesets
+  // triggers DNR "Internal error" on some Chrome versions.
   async function syncRulesets(settings: Settings) {
     try {
-      const enableRulesetIds: string[] = [];
-      const disableRulesetIds: string[] = [];
+      const currentlyEnabled = new Set(
+        await chrome.declarativeNetRequest.getEnabledRulesets(),
+      );
 
+      const want = new Map<string, boolean>();
       for (const [id, enabled] of Object.entries(settings.rulesets)) {
-        if (settings.enabled && enabled) {
-          enableRulesetIds.push(id);
-        } else {
-          disableRulesetIds.push(id);
-        }
+        want.set(id, !!(settings.enabled && enabled));
       }
 
-      await chrome.declarativeNetRequest.updateEnabledRulesets({
-        enableRulesetIds,
-        disableRulesetIds,
+      const toEnable: string[] = [];
+      const toDisable: string[] = [];
+      for (const [id, wantOn] of want) {
+        const isOn = currentlyEnabled.has(id);
+        if (wantOn && !isOn) toEnable.push(id);
+        if (!wantOn && isOn) toDisable.push(id);
+      }
+
+      if (toEnable.length === 0 && toDisable.length === 0) {
+        log.info("settings", "Rulesets already in desired state, no-op", {
+          currentlyEnabled: [...currentlyEnabled],
+        });
+        return;
+      }
+
+      log.info("settings", "Updating rulesets", {
+        currentlyEnabled: [...currentlyEnabled],
+        toEnable,
+        toDisable,
+        globalEnabled: settings.enabled,
       });
+
+      try {
+        await chrome.declarativeNetRequest.updateEnabledRulesets({
+          enableRulesetIds: toEnable,
+          disableRulesetIds: toDisable,
+        });
+        log.info("settings", "Rulesets synced OK", { toEnable, toDisable });
+      } catch (innerErr) {
+        log.error("settings", "updateEnabledRulesets failed, retrying individually", {
+          toEnable,
+          toDisable,
+          err: String(innerErr),
+        });
+        // Chrome's "Internal error" is often triggered by one specific ruleset
+        // (rule count over limit, regex count over 1000, etc.). Apply each
+        // change individually so we can see which ruleset is the bad one.
+        for (const id of toEnable) {
+          try {
+            await chrome.declarativeNetRequest.updateEnabledRulesets({
+              enableRulesetIds: [id],
+            });
+            log.info("settings", `enabled ${id}`);
+          } catch (e) {
+            log.error("settings", `FAILED to enable ${id}`, { err: String(e) });
+          }
+        }
+        for (const id of toDisable) {
+          try {
+            await chrome.declarativeNetRequest.updateEnabledRulesets({
+              disableRulesetIds: [id],
+            });
+            log.info("settings", `disabled ${id}`);
+          } catch (e) {
+            log.error("settings", `FAILED to disable ${id}`, {
+              err: String(e),
+            });
+          }
+        }
+      }
     } catch (e) {
-      console.error("[adb] Failed to sync rulesets:", e);
+      log.error("settings", "syncRulesets outer failure", e);
     }
   }
 
@@ -175,8 +322,12 @@ export default defineBackground(() => {
         removeRuleIds,
         addRules,
       });
+      log.info("settings", "Synced allowlist", {
+        count: settings.allowlist.length,
+        domains: settings.allowlist,
+      });
     } catch (e) {
-      console.error("[adb] Failed to sync allowlist rules:", e);
+      log.error("settings", "Failed to sync allowlist rules", e);
     }
   }
 
@@ -216,12 +367,11 @@ export default defineBackground(() => {
 
         // Click-hijack confirmed → close the piggybacked popup
         chrome.tabs.remove(tabId);
-        console.log(
-          "[adblocky] popup-killer: closed click-hijack popup to",
-          popupHost,
-          "(from",
-          nav.host + ")",
-        );
+        log.block("popup-blocker", `Closed click-hijack popup to ${popupHost}`, {
+          from: nav.host,
+          to: popupHost,
+          url,
+        });
         if (sourceTabId >= 0) {
           incrementTabCount(sourceTabId);
           incrementBlockCount(popupHost);
@@ -235,6 +385,8 @@ export default defineBackground(() => {
     const settings = await getSettings();
     await syncRulesets(settings);
     await syncAllowlistRules(settings);
-    console.log("[adb] Extension installed/updated, rulesets synced");
+    log.info("background", "Extension installed/updated, rulesets synced");
   });
+
+  log.info("background", "Service worker started");
 });

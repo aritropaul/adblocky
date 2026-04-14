@@ -380,7 +380,20 @@ function dismissAntiAdblockWalls() {
       const htmlEl = el as HTMLElement;
       // Only remove if it looks like an overlay/modal (large or covering viewport)
       if (isLikelyWall(htmlEl)) {
-        console.log("%c[adblocky]%c anti-adblock %cRemoved wall:", "color:#10b981;font-weight:bold", "color:#ffd700;font-weight:bold", "color:inherit", selector, htmlEl.className?.toString?.()?.substring(0, 60));
+        // Posting to window is cheap; background listener would need messaging
+        // here but anti-adblock runs in MAIN world — use CustomEvent bridge.
+        window.dispatchEvent(
+          new CustomEvent("adb-log", {
+            detail: {
+              level: "block",
+              module: "anti-adblock",
+              msg: `Removed wall: ${selector}`,
+              data: {
+                className: htmlEl.className?.toString?.()?.substring(0, 60),
+              },
+            },
+          }),
+        );
         htmlEl.remove();
       }
     }

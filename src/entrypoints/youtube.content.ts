@@ -1,31 +1,63 @@
 /**
- * YouTube content script — ad detection, skip, and anti-adblock wall removal.
- * Runs in the ISOLATED world. Injects youtube-player.ts into MAIN world for player API access.
+ * YouTube content script (ISOLATED world) — ad detection, skip, anti-adblock
+ * wall removal. MAIN-world player API hooks are in youtube-player.content.ts,
+ * declared as a separate content script so they install synchronously at
+ * document_start (external <script> injection was too late → YT processed
+ * ads before we could strip them → server-side enforcement fired).
  */
+
+import { log } from "@/lib/logger";
 
 export default defineContentScript({
   matches: ["*://*.youtube.com/*"],
   runAt: "document_start",
 
   main() {
-    // Inject MAIN world script for player API manipulation
-    injectMainWorldScript();
+    log.info("youtube", "content script loaded");
 
-    // Wait for DOM ready, then start monitoring
     if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", () => init());
     } else {
       init();
     }
+
+    // Diagnostic: sample the video + player state every 2s so Rocky can see
+    // why the player is black (no stream? wrong size? element missing?).
+    setInterval(() => {
+      const movie = document.querySelector<HTMLElement>("#movie_player");
+      const video = document.querySelector<HTMLVideoElement>(
+        "#movie_player video",
+      );
+      const wall = document.querySelector(
+        "ytd-enforcement-message-view-model, #enforcement-message-container",
+      );
+      log.info("yt-diag", "player state", {
+        hasMoviePlayer: !!movie,
+        moviePlayerSize: movie
+          ? { w: movie.offsetWidth, h: movie.offsetHeight }
+          : null,
+        moviePlayerClass: movie?.className,
+        hasVideo: !!video,
+        videoSize: video
+          ? { w: video.videoWidth, h: video.videoHeight }
+          : null,
+        readyState: video?.readyState,
+        paused: video?.paused,
+        currentTime: video?.currentTime,
+        duration: video?.duration,
+        error: video?.error
+          ? { code: video.error.code, msg: video.error.message }
+          : null,
+        src: video?.currentSrc?.slice(0, 120),
+        display: video ? getComputedStyle(video).display : null,
+        visibility: video ? getComputedStyle(video).visibility : null,
+        opacity: video ? getComputedStyle(video).opacity : null,
+        wallPresent: !!wall,
+        wallText: wall ? (wall.textContent || "").slice(0, 200) : null,
+      });
+    }, 2000);
   },
 });
-
-function injectMainWorldScript() {
-  const script = document.createElement("script");
-  script.src = browser.runtime.getURL("/youtube-player.js");
-  script.onload = () => script.remove();
-  (document.head || document.documentElement).appendChild(script);
-}
 
 function init() {
   observeAdPlayback();
@@ -110,6 +142,7 @@ function skipAd() {
     document.querySelector<HTMLElement>('[id^="skip-button"]');
   if (skipBtn) {
     skipBtn.click();
+    log.block("youtube", "Clicked skip-ad button");
   }
 
   const skipOverlay = document.querySelector<HTMLElement>(
@@ -130,10 +163,12 @@ function skipAd() {
   // For short standalone ad videos (CSAI): seek to end
   if (video.duration && isFinite(video.duration) && video.duration < 120) {
     video.currentTime = video.duration;
+    log.block("youtube", `Seeked past CSAI ad (dur=${video.duration.toFixed(1)}s)`);
   } else if (!adSpeedApplied) {
     // For SSAI or unskippable ads: fast-forward at 16x
     video.playbackRate = 16;
     adSpeedApplied = true;
+    log.block("youtube", "Fast-forward ad at 16x");
   }
 
   // Mute during ad
@@ -189,7 +224,12 @@ function removeAntiAdblockWalls() {
   let wallFound = false;
   for (const selector of wallSelectors) {
     for (const el of document.querySelectorAll(selector)) {
-      (el as HTMLElement).remove();
+      const htmlEl = el as HTMLElement;
+      log.block("youtube", `Removed anti-adblock wall: ${selector}`, {
+        text: (htmlEl.textContent || "").slice(0, 500),
+        outerHTMLSnippet: htmlEl.outerHTML.slice(0, 400),
+      });
+      htmlEl.remove();
       wallFound = true;
     }
   }

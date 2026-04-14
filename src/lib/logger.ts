@@ -1,29 +1,35 @@
 /**
- * Centralized logging for the adblocky extension.
+ * Cross-context persistent logger.
+ *
+ * Writes a ring buffer to chrome.storage.local so events from background,
+ * content scripts, popup, and options all end up in one place that is
+ * viewable live in Options → Debug tab.
  *
  * Usage:
  *   import { log } from "@/lib/logger";
- *   log.info("netflix", "Ad detected", { selector: "...", remaining: 31 });
+ *   log.info("youtube", "Ad detected", { duration: 5 });
  *   log.warn("hulu", "Rate override rejected");
- *   log.error("popup-blocker", "Failed to block", error);
+ *   log.error("popup-blocker", "Failed to block", err);
  *
- * Logs are:
- * - Prefixed with [adblocky] for easy filtering in DevTools
- * - Color-coded by module
- * - Stored in memory for the options page debug panel
- * - Optionally persisted to chrome.storage for cross-session debugging
+ * Background context writes storage directly. Content/popup/options forward
+ * via chrome.runtime.sendMessage({ type: "LOG_EVENT" }) — the background
+ * handler (src/entrypoints/background.ts) appends it.
  */
 
-interface LogEntry {
+export const LOG_KEY = "adb_log";
+export const LOG_MAX = 2000;
+
+export type LogLevel = "info" | "warn" | "error" | "block";
+
+export interface LogEntry {
   ts: number;
-  level: "info" | "warn" | "error";
+  level: LogLevel;
   module: string;
   msg: string;
   data?: unknown;
+  url?: string;
+  tabId?: number;
 }
-
-const LOG_BUFFER_SIZE = 500;
-const buffer: LogEntry[] = [];
 
 const MODULE_COLORS: Record<string, string> = {
   netflix: "#e50914",
@@ -48,6 +54,8 @@ const MODULE_COLORS: Record<string, string> = {
   cosmetic: "#686de0",
   interceptor: "#f9ca24",
   background: "#535c68",
+  block: "#ef4444",
+  settings: "#10b981",
   default: "#888",
 };
 
@@ -55,52 +63,128 @@ function getColor(module: string): string {
   return MODULE_COLORS[module] || MODULE_COLORS.default;
 }
 
-function push(entry: LogEntry) {
-  buffer.push(entry);
-  if (buffer.length > LOG_BUFFER_SIZE) buffer.shift();
+function isBackground(): boolean {
+  // MV3 service worker: no `window`. Content scripts & popup/options have it.
+  return typeof window === "undefined";
 }
 
-function fmt(level: string, module: string, msg: string, data?: unknown) {
-  const color = getColor(module);
-  const prefix = `%c[adblocky]%c ${module} %c${msg}`;
+/**
+ * POST entry to local dev log sink (scripts/log-sink.py on :9999).
+ * Best-effort: if sink isn't running, silently skip. Keeps working in
+ * production where the user hasn't started the sink.
+ */
+const SINK_URL = "http://127.0.0.1:9999/adb-log";
+let sinkFailedOnce = false; // after first failure, stop spamming console errors
+
+async function postToSink(entry: LogEntry): Promise<void> {
+  try {
+    await fetch(SINK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(entry),
+      // Don't keep the connection alive for dev sink
+      keepalive: false,
+    });
+    sinkFailedOnce = false;
+  } catch (e) {
+    if (!sinkFailedOnce) {
+      sinkFailedOnce = true;
+      // Silent — sink not running is normal
+    }
+  }
+}
+
+/** Background-only: append entry to persistent ring buffer + POST to sink. */
+export async function appendEntry(entry: LogEntry): Promise<void> {
+  // Fire-and-forget to the local sink
+  postToSink(entry);
+
+  try {
+    const stored = await chrome.storage.local.get(LOG_KEY);
+    const buf: LogEntry[] = Array.isArray(stored[LOG_KEY]) ? stored[LOG_KEY] : [];
+    buf.push(entry);
+    if (buf.length > LOG_MAX) buf.splice(0, buf.length - LOG_MAX);
+    await chrome.storage.local.set({ [LOG_KEY]: buf });
+  } catch (e) {
+    console.error("[adb:logger] append failed", e);
+  }
+}
+
+export async function getLog(): Promise<LogEntry[]> {
+  const stored = await chrome.storage.local.get(LOG_KEY);
+  return Array.isArray(stored[LOG_KEY]) ? stored[LOG_KEY] : [];
+}
+
+export async function clearLog(): Promise<void> {
+  await chrome.storage.local.set({ [LOG_KEY]: [] });
+}
+
+function emit(entry: LogEntry) {
+  // Console echo with module color
+  const color = getColor(entry.module);
+  const prefix = `%c[adblocky]%c ${entry.module} %c${entry.msg}`;
   const styles = [
     "color:#10b981;font-weight:bold",
     `color:${color};font-weight:bold`,
     "color:inherit",
   ];
+  const args: unknown[] = [prefix, ...styles];
+  if (entry.data !== undefined) args.push(entry.data);
 
-  if (data !== undefined) {
-    return { args: [prefix, ...styles, data], styles };
+  if (entry.level === "error") console.error(...args);
+  else if (entry.level === "warn") console.warn(...args);
+  else console.log(...args);
+
+  // Persist
+  if (isBackground()) {
+    appendEntry(entry);
+  } else {
+    try {
+      chrome.runtime
+        .sendMessage({ type: "LOG_EVENT", payload: entry })
+        .catch?.(() => {});
+    } catch {
+      // Extension context invalidated (reload in progress) — drop
+    }
   }
-  return { args: [prefix, ...styles], styles };
+}
+
+function build(
+  level: LogLevel,
+  module: string,
+  msg: string,
+  data?: unknown,
+): LogEntry {
+  const entry: LogEntry = { ts: Date.now(), level, module, msg };
+  if (data !== undefined) entry.data = sanitize(data);
+  if (typeof location !== "undefined") entry.url = location.href;
+  return entry;
+}
+
+/** Strip non-serializable fields (Error → {name,message,stack}, drop DOM, functions). */
+function sanitize(v: unknown): unknown {
+  if (v instanceof Error) {
+    return { name: v.name, message: v.message, stack: v.stack };
+  }
+  if (v === null || typeof v !== "object") return v;
+  try {
+    return JSON.parse(JSON.stringify(v));
+  } catch {
+    return String(v);
+  }
 }
 
 export const log = {
   info(module: string, msg: string, data?: unknown) {
-    push({ ts: Date.now(), level: "info", module, msg, data });
-    const f = fmt("info", module, msg, data);
-    console.log(...f.args);
+    emit(build("info", module, msg, data));
   },
-
   warn(module: string, msg: string, data?: unknown) {
-    push({ ts: Date.now(), level: "warn", module, msg, data });
-    const f = fmt("warn", module, msg, data);
-    console.warn(...f.args);
+    emit(build("warn", module, msg, data));
   },
-
   error(module: string, msg: string, data?: unknown) {
-    push({ ts: Date.now(), level: "error", module, msg, data });
-    const f = fmt("error", module, msg, data);
-    console.error(...f.args);
+    emit(build("error", module, msg, data));
   },
-
-  /** Get all buffered log entries */
-  getBuffer(): readonly LogEntry[] {
-    return buffer;
-  },
-
-  /** Clear buffer */
-  clear() {
-    buffer.length = 0;
+  block(module: string, msg: string, data?: unknown) {
+    emit(build("block", module, msg, data));
   },
 };
