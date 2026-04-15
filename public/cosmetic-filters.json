@@ -44765,6 +44765,16 @@
     "#alchetronFreeStarVideoAdContainer",
     ".alchetronShareCard"
   ],
+  "alternet.org": [
+    "#alternet_dt_incontent",
+    "#leaderboard-placeholder",
+    ".sidebar_sticky_container",
+    "#expandableDonateButton",
+    ".below-content-appeal",
+    ".share-panel",
+    ".social-icons",
+    "#pianoFloatingEmailFormContainer"
+  ],
   "straitstimes.com": [
     "#am-widget",
     "#below-article-thumbnails-0",
@@ -45953,6 +45963,7 @@
     "#bro-leaderboard",
     ".bro_caffeine_wrap",
     ".bro_vidazoo_wrap",
+    "#anyclip-post-container",
     ".follow-buttons-block"
   ],
   "justetf.com": [
@@ -46564,6 +46575,24 @@
     "#directad",
     ".aft-social-share",
     "#block-23"
+  ],
+  "gulfnews.com": [
+    "#display_article_footer",
+    "#display_in_article_1",
+    "#display_in_article_2",
+    "#display_in_article_3",
+    "#display_in_article_rest",
+    "#display_midpage_1",
+    "#display_midpage_2",
+    "#display_midpage_3",
+    "#display_midpage_rest",
+    "#display_sidebar_right_1",
+    "#display_sidebar_right_1_home",
+    "#display_sidebar_right_2",
+    "#display_sidebar_right_3",
+    ".subscribe",
+    "#article-nl-wrap",
+    "._4EXSh"
   ],
   "realclearpolitics.com": [
     "#distro_right_rail",
@@ -47872,16 +47901,6 @@
   "farooqkperogi.com": [
     "#leaderboard-content",
     "#toTop"
-  ],
-  "alternet.org": [
-    "#leaderboard-placeholder",
-    ".sidebar_sticky_container",
-    "[id^=\"story_page_incontent_\"]",
-    "#expandableDonateButton",
-    ".below-content-appeal",
-    ".share-panel",
-    ".social-icons",
-    "#pianoFloatingEmailFormContainer"
   ],
   "foodnetwork.com": [
     "#leaderboard-wrap",
@@ -56201,11 +56220,6 @@
     ".toast-container",
     ".preferred-source"
   ],
-  "gulfnews.com": [
-    ".adv",
-    ".subscribe",
-    "#article-nl-wrap"
-  ],
   "idealista.com": [
     ".adv",
     "#didomi-host"
@@ -60022,6 +60036,11 @@
     ".one-head-share1-links",
     "#newsletter"
   ],
+  "boston.com": [
+    ".bdc-outbrain-container",
+    ".m-generic-cta",
+    ".m-generic-cta--email-signup"
+  ],
   "userbenchmark.com": [
     ".be-lb-page-top-banner",
     ".be-caption",
@@ -62094,6 +62113,9 @@
     ".code-block-4",
     ".custom-html-widget [href] > [src]"
   ],
+  "stoppress.co.nz": [
+    ".code-widget"
+  ],
   "coinmarketcap.com": [
     ".coin-ad-banner",
     ".goXFFk",
@@ -62159,8 +62181,10 @@
   ],
   "audacy.com": [
     ".component--google-ad-manager",
+    ".topbarplaceholder",
     ".component--share",
     ".national-footer__social",
+    ".share-panel",
     ".station-footer__social",
     ".newsletter-sign-up--station",
     ".national-footer__app-stores"
@@ -66606,6 +66630,10 @@
     ".native-ad-container",
     "a.outbound[data-outbound-url]:remove-attr(data-outbound-url)"
   ],
+  "afaqs.com": [
+    ".nav_ad_height",
+    ".subscribe-div-body-right-side"
+  ],
   "aceshowbiz.com": [
     ".ne-banner-layout1",
     "div[style=\"display:inline-block;min-height:300px\"]",
@@ -70510,6 +70538,9 @@
     ".newsletter-sign-up"
   ],
   "bodynetwork.com": [
+    ".widget_gm_karmaadunit_widget"
+  ],
+  "celebwell.com": [
     ".widget_gm_karmaadunit_widget"
   ],
   "inlandvalleynews.com": [
@@ -75330,6 +75361,12 @@
   ],
   "sports-reference.com": [
     ".primis"
+  ],
+  "thetakeout.com": [
+    ".raptive-video-player",
+    "article.postlist__item:has(.meta__network)",
+    "div[id^=\"dfp-ad-\"]",
+    "a[href*=\"/newsletter\"]"
   ],
   "kidspot.com.au": [
     ".secondary-video"
@@ -81067,11 +81104,6 @@
   "splinternews.com": [
     "article.postlist__item:has(.meta__network)",
     "div[id^=\"dfp-ad-\"]"
-  ],
-  "thetakeout.com": [
-    "article.postlist__item:has(.meta__network)",
-    "div[id^=\"dfp-ad-\"]",
-    "a[href*=\"/newsletter\"]"
   ],
   "einthusan.*": [
     ".adspace-lb",
@@ -87067,6 +87099,9 @@
   "northcentralpa.com": [
     ".asset-paging-container",
     ".email-signup"
+  ],
+  "oswegocountynewsnow.com": [
+    ".asset-paging-container"
   ],
   "phillytrib.com": [
     ".asset-paging-container"
@@ -111998,6 +112033,9 @@
   "global.cainiao.com": [
     ".puckinn-cookie-consent"
   ],
+  "klkntv.com": [
+    ".pum"
+  ],
   "metaswitch.com": [
     ".pum-container"
   ],
@@ -114330,6 +114368,9 @@
     ".consent-banner-root"
   ],
   "geowgs84.com": [
+    ".consent-banner-root"
+  ],
+  "gravity-academy-mtb.at": [
     ".consent-banner-root"
   ],
   "hafner-konrad.it": [
@@ -160927,9 +160968,6 @@
     ".loyalty",
     ".ui-widget-overlay"
   ],
-  "boston.com": [
-    ".m-generic-cta--email-signup"
-  ],
   "minds.com": [
     ".m-modal-bg"
   ],
@@ -161671,8 +161709,9 @@
   "words.filippo.io": [
     ".subscribe-cta"
   ],
-  "afaqs.com": [
-    ".subscribe-div-body-right-side"
+  "indianstartupnews.com": [
+    ".subscribe-div-body-right-side",
+    ".subscribe-news-letter"
   ],
   "cafemom.com": [
     ".subscribe-enter-done"
