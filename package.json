@@ -14,7 +14,7 @@
     "build:filters": "tsx scripts/build-filters.ts",
     "zip": "wxt zip",
     "zip:chrome": "wxt zip -b chrome",
-    "postinstall": "wxt prepare",
+    "postinstall": "wxt prepare && npm run build:filters",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "tsc --noEmit",

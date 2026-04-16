@@ -2,6 +2,13 @@ node_modules/
 .output/
 .wxt/
 dist/
-rules/*.json
-safari-rules/*.json
 *.tsbuildinfo
+
+# Derived filter artifacts — rebuilt by `npm run build:filters`.
+# Not tracked in git to avoid daily CI conflicts.
+public/rules/*.json
+public/cosmetic-filters.json
+safari-rules/*.json
+
+# Runtime logs from log-sink
+logs/
